@@ -135,12 +135,18 @@ existentes.
 
 ## Estado de la obra
 
+Compila limpio: **91 páginas, 0 errores**, con bibliografía, referencias cruzadas y los
+tres índices resueltos. ~8.500 palabras redactadas de las ~200.000 que proyecta el plan.
+
 | Capítulo | Estado |
 |---|---|
-| I. Evolución histórica y dogmática | Redactado |
+| I. Evolución histórica y dogmática | Redactado (~4.000 palabras) |
 | II a XIII | Estructura, tablas, flujogramas y modelos listos; prosa pendiente |
 | Apéndice A. Formularios | Dos modelos; el resto pendiente |
 | Apéndice B. Plazos | Tabla preliminar, requiere verificación íntegra |
+
+Quedan **41 marcas `\verificar`** y **45 `\pendiente`**; ambas se listan con
+`make verificaciones`.
 
 ---
 
@@ -151,3 +157,4 @@ de obra original y **no han sido verificados contra las fuentes oficiales**. Cad
 ellos está marcado con `\verificar`. Antes de publicar o de invocar cualquier cita en un
 escrito, contrasta el articulado con el texto vigente en BCN – Ley Chile y las sentencias
 con el sitio del Poder Judicial.
+# Tratado-Insolvencia
