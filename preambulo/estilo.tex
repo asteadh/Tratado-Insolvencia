@@ -1,0 +1,151 @@
+%==============================================================================
+%  ESTILO DE PÁGINA, TÍTULOS Y ENTORNOS DE LA OBRA
+%==============================================================================
+
+% --- Caja de texto --------------------------------------------------------
+\setstocksize{240mm}{170mm}
+\settrimmedsize{240mm}{170mm}{*}
+\settypeblocksize{188mm}{116mm}{*}
+\setlrmargins{*}{*}{1.35}      % margen exterior mayor (encuadernación)
+\setulmargins{*}{*}{1.15}
+\setheadfoot{\onelineskip}{2\onelineskip}
+\setheaderspaces{*}{*}{1.2}
+\checkandfixthelayout
+
+\setSingleSpace{1.06}
+\SingleSpacing
+
+% --- Estilo de capítulo ---------------------------------------------------
+\newcommand{\ReglaCapitulo}{%
+  {\color{ColorBorde}\rule{\textwidth}{0.6pt}}}
+
+\makechapterstyle{concursal}{%
+  \setlength{\beforechapskip}{28pt}
+  \setlength{\midchapskip}{10pt}
+  \setlength{\afterchapskip}{34pt}
+  \renewcommand{\chapnamefont}{\normalfont\sffamily\small\bfseries\color{ColorGris}}
+  \renewcommand{\chapnumfont}{\normalfont\sffamily\small\bfseries\color{ColorGris}}
+  \renewcommand{\chaptitlefont}{\normalfont\sffamily\LARGE\bfseries\color{ColorTinta}\raggedright}
+  \renewcommand{\printchaptername}{\chapnamefont\MakeUppercase{\chaptername}}
+  \renewcommand{\chapternamenum}{\space}
+  \renewcommand{\afterchapternum}{\par\vskip\midchapskip}
+  \renewcommand{\printchaptertitle}[1]{\chaptitlefont ##1\par\vskip6pt\ReglaCapitulo}
+}
+\chapterstyle{concursal}
+
+% --- Estilo de secciones --------------------------------------------------
+\setsecheadstyle{\normalfont\sffamily\large\bfseries\color{ColorTinta}\raggedright}
+\setsubsecheadstyle{\normalfont\sffamily\normalsize\bfseries\color{ColorTinta}\raggedright}
+\setsubsubsecheadstyle{\normalfont\sffamily\normalsize\itshape\color{ColorGris}\raggedright}
+\setparaheadstyle{\normalfont\normalsize\bfseries}
+
+\setsecnumdepth{subsection}
+\settocdepth{subsection}
+
+% --- Encabezados y pies ---------------------------------------------------
+\makepagestyle{concursal}
+\makeevenhead{concursal}{\sffamily\small\color{ColorGris}\thepage}{}%
+  {\sffamily\small\color{ColorGris}\leftmark}
+\makeoddhead{concursal}{\sffamily\small\color{ColorGris}\rightmark}{}%
+  {\sffamily\small\color{ColorGris}\thepage}
+\makeheadrule{concursal}{\textwidth}{0.4pt}
+\makeevenfoot{concursal}{}{}{}
+\makeoddfoot{concursal}{}{}{}
+\pagestyle{concursal}
+
+\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{#1}}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\quad #1}}
+
+% --- Notas al pie ---------------------------------------------------------
+\setlength{\footmarkwidth}{1.2em}
+\setlength{\footmarksep}{-\footmarkwidth}
+\footmarkstyle{\textsuperscript{#1}\hspace{0.35em}}
+\renewcommand{\foottextfont}{\footnotesize}
+
+% --- Párrafos -------------------------------------------------------------
+\setlength{\parindent}{1.2em}
+\nonzeroparskip
+\setlength{\parskip}{0pt plus 1pt}
+
+%==============================================================================
+%  ENTORNOS DE LA OBRA
+%==============================================================================
+
+% --- Modelo de escrito judicial ------------------------------------------
+\newtcolorbox{escrito}[1][]{%
+  breakable,
+  enhanced,
+  colback=ColorFondo,
+  colframe=ColorBorde,
+  boxrule=0.5pt,
+  arc=1pt,
+  left=10pt,right=10pt,top=9pt,bottom=9pt,
+  fonttitle=\sffamily\small\bfseries\color{ColorTinta},
+  coltitle=ColorTinta,
+  colbacktitle=ColorFondo,
+  title={#1},
+  before skip=10pt, after skip=10pt
+}
+
+% --- Nota de práctica forense --------------------------------------------
+\newtcolorbox{practica}[1][Nota de práctica]{%
+  breakable,
+  enhanced,
+  colback=white,
+  colframe=ColorAcento,
+  boxrule=0pt,
+  leftrule=2.2pt,
+  arc=0pt, outer arc=0pt,
+  left=10pt,right=6pt,top=7pt,bottom=7pt,
+  fontupper=\small,
+  title={\sffamily\small\bfseries\color{ColorAcento}#1},
+  colbacktitle=white, coltitle=ColorAcento,
+  before skip=10pt, after skip=10pt
+}
+
+% --- Advertencia / trampa procesal ---------------------------------------
+\newtcolorbox{alerta}[1][Advertencia]{%
+  breakable, enhanced,
+  colback=ColorFondo, colframe=ColorAcento,
+  boxrule=0.7pt, arc=1pt,
+  left=10pt,right=8pt,top=7pt,bottom=7pt,
+  fontupper=\small,
+  title={\sffamily\small\bfseries #1},
+  before skip=10pt, after skip=10pt
+}
+
+% --- Cita normativa en bloque --------------------------------------------
+\newenvironment{norma}[1]%
+  {\begin{quote}\small\noindent\textbf{\sffamily #1}\par\vskip3pt\itshape}%
+  {\end{quote}}
+
+%==============================================================================
+%  DIAGRAMAS DE FLUJO (TikZ)
+%==============================================================================
+\tikzset{
+  nodo/.style={
+    rectangle, draw=ColorBorde, fill=ColorFondo, line width=0.6pt,
+    rounded corners=2pt, align=center, inner sep=6pt,
+    font=\sffamily\scriptsize, text width=52mm, minimum height=9mm},
+  hito/.style={nodo, fill=ColorTinta!12, draw=ColorTinta, text=ColorTinta,
+    font=\sffamily\scriptsize\bfseries},
+  desenlace/.style={nodo, text width=44mm},
+  favorable/.style={desenlace, fill=ColorTinta!10, draw=ColorTinta},
+  adverso/.style={desenlace, fill=ColorAcento!10, draw=ColorAcento},
+  bifurcacion/.style={
+    diamond, aspect=2.4, draw=ColorBorde, fill=white, line width=0.6pt,
+    align=center, inner sep=2pt, font=\sffamily\scriptsize, text width=32mm},
+  flecha/.style={draw=ColorGris, line width=0.7pt, -{Latex[length=2.2mm,width=1.6mm]}},
+  rotulo/.style={font=\sffamily\scriptsize\itshape, text=ColorGris, inner sep=2pt},
+}
+
+% \begin{flujograma}{Título}{etiqueta} ... \end{flujograma}
+\newenvironment{flujograma}[2]{%
+  \def\FlujoTitulo{#1}\def\FlujoEtiqueta{#2}%
+  \begin{figure}[htbp]\centering
+  \begin{tikzpicture}[node distance=7mm and 12mm]%
+}{%
+  \end{tikzpicture}
+  \caption{\FlujoTitulo}\label{fig:\FlujoEtiqueta}
+  \end{figure}%
+}

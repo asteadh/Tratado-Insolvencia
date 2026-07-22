@@ -1,0 +1,100 @@
+%==============================================================================
+%  CAPÍTULO IV
+%==============================================================================
+\chapter{Procedimiento concursal de reorganización judicial ordinario}
+\label{cap:reorganizacion-ordinaria}
+
+\fichaCapitulo{Salvataje de la mediana y gran empresa.}{Tramitación de la \pfc{}
+ordinaria, quórums y financiamiento preferente.}
+
+%==============================================================================
+\bloqueTeorico
+%==============================================================================
+
+\subsection{Conservación de la empresa viable frente a la liquidación forzosa}
+\pendiente{Desarrollar: efectos de la insolvencia sobre la cadena de proveedores, el
+empleo y el sistema financiero.}
+
+\subsection{Naturaleza de la \pfc{} como beneficio extraordinario y temporal}
+\pendiente{Desarrollar: alteración de los derechos de cobro individuales del derecho
+civil común.}
+
+%==============================================================================
+\bloqueNormativo
+%==============================================================================
+
+\subsection{Requisitos de admisibilidad de la solicitud}
+
+Análisis del \art{56}, con desglose de la declaración jurada de activos y pasivos.
+
+\subsection{Efectos de la Resolución de Reorganización}
+
+Efectos procesales y sustantivos del \art{57}: suspensión de juicios ejecutivos,
+restitución de bienes arrendados y vigencia obligatoria de los contratos de suministro.
+
+\subsection{Duración y prórroga del período de Protección Financiera Concursal}
+
+Ampliación de 30 a 60 días base establecida por la \Lreforma{}, extensible hasta un
+máximo de 180 días mediante mayorías calificadas del 30\,\% o 50\,\% de los acreedores,
+excluidas las personas relacionadas.\verificar{Confirmar quórums, cómputo de plazos y
+tope máximo en el texto vigente.}
+
+\subsection{Financiamiento durante la protección: el crédito preferente}
+
+Régimen de incentivo y preferencia de los créditos contratados durante el período de
+protección financiera (\art{74}).
+
+%==============================================================================
+\bloquePractico
+%==============================================================================
+
+\subsection{Iter procesal de la reorganización judicial ordinaria}
+
+\begin{flujograma}{Tramitación de la reorganización judicial ordinaria}{cap04-iter}
+  \node[hito] (ingreso) {INGRESO DE SOLICITUD DE REORGANIZACIÓN ORDINARIA};
+  \node[nodo, below=of ingreso] (resol)
+    {RESOLUCIÓN DE REORGANIZACIÓN (\art{57})\\[2pt]
+     \normalfont Inicio de la Protección Financiera Concursal};
+  \node[nodo, below=of resol] (verif)
+    {VERIFICACIÓN DE CRÉDITOS POR LOS ACREEDORES\\[2pt]
+     \normalfont Plazo de 15 días};
+  \node[nodo, below=of verif] (informe)
+    {INFORME DEL VEEDOR SOBRE LA PROPUESTA DE ACUERDO};
+  \node[hito, below=of informe] (junta)
+    {CELEBRACIÓN DE LA JUNTA GENERAL DE ACREEDORES};
+
+  \coordinate (split) at ($(junta.south)+(0,-6mm)$);
+  \node[favorable, below left=12mm and 4mm of junta.south] (aprueba)
+    {APROBACIÓN DEL ACUERDO};
+  \node[adverso, below right=12mm and 4mm of junta.south] (rechaza)
+    {RECHAZO DE LA PROPUESTA};
+  \node[favorable, below=9mm of aprueba] (conv)
+    {RESOLUCIÓN QUE TIENE POR APROBADO EL ACUERDO};
+  \node[adverso, below=9mm of rechaza] (liq)
+    {APERTURA DEL PROCEDIMIENTO DE LIQUIDACIÓN};
+
+  \draw[flecha] (ingreso) -- (resol);
+  \draw[flecha] (resol) -- (verif);
+  \draw[flecha] (verif) -- (informe);
+  \draw[flecha] (informe) -- (junta);
+  \draw[flecha] (junta.south) -- (split) -| (aprueba.north);
+  \draw[flecha] (junta.south) -- (split) -| (rechaza.north);
+  \draw[flecha] (aprueba) -- (conv);
+  \draw[flecha] (rechaza) -- (liq);
+\end{flujograma}
+
+\subsection{Actuaciones del deudor, del veedor y de la junta}
+\pendiente{Desarrollar cada hito con plazos, escritos tipo y errores frecuentes.}
+
+%==============================================================================
+\bloqueJurisprudencial
+%==============================================================================
+
+\subsection{Límites del control judicial de mérito del acuerdo}
+\pendiente{Sistematizar jurisprudencia de la Sala Civil de la \cs{}.}
+
+\subsection{Quitas de capital y acreedores disidentes con garantía real}
+\pendiente{Desarrollar el debate doctrinario.}
+
+\subsection{Impugnación por abuso del derecho de acreedores relacionados}
+\pendiente{Sistematizar.}

@@ -1,0 +1,93 @@
+%==============================================================================
+%  CAPÍTULO VIII
+%==============================================================================
+\chapter{Procedimiento concursal de liquidación simplificada}
+\label{cap:liquidacion-simplificada}
+
+\fichaCapitulo{Realización rápida para personas y MIPEs.}{Entrega voluntaria,
+desformalización de la incautación, venta electrónica y fin de la cuenta tradicional.}
+
+%==============================================================================
+\bloqueTeorico
+%==============================================================================
+
+\subsection{La humanización del concurso}
+\pendiente{Desarrollar: desformalización de los actos de incautación en el hogar de la
+persona deudora.}
+
+\subsection{Del apremio a la colaboración: la entrega voluntaria de bienes}
+\pendiente{Desarrollar: reducción de costos y sobreseimiento rápido del deudor de buena
+fe.}
+
+%==============================================================================
+\bloqueNormativo
+%==============================================================================
+
+\subsection{Solicitud de liquidación voluntaria simplificada}
+
+Exigencia de declaración jurada de antecedentes fidedignos, regulada en la \ncg{22}.
+
+\subsection{Exención de la incautación física en el hogar del deudor}
+
+Regla general de reemplazo por entrega voluntaria y sus excepciones: orden expresa del
+tribunal, infracción de los deberes del deudor como depositario provisional, o detección
+de activos no declarados.
+
+\subsection{Realización de activos mediante subasta electrónica}
+
+Venta en plataformas electrónicas autorizadas por la \superir{}, prescindiendo del
+martillero concursal tradicional.
+
+\subsection{Supresión de la cuenta definitiva y sobreseimiento}
+
+Exención del trámite de cuenta definitiva en procedimientos sin bienes realizables y
+supresión del plazo de espera para declarar el sobreseimiento
+definitivo.\verificar{Confirmar el alcance de la supresión del plazo de dos años.}
+
+%==============================================================================
+\bloquePractico
+%==============================================================================
+
+\subsection{Tratamiento de las remuneraciones del deudor persona natural}
+
+Conforme a las instrucciones de la \superir{}, el liquidador debe ceñirse a las
+siguientes directrices respecto de la remuneración del deudor.\verificar{Confirmar
+número, fecha y contenido vigente del instructivo sobre incautación de remuneraciones.}
+
+\begin{flujograma}{Tratamiento de la remuneración del deudor en la liquidación simplificada}{cap08-remuneraciones}
+  \node[hito] (eval) {EVALUACIÓN DE LA REMUNERACIÓN DEL DEUDOR};
+
+  \coordinate (split) at ($(eval.south)+(0,-6mm)$);
+  \node[favorable, below left=12mm and 8mm of eval.south] (hasta)
+    {HASTA \uf{56}\\[2pt]\normalfont Inembargable absoluto: prohibición de incautar};
+  \node[adverso, below right=12mm and 8mm of eval.south] (mas)
+    {MÁS DE \uf{56}\\[2pt]\normalfont Tramo excedente sujeto a incautación};
+
+  \node[nodo, text width=34mm, below=9mm of hasta] (hastadesc)
+    {Descuentos obligatorios y voluntarios: excluidos de la base};
+  \node[nodo, text width=34mm, below=9mm of mas] (masdesc)
+    {Obligatorios excluidos; voluntarios incluidos en la base del excedente};
+
+  \draw[flecha] (eval.south) -- (split) -| (hasta.north);
+  \draw[flecha] (eval.south) -- (split) -| (mas.north);
+  \draw[flecha] (hasta) -- (hastadesc);
+  \draw[flecha] (mas) -- (masdesc);
+\end{flujograma}
+
+\begin{practica}[Controversias con el empleador]
+Si surge discrepancia interpretativa entre el liquidador y el empleador respecto de la
+retención de los excedentes, el asunto debe someterse al tribunal del concurso por vía
+incidental.\verificar{Confirmar la vía incidental aplicable y su artículo.}
+\end{practica}
+
+%==============================================================================
+\bloqueJurisprudencial
+%==============================================================================
+
+\subsection{Denegación del \discharge{} por omisión de activos realizables}
+
+Sentencias que facultan al tribunal para declarar un \discharge{} parcial o denegarlo
+íntegramente cuando el deudor oculta cuentas de ahorro previsional voluntario o no
+declara vehículos motorizados vigentes, por infracción de la buena fe
+objetiva.\verificar{Individualizar los fallos y precisar si la denegación parcial tiene
+sustento en el texto vigente o es construcción pretoriana.}

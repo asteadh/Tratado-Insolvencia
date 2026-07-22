@@ -1,0 +1,127 @@
+{
+  "latex-workshop.latex.recipe.default": "latexmk (tratado)",
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk (tratado)",
+      "tools": ["latexmk"]
+    },
+    {
+      "name": "rápido (una pasada)",
+      "tools": ["pdflatex-rapido"]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk",
+      "command": "latexmk",
+      "args": [
+        "-shell-escape",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-pdf",
+        "%DOC%"
+      ],
+      "env": {
+        "PATH": "/opt/homebrew/bin:/Library/TeX/texbin:/usr/local/bin:/usr/bin:/bin"
+      }
+    },
+    {
+      "name": "pdflatex-rapido",
+      "command": "pdflatex",
+      "args": [
+        "-shell-escape",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ],
+      "env": {
+        "PATH": "/opt/homebrew/bin:/Library/TeX/texbin:/usr/local/bin:/usr/bin:/bin"
+      }
+    }
+  ],
+
+  "latex-workshop.latex.rootFile.useSubFile": false,
+  "latex-workshop.latex.autoBuild.run": "onFileChange",
+  "latex-workshop.latex.autoClean.run": "never",
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.synctex.afterBuild.enabled": true,
+  "latex-workshop.message.badbox.show": false,
+
+  "latex-workshop.latex.clean.fileTypes": [
+    "*.aux", "*.bbl", "*.blg", "*.idx", "*.ind", "*.lof", "*.lot",
+    "*.out", "*.toc", "*.acn", "*.acr", "*.alg", "*.glg", "*.glo",
+    "*.gls", "*.fls", "*.log", "*.fdb_latexmk", "*.snm", "*.synctex(busy)",
+    "*.synctex.gz", "*.nav", "*.vrb", "*.run.xml", "*.bcf", "*.ilg",
+    "*.xdy", "*-blx.bib"
+  ],
+
+  "[latex]": {
+    "editor.wordWrap": "on",
+    "editor.wrappingIndent": "same",
+    "editor.rulers": [88],
+    "editor.tabSize": 2,
+    "editor.formatOnSave": false,
+    "editor.quickSuggestions": {
+      "comments": false,
+      "strings": false,
+      "other": true
+    }
+  },
+  "[bibtex]": {
+    "editor.tabSize": 2
+  },
+
+  "files.associations": {
+    "*.tex": "latex",
+    "latexmkrc": "perl"
+  },
+
+  "ltex.language": "es",
+  "ltex.enabled": ["latex", "bibtex"],
+  "ltex.dictionary": {
+    "es": [
+      "concursal",
+      "concursales",
+      "reemprendimiento",
+      "SUPERIR",
+      "veedor",
+      "veedores",
+      "liquidador",
+      "liquidadores",
+      "desasimiento",
+      "revocatoria",
+      "revocatorias",
+      "sobreendeudamiento",
+      "MIPE",
+      "MIPEs",
+      "discharge",
+      "COMI",
+      "UNCITRAL",
+      "insolvencia",
+      "insolvente",
+      "renegociación",
+      "incautación",
+      "finiquito",
+      "finiquitos",
+      "inembargable",
+      "sobreseimiento",
+      "quórum",
+      "quórums",
+      "verificación",
+      "pauliana",
+      "iliquidez"
+    ]
+  },
+
+  "search.exclude": {
+    "**/*.aux": true,
+    "**/*.log": true,
+    "**/*.fls": true,
+    "**/*.fdb_latexmk": true,
+    "**/*.bcf": true,
+    "**/*.run.xml": true,
+    "**/*.synctex.gz": true
+  }
+}

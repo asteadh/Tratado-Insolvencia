@@ -1,0 +1,130 @@
+%==============================================================================
+%  MACROS DE DOMINIO — DERECHO CONCURSAL CHILENO
+%
+%  Objetivo: que el texto de los capítulos se escriba en lenguaje jurídico
+%  y que los índices de leyes, jurisprudencia y materias se construyan solos.
+%==============================================================================
+
+% --- Utilitarios ----------------------------------------------------------
+\newcommand{\Nro}{N.\textsuperscript{o}~}
+\newcommand{\idx}[1]{\index[analitico]{#1}}          % marca de índice analítico
+\newcommand{\voz}[2]{#1\index[analitico]{#2}}        % texto + entrada distinta
+\newcommand{\lat}[1]{\emph{#1}\index[analitico]{#1@\emph{#1}}}
+\newcommand{\uf}[1]{#1~UF}
+\newcommand{\destacar}[1]{\textbf{#1}}
+
+%------------------------------------------------------------------------------
+%  LEYES Y ARTICULADO
+%------------------------------------------------------------------------------
+% \ley{20.720}            → «Ley \Nro 20.720» + índice de disposiciones
+% \leyn{20.720}{Sobre ...}→ ídem, con nombre entre paréntesis la primera vez
+\newcommand{\ley}[1]{Ley~\Nro#1\index[leyes]{Ley #1@Ley~\Nro#1}}
+\newcommand{\leyn}[2]{Ley~\Nro#1 (#2)\index[leyes]{Ley #1@Ley~\Nro#1}}
+
+% Leyes de uso frecuente, con su nombre canónico
+\newcommand{\LIR}{\ley{20.720}}                       % Ley de Insolvencia y Reemprendimiento
+\newcommand{\Lreforma}{\ley{21.563}}                  % Reforma 2023
+\newcommand{\Lpyme}{\ley{20.416}}                     % Estatuto PYME
+\newcommand{\Lcae}{\ley{20.027}}                      % Crédito con Aval del Estado
+\newcommand{\Lfondosolidario}{\ley{19.287}}           % Fondo Solidario
+\newcommand{\Ldeleco}{\ley{21.595}}                   % Delitos Económicos
+\newcommand{\Lrpj}{\ley{20.393}}                      % Responsabilidad penal PJ
+
+% \art{57}       → «artículo 57» de la Ley 20.720 (por defecto)
+% \art[20.416]{2}→ «artículo 2 de la Ley 20.416»
+\newcommand{\art}[2][20.720]{%
+  artículo~#2\ifthenelse{\equal{#1}{20.720}}{}{ de la Ley~\Nro#1}%
+  \index[leyes]{Ley #1@Ley~\Nro#1!art. #2}}
+\newcommand{\Art}[2][20.720]{%
+  Artículo~#2\ifthenelse{\equal{#1}{20.720}}{}{ de la Ley~\Nro#1}%
+  \index[leyes]{Ley #1@Ley~\Nro#1!art. #2}}
+
+% Cuerpos legales complementarios
+\newcommand{\cc}{Código Civil\index[leyes]{Código Civil}}
+\newcommand{\cpc}{Código de Procedimiento Civil\index[leyes]{Código de Procedimiento Civil}}
+\newcommand{\cdt}{Código del Trabajo\index[leyes]{Código del Trabajo}}
+\newcommand{\cpen}{Código Penal\index[leyes]{Código Penal}}
+\newcommand{\ccom}{Código de Comercio\index[leyes]{Código de Comercio}}
+\newcommand{\artcc}[1]{artículo~#1 del \cc}
+\newcommand{\artcdt}[1]{artículo~#1 del \cdt}
+
+% Normativa administrativa
+\newcommand{\ncg}[1]{Norma de Carácter General~\Nro#1\index[leyes]{Norma de Carácter General!\Nro#1}}
+\newcommand{\resex}[2]{Resolución Exenta~\Nro#1 (#2)\index[leyes]{Resolución Exenta!\Nro#1}}
+\newcommand{\instructivo}[1]{Instructivo SUPERIR~\Nro#1\index[leyes]{Instructivo SUPERIR!\Nro#1}}
+
+%------------------------------------------------------------------------------
+%  ÓRGANOS E INSTITUCIONES
+%------------------------------------------------------------------------------
+\newcommand{\superir}{SUPERIR\index[analitico]{Superintendencia de Insolvencia y Reemprendimiento}}
+\newcommand{\Superir}{Superintendencia de Insolvencia y Reemprendimiento\index[analitico]{Superintendencia de Insolvencia y Reemprendimiento}}
+\newcommand{\cs}{Corte Suprema}
+\newcommand{\ca}[1]{Corte de Apelaciones de #1}
+\newcommand{\tconst}{Tribunal Constitucional}
+\newcommand{\tgr}{Tesorería General de la República}
+\newcommand{\sii}{Servicio de Impuestos Internos}
+\newcommand{\cmf}{Comisión para el Mercado Financiero}
+\newcommand{\dt}{Dirección del Trabajo}
+
+%------------------------------------------------------------------------------
+%  JURISPRUDENCIA
+%------------------------------------------------------------------------------
+% \rol{4656-2017}                       → «Rol \Nro 4656-2017»
+% \fallo{Jamarne con Salazar}{4656-2017}{Corte Suprema}{2017}
+\newcommand{\rol}[1]{Rol~\Nro#1}
+\newcommand{\fallo}[4]{%
+  \emph{#1}, #3, \rol{#2} (#4)%
+  \index[juris]{#3!\emph{#1}, Rol \Nro#2 (#4)}}
+% Referencia breve a un fallo ya presentado
+\newcommand{\falloc}[2]{\emph{#1} (\rol{#2})\index[juris]{#1@\emph{#1}, Rol \Nro#2}}
+% Sentencia sin carátula
+\newcommand{\sentencia}[3]{#1, \rol{#2} (#3)\index[juris]{#1!Rol \Nro#2 (#3)}}
+
+%------------------------------------------------------------------------------
+%  INSTITUCIONES CONCURSALES (con entrada automática al índice analítico)
+%------------------------------------------------------------------------------
+\newcommand{\pfc}{Protección Financiera Concursal\index[analitico]{Protección Financiera Concursal}}
+\newcommand{\PFC}{PFC\index[analitico]{Protección Financiera Concursal}}
+\newcommand{\discharge}{\emph{discharge}\index[analitico]{discharge@\emph{discharge} (descarga de deudas)}}
+\newcommand{\freshstart}{\emph{fresh start}\index[analitico]{fresh start@\emph{fresh start}}}
+\newcommand{\comi}{COMI\index[analitico]{COMI (centro de intereses principales)}}
+\newcommand{\boletin}{Boletín Concursal\index[analitico]{Boletín Concursal}}
+\newcommand{\desasimiento}{desasimiento\index[analitico]{desasimiento}}
+\newcommand{\mipe}{MIPE\index[analitico]{MIPE (micro y pequeña empresa)}}
+\newcommand{\empresadeudora}{Empresa Deudora\index[analitico]{Empresa Deudora}}
+\newcommand{\personadeudora}{Persona Deudora\index[analitico]{Persona Deudora}}
+\newcommand{\periodosospechoso}{período sospechoso\index[analitico]{período sospechoso}}
+
+%------------------------------------------------------------------------------
+%  ESTRUCTURA INTERNA UNIFORME DE CADA CAPÍTULO
+%  (los cuatro bloques del plan de obra)
+%------------------------------------------------------------------------------
+\newcommand{\bloqueTeorico}{\section{Orientación teórica y justificación de la extensión}}
+\newcommand{\bloqueNormativo}{\section{Estructura temática y articulado de referencia}}
+\newcommand{\bloquePractico}{\section{Manual práctico de tramitación paso a paso}}
+\newcommand{\bloqueJurisprudencial}{\section{Doctrina y jurisprudencia esencial}}
+
+% Ficha de encabezado de capítulo (extensión proyectada y ejes)
+\newcommand{\fichaCapitulo}[2]{%
+  \begin{tcolorbox}[enhanced,breakable,colback=ColorFondo,colframe=ColorBorde,
+    boxrule=0.5pt,arc=1pt,left=10pt,right=10pt,top=8pt,bottom=8pt,
+    fontupper=\small,before skip=6pt,after skip=14pt]
+  \textbf{\sffamily Enfoque principal.} #1\par\vskip4pt
+  \textbf{\sffamily Tratamiento procesal y sustantivo.} #2
+  \end{tcolorbox}}
+
+%------------------------------------------------------------------------------
+%  MARCAS DE TRABAJO EDITORIAL
+%  Compilar con \VerificacionesOff para ocultarlas en la versión de imprenta.
+%------------------------------------------------------------------------------
+\newif\ifMostrarVerificaciones
+\MostrarVerificacionestrue
+\newcommand{\VerificacionesOff}{\MostrarVerificacionesfalse}
+\newcommand{\verificar}[1]{%
+  \ifMostrarVerificaciones
+    \marginpar{\raggedright\footnotesize\sffamily\color{ColorAcento}\textbf{Verificar:} #1}%
+  \fi}
+\newcommand{\pendiente}[1]{%
+  \ifMostrarVerificaciones
+    \marginpar{\raggedright\footnotesize\sffamily\color{ColorGris}\textbf{Pendiente:} #1}%
+  \fi}

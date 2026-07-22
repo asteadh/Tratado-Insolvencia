@@ -1,0 +1,70 @@
+%==============================================================================
+%  TRATADO DE DERECHO CONCURSAL CHILENO
+%  Manual sistemático de la Ley 20.720 y su reforma por la Ley 21.563
+%
+%  Compilación:  latexmk -pdf tratado.tex   (o simplemente: make)
+%  Motor:        pdfLaTeX + Biber
+%==============================================================================
+\documentclass[11pt,a4paper,twoside,openright,extrafontsizes]{memoir}
+
+\input{preambulo/paquetes}
+\input{preambulo/estilo}
+\input{preambulo/macros}
+
+\addbibresource{bibliografia/fuentes.bib}
+
+%------------------------------------------------------------------------------
+%  Compilación parcial: descomentar y listar sólo los capítulos deseados
+%  para acelerar el ciclo de escritura (los números de página y referencias
+%  cruzadas se conservan gracias al archivo .aux).
+%------------------------------------------------------------------------------
+% \includeonly{capitulos/cap01-evolucion-historica}
+
+\begin{document}
+
+%==============================================================================
+\frontmatter
+%==============================================================================
+\include{preliminares/portada}
+\include{preliminares/plan-de-obra}
+\include{preliminares/abreviaturas}
+
+\cleardoublepage
+\tableofcontents*
+
+%==============================================================================
+\mainmatter
+%==============================================================================
+\include{capitulos/cap01-evolucion-historica}
+\include{capitulos/cap02-estatuto-deudores}
+\include{capitulos/cap03-institucionalidad}
+\include{capitulos/cap04-reorganizacion-ordinaria}
+\include{capitulos/cap05-reorganizacion-simplificada}
+\include{capitulos/cap06-renegociacion-administrativa}
+\include{capitulos/cap07-liquidacion-ordinaria}
+\include{capitulos/cap08-liquidacion-simplificada}
+\include{capitulos/cap09-acciones-revocatorias}
+\include{capitulos/cap10-discharge-cae}
+\include{capitulos/cap11-incidente-mala-fe}
+\include{capitulos/cap12-laboral-y-penal}
+\include{capitulos/cap13-insolvencia-transfronteriza}
+
+%==============================================================================
+\appendix
+%==============================================================================
+\include{apendices/apa-formularios}
+\include{apendices/apb-plazos}
+
+%==============================================================================
+\backmatter
+%==============================================================================
+\printbibliography[heading=bibintoc,title={Bibliografía y fuentes citadas}]
+
+\cleardoublepage
+\printindex[leyes]
+\cleardoublepage
+\printindex[juris]
+\cleardoublepage
+\printindex[analitico]
+
+\end{document}

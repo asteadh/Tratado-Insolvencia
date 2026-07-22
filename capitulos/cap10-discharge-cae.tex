@@ -1,0 +1,116 @@
+%==============================================================================
+%  CAPÍTULO X
+%==============================================================================
+\chapter{La paradoja del \texorpdfstring{\emph{discharge}}{discharge} y la exclusión del
+Crédito con Aval del Estado}
+\label{cap:discharge-cae}
+
+\fichaCapitulo{Incompatibilidad de las deudas de estudio con el perdón concursal.}{Tensión
+entre universalidad y especialidad, y evolución de la jurisprudencia de la Corte Suprema.}
+
+%==============================================================================
+\bloqueTeorico
+%==============================================================================
+
+\subsection{El conflicto de principios}
+
+Colisión entre el beneficio general del \discharge{} (\art{255}) ---dirigido a liberar de
+cargas perpetuas al individuo y reinsertarlo productivamente--- y la protección del
+interés fiscal comprometido en el financiamiento de la educación superior (\Lcae{} y
+\Lfondosolidario{}).
+
+\subsection{La ausencia de un catálogo legal de deudas excluidas}
+\pendiente{Desarrollar: cómo la falta de codificación expresa desplaza la solución hacia
+la interpretación judicial.}
+
+%==============================================================================
+\bloqueNormativo
+%==============================================================================
+
+\subsection{Universalidad subjetiva y efecto de remisión de la resolución de término}
+\pendiente{Desarrollar.}
+
+\subsection{El principio de especialidad}
+
+Aplicación del \art{8} en relación con las reglas del \cc{} sobre prevalencia de la ley
+especial.\verificar{Confirmar el contenido del art. 8 y su idoneidad para fundar la
+especialidad invocada.}
+
+\subsection{El régimen del Crédito con Aval del Estado}
+
+Naturaleza del préstamo, garantías fiscales ejecutables por la \tgr{} y cobro contingente
+al ingreso, conforme a la \Lcae{}.
+
+\subsection{El Crédito Solidario Universitario}
+
+Régimen de la \Lfondosolidario{}.
+
+%==============================================================================
+\bloquePractico
+%==============================================================================
+
+\subsection{Secuencia procesal del deudor con deudas educativas}
+
+\begin{flujograma}{Suerte del CAE en el procedimiento de liquidación voluntaria}{cap10-cae}
+  \node[hito] (sol) {EL DEUDOR PRESENTA SOLICITUD DE LIQUIDACIÓN VOLUNTARIA\\[2pt]
+    \normalfont Debe declarar la deuda CAE en la nómina de pasivos};
+  \node[nodo, below=of sol] (excl)
+    {LA INSTITUCIÓN BANCARIA O LA \tgr{} SOLICITA LA EXCLUSIÓN DEL CRÉDITO};
+
+  \coordinate (split) at ($(excl.south)+(0,-6mm)$);
+  \node[adverso, below left=12mm and 4mm of excl.south] (acoge)
+    {EL TRIBUNAL ACOGE LA EXCLUSIÓN\\[2pt]
+     \normalfont La deuda sobrevive a la liquidación};
+  \node[favorable, below right=12mm and 4mm of excl.south] (rechaza)
+    {EL TRIBUNAL RECHAZA LA EXCLUSIÓN\\[2pt]
+     \normalfont La deuda ingresa al concurso y se sujeta al \art{255}};
+
+  \node[nodo, text width=40mm, below=9mm of acoge] (ape)
+    {Recurso de apelación y, en su caso, acción de protección};
+  \node[nodo, text width=40mm, below=9mm of rechaza] (cas)
+    {Recurso de casación del acreedor o de la \tgr{}};
+
+  \draw[flecha] (sol) -- (excl);
+  \draw[flecha] (excl.south) -- (split) -| (acoge.north);
+  \draw[flecha] (excl.south) -- (split) -| (rechaza.north);
+  \draw[flecha] (acoge) -- (ape);
+  \draw[flecha] (rechaza) -- (cas);
+\end{flujograma}
+
+\subsection{Estrategias de defensa del deudor}
+\pendiente{Desarrollar según el estado actual de la jurisprudencia.}
+
+%==============================================================================
+\bloqueJurisprudencial
+%==============================================================================
+
+\subsection{Evolución cronológica de la jurisprudencia de la Corte Suprema}
+
+\subsubsection{La postura clásica de la Sala Civil}
+
+Fallo \emph{Jamarne con Salazar}, \rol{4656-2017}, que ordenó la exclusión del CAE
+aplicando la primacía de la ley especial de educación superior por sobre el régimen
+general concursal.\verificar{Confirmar carátula, rol, sala y fecha.}
+
+\subsubsection{El giro de la Tercera Sala}
+
+Sentencia de protección \emph{Mancilla con Tesorería General de la República},
+\rol{59.567-2020}, que amparó al deudor sosteniendo que el CAE no constituye un estatuto
+concursal especial de insolvencia y que, por aplicación de la regla de la \lat{lex
+posterior}, la \LIR{} debe extinguir la totalidad de los pasivos.\verificar{Confirmar
+carátula, rol, sala y fecha.}
+
+\subsubsection{El retorno a la exclusión}
+
+Sentencias \rol{3557-2025} y \rol{47.641-2024} de la Sala Civil, que confirmaron la
+improcedencia de la descarga del CAE por vía concursal, fijando la doctrina de que la
+deuda estudiantil sobrevive íntegramente al procedimiento. Debe incorporarse el voto
+disidente que limita la facultad de invocar la especialidad únicamente a la \tgr{} y no a
+los bancos de la plaza.\verificar{Confirmar roles, fechas y la individualización del
+ministro disidente antes de publicar.}
+
+\begin{alerta}[Estado de la cuestión]
+La materia es de criterio jurisprudencial cambiante y con sentencias muy recientes. Toda
+afirmación de este capítulo debe contrastarse con la jurisprudencia vigente a la fecha de
+cierre de la edición.
+\end{alerta}

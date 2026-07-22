@@ -1,0 +1,107 @@
+%==============================================================================
+%  CAPÍTULO VI
+%==============================================================================
+\chapter{Procedimiento administrativo de renegociación de la Persona Deudora}
+\label{cap:renegociacion}
+
+\fichaCapitulo{Tramitación gratuita ante la \superir{}.}{Ingreso de boletas de
+honorarios, audiencias de determinación, renegociación y ejecución.}
+
+%==============================================================================
+\bloqueTeorico
+%==============================================================================
+
+\subsection{La persona natural como sujeto de consumo financiero}
+\pendiente{Desarrollar.}
+
+\subsection{Gratuidad y desjudicialización como reductores del costo social}
+\pendiente{Desarrollar: fundamento ético de la renegociación frente a la ejecución
+forzosa.}
+
+%==============================================================================
+\bloqueNormativo
+%==============================================================================
+
+\subsection{Causales de admisibilidad}
+
+Presupuestos del \art{260} y siguientes: dos o más deudas vencidas por más de 90 días
+que sumen más de \uf{80}, y no haber sido notificado de demandas ejecutivas
+previas.\verificar{Confirmar umbrales y el alcance exacto de la exclusión por demandas
+ejecutivas notificadas.}
+
+\subsection{Ampliación de la legitimación activa}
+
+Incorporación de las personas naturales que emiten boletas de honorarios, por obra de la
+\Lreforma{}.
+
+\subsection{Efectos de la Resolución de Admisibilidad}
+
+Paralización de ejecuciones individuales, exclusión temporal de registros comerciales y
+suspensión del cómputo de la prescripción extintiva (\art{264 \Nro 2}).
+
+\subsection{El acuerdo de ejecución y sus límites}
+
+Plan de reembolso mensual que no puede exceder del 30\,\% de los ingresos netos
+declarados del deudor ni un plazo de 6 meses (\art{264}).\verificar{Confirmar
+porcentaje, plazo y carácter facultativo.}
+
+%==============================================================================
+\bloquePractico
+%==============================================================================
+
+\subsection{Tramitación en la plataforma de la \superir{}}
+
+\begin{flujograma}{Secuencia del procedimiento administrativo de renegociación}{cap06-iter}
+  \node[hito] (ingreso) {INGRESO DE SOLICITUD EN EL PORTAL DE LA \superir{}};
+  \node[nodo, below=of ingreso] (examen)
+    {EXAMEN DE ADMISIBILIDAD POR EL FISCALIZADOR};
+  \node[nodo, below=of examen] (resol)
+    {RESOLUCIÓN DE ADMISIBILIDAD DE LA SOLICITUD};
+  \node[nodo, below=of resol] (susp)
+    {SUSPENSIÓN DE EJECUCIONES Y DE LA PRESCRIPCIÓN};
+  \node[nodo, below=of susp] (pasivo)
+    {AUDIENCIA DE DETERMINACIÓN DEL PASIVO\\[2pt]\normalfont Plazo de 15 días};
+  \node[hito, below=of pasivo] (reneg)
+    {AUDIENCIA DE RENEGOCIACIÓN};
+
+  \coordinate (split) at ($(reneg.south)+(0,-6mm)$);
+  \node[favorable, below left=12mm and 4mm of reneg.south] (aprueba)
+    {APROBACIÓN DEL ACUERDO};
+  \node[adverso, below right=12mm and 4mm of reneg.south] (rechaza)
+    {RECHAZO DE LA PROPUESTA};
+  \node[favorable, below=9mm of aprueba] (pub)
+    {PUBLICACIÓN DEL ACUERDO EN EL \boletin{}};
+  \node[adverso, below=9mm of rechaza] (ejec)
+    {AUDIENCIA DE EJECUCIÓN};
+
+  \draw[flecha] (ingreso) -- (examen);
+  \draw[flecha] (examen) -- (resol);
+  \draw[flecha] (resol) -- (susp);
+  \draw[flecha] (susp) -- (pasivo);
+  \draw[flecha] (pasivo) -- (reneg);
+  \draw[flecha] (reneg.south) -- (split) -| (aprueba.north);
+  \draw[flecha] (reneg.south) -- (split) -| (rechaza.north);
+  \draw[flecha] (aprueba) -- (pub);
+  \draw[flecha] (rechaza) -- (ejec);
+\end{flujograma}
+
+\verificar{Confirmar la duración de la audiencia de renegociación tras su ampliación por
+la Ley 21.563 y el nombre vigente del portal de tramitación.}
+
+\subsection{Preparación de las audiencias}
+\pendiente{Desarrollar: documentación exigida, objeciones al pasivo, representación.}
+
+%==============================================================================
+\bloqueJurisprudencial
+%==============================================================================
+
+\subsection{Doctrina administrativa de la \superir{}}
+
+Pautas de la \ncg{21} sobre acreditación de la existencia y monto de las obligaciones de
+codeudores solidarios y avales dentro del proceso de renegociación.
+
+\subsection{Recursos de protección por mantención de registros negativos}
+
+Fallos que sancionan a instituciones financieras que mantienen vigentes registros
+comerciales negativos respecto de deudores con acuerdos de renegociación firmes.
+\verificar{Individualizar sentencias.}

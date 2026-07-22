@@ -1,0 +1,32 @@
+# --- Auxiliares de LaTeX ---------------------------------------------------
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.bcf
+*.run.xml
+*.blg
+*.bbl
+*.idx
+*.ind
+*.ilg
+*.xdy
+*-blx.bib
+
+# Índices nombrados de imakeidx
+leyes.*
+juris.*
+analitico.*
+
+# --- Salida ----------------------------------------------------------------
+tratado.pdf
+build/
+
+# --- Sistema ---------------------------------------------------------------
+.DS_Store

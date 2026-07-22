@@ -1,0 +1,86 @@
+%==============================================================================
+%  PAQUETES
+%==============================================================================
+
+% --- Codificación e idioma -----------------------------------------------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-tabla,es-noquoting,es-lcroman]{babel}
+\usepackage{csquotes}
+
+% --- Tipografía -----------------------------------------------------------
+\usepackage{lmodern}
+\usepackage[scaled=0.92]{helvet}   % sans para títulos y diagramas
+\usepackage{microtype}             % refinamiento de justificación
+\usepackage{textcomp}
+
+% --- Color y gráficos -----------------------------------------------------
+\usepackage[table,dvipsnames]{xcolor}
+% Paleta sobria de imprenta jurídica (definida aquí porque hyperref la usa)
+\definecolor{ColorTinta}{HTML}{1F3A5F}   % azul tinta: títulos y enlaces internos
+\definecolor{ColorAcento}{HTML}{7A2E2E}  % burdeos: URLs y realces
+\definecolor{ColorGris}{HTML}{5C5C5C}    % gris: texto secundario
+\definecolor{ColorFondo}{HTML}{F4F1EA}   % crema: fondo de cajas
+\definecolor{ColorBorde}{HTML}{C9C2B4}   % borde de cajas y diagramas
+
+\usepackage{graphicx}
+\graphicspath{{figuras/}}
+
+% --- Tablas ---------------------------------------------------------------
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{ragged2e}
+
+% --- Composición a dos columnas -------------------------------------------
+\usepackage{multicol}
+
+% --- Lógica condicional ---------------------------------------------------
+\usepackage{ifthen}
+
+% --- Listas ---------------------------------------------------------------
+\usepackage{enumitem}
+\setlist{itemsep=2pt,parsep=2pt,topsep=4pt}
+
+% --- Cajas para modelos de escritos y notas de práctica -------------------
+\usepackage[most]{tcolorbox}
+\tcbuselibrary{breakable,skins}
+
+% --- Diagramas de flujo ---------------------------------------------------
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric,arrows.meta,positioning,calc,fit,backgrounds}
+
+% --- Bibliografía ---------------------------------------------------------
+\usepackage[
+  backend=biber,
+  style=authoryear,
+  sorting=nyt,
+  maxcitenames=2,
+  maxbibnames=99,
+  giveninits=true,
+  url=true,
+  doi=false,
+  isbn=false,
+  language=spanish
+]{biblatex}
+
+% --- Índices múltiples ----------------------------------------------------
+\usepackage{imakeidx}
+\makeindex[name=leyes,     title={Índice de disposiciones legales}, intoc]
+\makeindex[name=juris,     title={Índice de jurisprudencia},        intoc]
+\makeindex[name=analitico, title={Índice analítico},                intoc]
+
+% --- Referencias cruzadas (cargar al final) -------------------------------
+\usepackage[
+  colorlinks=true,
+  linkcolor=ColorTinta,
+  citecolor=ColorTinta,
+  urlcolor=ColorAcento,
+  bookmarksnumbered=true,
+  pdftitle={Tratado de Derecho Concursal Chileno},
+  pdfsubject={Ley 20.720 y Ley 21.563},
+  pdfkeywords={insolvencia, reorganización, liquidación, discharge, Chile}
+]{hyperref}
+\usepackage[spanish]{cleveref}
