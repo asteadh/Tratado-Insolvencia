@@ -149,3 +149,38 @@
   \caption{\FlujoTitulo}\label{fig:\FlujoEtiqueta}
   \end{figure}%
 }
+
+%==============================================================================
+%  PORTADILLAS DE PARTE
+%==============================================================================
+\renewcommand{\partnamefont}{\normalfont\sffamily\large\bfseries\color{ColorGris}}
+\renewcommand{\partnumfont}{\normalfont\sffamily\large\bfseries\color{ColorGris}}
+\renewcommand{\parttitlefont}{\normalfont\sffamily\HUGE\bfseries\color{ColorTinta}}
+\renewcommand{\printparttitle}[1]{%
+  \parttitlefont\centering #1\par
+  \vskip12pt
+  {\color{ColorBorde}\rule{0.5\textwidth}{0.8pt}}}
+\renewcommand{\printpartname}{\partnamefont\centering\MakeUppercase{\partname}}
+\renewcommand{\printpartnum}{\partnumfont\thepart}
+
+%==============================================================================
+%  ÍNDICE GENERAL: jerarquía visual de partes y capítulos
+%==============================================================================
+% Las partes se anuncian con la palabra «Parte» y quedan tipográficamente
+% separadas de los capítulos que agrupan.
+\renewcommand{\partnumberline}[1]{\MakeUppercase{\partname}~#1.\quad}
+\renewcommand{\cftpartfont}{\normalfont\sffamily\bfseries\color{ColorTinta}}
+\renewcommand{\cftpartpagefont}{\normalfont\sffamily\bfseries\color{ColorTinta}}
+\setlength{\cftbeforepartskip}{16pt plus 2pt}
+\renewcommand{\cftpartleader}{\hfill}
+\renewcommand{\cftpartafterpnum}{\par\vskip2pt
+  {\color{ColorBorde}\rule{\textwidth}{0.4pt}}}
+
+\renewcommand{\cftchapterfont}{\normalfont\sffamily\bfseries}
+\renewcommand{\cftchapterpagefont}{\normalfont\sffamily\bfseries}
+\setlength{\cftbeforechapterskip}{6pt plus 1pt}
+
+\renewcommand{\cftsectionfont}{\normalfont\small}
+\renewcommand{\cftsectionpagefont}{\normalfont\small}
+\renewcommand{\cftsubsectionfont}{\normalfont\small\color{ColorGris}}
+\renewcommand{\cftsubsectionpagefont}{\normalfont\small\color{ColorGris}}

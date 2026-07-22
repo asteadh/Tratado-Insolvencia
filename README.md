@@ -1,8 +1,12 @@
 # Tratado de Derecho Concursal Chileno
 
 Manual sistemático de la Ley N.º 20.720 y su reforma por la Ley N.º 21.563.
-Obra en LaTeX, trece capítulos, con índices de disposiciones legales, de jurisprudencia
-y analítico.
+Obra en LaTeX de **Alberto Tomás Stead Hogg**: veinte capítulos en cinco partes, con
+índices de disposiciones legales, de jurisprudencia y analítico.
+
+Las Partes I a IV desarrollan la dogmática y los procedimientos. La **Parte V** es un
+manual de tramitación forense: qué preguntar al cliente, qué documentos exigir, dónde
+poner el foco y qué errores evitan que el caso se pierda.
 
 ---
 
@@ -61,7 +65,8 @@ preliminares/
   plan-de-obra.tex           Tabla de los trece capítulos
   abreviaturas.tex           Siglas y advertencia sobre citas normativas
 capitulos/
-  cap01-…  a  cap13-…        Un archivo por capítulo
+  cap01-… a cap13-…          Partes I-IV: dogmática y procedimientos
+  cap14-… a cap20-…          Parte V: manual de tramitación forense
 apendices/
   apa-formularios.tex        Modelos de escritos
   apb-plazos.tex             Tabla consolidada de plazos
@@ -103,17 +108,57 @@ La lista completa está en `preambulo/macros.tex`.
 - `\begin{flujograma}{Título}{etiqueta}` — diagrama de flujo TikZ.
   Estilos disponibles: `hito`, `nodo`, `favorable`, `adverso`, `bifurcacion`, `flecha`.
 
+Exclusivos de la Parte V:
+
+- `\begin{cuestionario}[Título]` con `\pregunta{pregunta}{por qué importa}` — bloques de
+  entrevista al cliente.
+- `\begin{checklist}[Título]` — lista de verificación con casillas.
+- `\begin{foco}[Título]` — dónde se ganan y se pierden los casos.
+- `\errorfrecuente{qué se hace mal}{consecuencia}{qué hacer en su lugar}`.
+- `\fichaProcedimiento{sujeto}{sede}{duración}{costo}{resultado}` — ficha de apertura.
+
 ### Estructura uniforme de capítulo
 
-Cada capítulo abre con `\fichaCapitulo{enfoque}{tratamiento}` y se divide en los cuatro
-bloques del plan de obra, mediante las macros `\bloqueTeorico`, `\bloqueNormativo`,
-`\bloquePractico` y `\bloqueJurisprudencial`.
+**Partes I-IV.** Cada capítulo abre con `\fichaCapitulo{enfoque}{tratamiento}` y se divide
+en cuatro bloques: `\bloqueTeorico`, `\bloqueNormativo`, `\bloquePractico` y
+`\bloqueJurisprudencial`.
+
+**Parte V.** Cada capítulo abre con `\fichaProcedimiento` y usa los bloques
+`\bloqueEncargo`, `\bloqueEntrevista`, `\bloqueDocumental`, `\bloqueFocos`,
+`\bloqueCronograma` y `\bloqueErrores`.
+
+### Citas en APA 7
+
+La obra usa `biblatex-apa` (APA 7.ª edición) con Biber y localización española.
+
+| Situación | Comando | Resultado |
+|---|---|---|
+| Cita entre paréntesis | `\parencite{doc-cae-castro}` | (Castro A., 2026) |
+| Cita integrada en la frase | `\textcite{doc-cae-castro}` | Castro A. (2026) |
+| El cuerpo legal ya se nombró en la frase | `\citeyearpar{ley-20720}` | (2014) |
+| Sólo debe figurar en las referencias | `\nocite{codigo-comercio}` | — |
+| Varias fuentes a la vez | `\parencite{a, b}` | (A, 2023; B, 2024) |
+
+**Tipos de entrada jurídicos** en `bibliografia/fuentes.bib`:
+
+- `@legislation` — leyes y códigos (`ley-20720`, `codigo-civil`, …)
+- `@jurisdiction` — sentencias (`juris-jamarne-salazar`, `juris-tc-12539-2021`, …)
+- `@legadminmaterial` — normativa de la SUPERIR (`superir-ncg21`, `superir-ncg22`, …)
+- `@article`, `@book`, `@report`, `@online` — doctrina
+
+Regla de estilo adoptada, explicada en la nota de los preliminares: la legislación se
+cita en la primera invocación sustantiva de cada capítulo; las remisiones posteriores al
+articulado van por la abreviatura (`\art{57}`), que además alimenta el índice de
+disposiciones legales.
+
+El campo `note = {Verificar…}` de una entrada se imprime durante la redacción y
+desaparece automáticamente al compilar con `\VerificacionesOff`.
 
 ### Marcas de trabajo editorial
 
 - `\verificar{qué confirmar}` — dato jurídico que debe contrastarse con la fuente oficial
-  antes de publicar. Aparece como nota al margen en rojo.
-- `\pendiente{qué falta}` — texto por redactar. Nota al margen en gris.
+  antes de publicar. Aparece como nota al pie en rojo.
+- `\pendiente{qué falta}` — texto por redactar. Nota al pie en gris.
 
 Ambas se listan con `make verificaciones` y se ocultan para la versión de imprenta
 añadiendo `\VerificacionesOff` en `tratado.tex`, después de `\input{preambulo/macros}`.
@@ -135,18 +180,18 @@ existentes.
 
 ## Estado de la obra
 
-Compila limpio: **91 páginas, 0 errores**, con bibliografía, referencias cruzadas y los
-tres índices resueltos. ~8.500 palabras redactadas de las ~200.000 que proyecta el plan.
+Compila limpio: **161 páginas, 0 errores**, con bibliografía en APA 7, referencias
+cruzadas y los tres índices resueltos. ~17.000 palabras redactadas.
 
 | Capítulo | Estado |
 |---|---|
-| I. Evolución histórica y dogmática | Redactado (~4.000 palabras) |
+| I. Evolución histórica y dogmática | Redactado |
 | II a XIII | Estructura, tablas, flujogramas y modelos listos; prosa pendiente |
-| Apéndice A. Formularios | Dos modelos; el resto pendiente |
+| XIV a XX (Parte V) | Redactados |
+| Apéndice A. Formularios | Tres modelos; el resto pendiente |
 | Apéndice B. Plazos | Tabla preliminar, requiere verificación íntegra |
 
-Quedan **41 marcas `\verificar`** y **45 `\pendiente`**; ambas se listan con
-`make verificaciones`.
+Las marcas `\verificar` y `\pendiente` se listan con `make verificaciones`.
 
 ---
 

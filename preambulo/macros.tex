@@ -14,6 +14,14 @@
 \newcommand{\destacar}[1]{\textbf{#1}}
 
 %------------------------------------------------------------------------------
+%  CITAS
+%------------------------------------------------------------------------------
+% APA: cuando el nombre del cuerpo legal ya figura en la oración, la cita en el
+% texto se reduce al año. biblatex no define \citeyearpar (es de natbib), de modo
+% que se construye aquí sobre \citeyear.
+\providecommand{\citeyearpar}[1]{(\citeyear{#1})}
+
+%------------------------------------------------------------------------------
 %  LEYES Y ARTICULADO
 %------------------------------------------------------------------------------
 % \ley{20.720}            → «Ley \Nro 20.720» + índice de disposiciones
@@ -120,13 +128,15 @@
 \newif\ifMostrarVerificaciones
 \MostrarVerificacionestrue
 \newcommand{\VerificacionesOff}{\MostrarVerificacionesfalse}
+% Se emiten como notas al pie y no al margen: varias marcas próximas entre sí
+% se superponían de forma ilegible en la columna lateral.
 \newcommand{\verificar}[1]{%
   \ifMostrarVerificaciones
-    \marginnote{\raggedright\footnotesize\sffamily\color{ColorAcento}\textbf{Verificar:} #1}%
+    \footnote{\sffamily\color{ColorAcento}\textbf{Verificar:} #1}%
   \fi}
 \newcommand{\pendiente}[1]{%
   \ifMostrarVerificaciones
-    \marginnote{\raggedright\footnotesize\sffamily\color{ColorGris}\textbf{Pendiente:} #1}%
+    \footnote{\sffamily\color{ColorGris}\textbf{Pendiente:} #1}%
   \fi}
 
 %==============================================================================
@@ -197,3 +207,8 @@
     \item[Resultado esperable:] #5
   \end{description}
   \end{tcolorbox}}
+
+% Las notas «Verificar…» de las entradas bibliográficas se ocultan junto con las
+% marcas al margen cuando se compila con \VerificacionesOff.
+\AtEveryBibitem{%
+  \ifMostrarVerificaciones\else\clearfield{note}\fi}

@@ -1,129 +1,170 @@
 % =============================================================================
-%  BIBLIOGRAFÍA Y FUENTES
+%  BIBLIOGRAFÍA Y FUENTES — formato APA (7.ª edición)
 %  Tratado de Derecho Concursal Chileno
 %
+%  Tipos de entrada (biblatex-apa):
+%    @legislation      leyes y códigos
+%    @legadminmaterial normativa administrativa (NCG, resoluciones, instructivos)
+%    @jurisdiction     sentencias judiciales
+%    @article/@book/@report/@online   doctrina
+%
 %  Convención de claves:
-%    ley-NNNNN        → textos legales
-%    superir-*        → normativa y doctrina administrativa de la SUPERIR
-%    aj-*             → materiales de la Academia Judicial
-%    doc-*            → doctrina (revistas, columnas, artículos)
-%    juris-*          → sentencias y fichas jurisprudenciales
+%    ley-NNNNN     textos legales          superir-*  normativa administrativa
+%    juris-*       sentencias              doc-*      doctrina
+%    aj-*          Academia Judicial       prensa-*   fuentes de coyuntura
+%
+%  NOTA: las entradas marcadas con `note = {Verificar ...}` requieren
+%  confirmación de autoría, fecha o datos de publicación antes de imprimir.
 % =============================================================================
 
-% -----------------------------------------------------------------------------
-%  TEXTOS LEGALES
-% -----------------------------------------------------------------------------
-@report{ley-20720,
-  title        = {Ley \Nro 20.720, sobre reorganización y liquidación de activos de
-                  empresas y personas},
-  shorttitle   = {Ley 20.720},
-  institution  = {Biblioteca del Congreso Nacional de Chile},
-  year         = {2014},
+% =============================================================================
+%  I. LEGISLACIÓN
+% =============================================================================
+
+@legislation{ley-20720,
+  title        = {Ley N.\textsuperscript{o} 20.720, sustituye el régimen concursal
+                  vigente por una ley de reorganización y liquidación de empresas y
+                  personas, y perfecciona el rol de la Superintendencia del ramo},
+  shorttitle   = {Ley N.\textsuperscript{o} 20.720},
+  journaltitle = {Diario Oficial de la República de Chile},
+  date         = {2014-01-09},
   url          = {https://www.bcn.cl/leychile/navegar?idNorma=1058072},
-  urldate      = {2026-07-22},
-  keywords     = {legislación}
+  urldate      = {2026-07-22}
 }
 
-@report{ley-21563,
-  title        = {Ley \Nro 21.563, que moderniza los procedimientos concursales
-                  contemplados en la Ley \Nro 20.720 y crea nuevos procedimientos para
-                  micro y pequeñas empresas},
-  shorttitle   = {Ley 21.563},
-  institution  = {Biblioteca del Congreso Nacional de Chile},
-  year         = {2023},
+@legislation{ley-21563,
+  title        = {Ley N.\textsuperscript{o} 21.563, moderniza los procedimientos
+                  concursales contemplados en la Ley N.\textsuperscript{o} 20.720 y crea
+                  nuevos procedimientos para micro y pequeñas empresas},
+  shorttitle   = {Ley N.\textsuperscript{o} 21.563},
+  journaltitle = {Diario Oficial de la República de Chile},
+  date         = {2023-05-10},
   url          = {https://www.bcn.cl/leychile/navegar?idNorma=1191960},
   urldate      = {2026-07-22},
-  keywords     = {legislación}
+  note         = {Entrada en vigencia: 11 de agosto de 2023, tres meses después de su
+                  publicación}
 }
 
-@book{aj-texto-refundido,
-  title        = {Procedimientos concursales de empresas y personas deudoras. Texto
-                  refundido de la Ley \Nro 20.720 y la Ley \Nro 21.563},
-  publisher    = {Academia Judicial de Chile},
-  year         = {2023},
-  url          = {https://academiajudicial.cl/wp-content/uploads/2022/03/DIS-MD-20-Procedimientos-concursales-Ley-20720_web.pdf},
-  urldate      = {2026-07-22}
-}
-
-@book{aj-ley20720-evolucion,
-  title        = {Ley \Nro 20.720: modificaciones fusionadas con su evolución},
-  publisher    = {Academia Judicial de Chile},
-  year         = {2025},
-  url          = {https://academiajudicial.cl/wp-content/uploads/2025/06/Ley-20.720-modificaciones-fusionadas-Academia-Judicial-con-su-evolucion.pdf},
-  urldate      = {2026-07-22}
-}
-
-% -----------------------------------------------------------------------------
-%  MATERIALES DE LA ACADEMIA JUDICIAL SOBRE LA REFORMA
-% -----------------------------------------------------------------------------
-@online{academiajudicial-ley20720,
-  title        = {Ley 21.563: moderniza procedimientos concursales de la Ley 20.720 y
-                  crea procedimientos para micro y pequeñas empresas},
-  organization = {Academia Judicial de Chile},
-  year         = {2023},
-  url          = {https://academiajudicial.cl/ley-21-563-moderniza-procedimientos-concursales-de-la-ley-20-720-y-crea-procedimientos-para-micro-y-pequenas-empresas/},
-  urldate      = {2026-07-22}
-}
-
-@report{aj-reporte-21563,
-  title        = {Reporte de actualización normativa: Ley \Nro 21.563},
-  institution  = {Academia Judicial de Chile},
-  year         = {2023},
-  url          = {https://academiajudicial.cl/wp-content/uploads/2023/07/Reporte-Ley-21.563.pdf},
-  urldate      = {2026-07-22}
-}
-
-@report{aj-prado-modificaciones,
-  author       = {Prado, {[verificar nombre completo]}},
-  title        = {Modificaciones a la Ley \Nro 20.720. Ley \Nro 21.563},
-  institution  = {Academia Judicial de Chile},
-  year         = {2025},
-  url          = {https://academiajudicial.cl/wp-content/uploads/2025/06/Prado_AJ_26.03.2025.pdf},
-  urldate      = {2026-07-22}
-}
-
-@report{aj-delitos-economicos,
-  title        = {Delitos económicos y su regulación en la Ley \Nro 21.595},
-  institution  = {Academia Judicial de Chile},
-  year         = {2025},
-  url          = {https://academiajudicial.cl/wp-content/uploads/2025/08/Delitos_economicos.pdf},
-  urldate      = {2026-07-22}
-}
-
-% -----------------------------------------------------------------------------
-%  NORMATIVA Y DOCTRINA ADMINISTRATIVA DE LA SUPERIR
-% -----------------------------------------------------------------------------
-@report{superir-ncg21,
-  title        = {Resolución Exenta \Nro 6.601, que aprueba la Norma de Carácter General
-                  \Nro 21 sobre pautas para el ingreso de solicitudes de renegociación},
-  institution  = {Superintendencia de Insolvencia y Reemprendimiento},
-  year         = {2023},
-  url          = {https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6601_ANO_2023_NCG_21_RENEGOCIACION.pdf},
-  urldate      = {2026-07-22}
-}
-
-@report{superir-ncg22,
-  title        = {Resolución Exenta \Nro 6.619, que aprueba la Norma de Carácter General
-                  \Nro 22 sobre el procedimiento concursal de liquidación simplificada},
-  institution  = {Superintendencia de Insolvencia y Reemprendimiento},
-  year         = {2023},
-  url          = {https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6619_ANO_2023.pdf},
-  urldate      = {2026-07-22}
-}
-
-@report{superir-instructivo-incautacion,
-  title        = {Resolución Exenta \Nro 14.477, que aprueba el instructivo sobre
-                  incautación, conservación y entrega de bienes},
-  institution  = {Superintendencia de Insolvencia y Reemprendimiento},
-  year         = {2024},
-  url          = {https://www.superir.gob.cl/wp-content/uploads/2024/10/RES_NUM_14477_A_O_2024.pdf},
+@legislation{ley-20416,
+  title        = {Ley N.\textsuperscript{o} 20.416, fija normas especiales para las
+                  empresas de menor tamaño},
+  shorttitle   = {Ley N.\textsuperscript{o} 20.416},
+  journaltitle = {Diario Oficial de la República de Chile},
+  date         = {2010},
+  url          = {https://www.bcn.cl/leychile/navegar?idNorma=1010668},
   urldate      = {2026-07-22},
-  note         = {Verificar el número de instructivo que aprueba esta resolución}
+  note         = {Verificar idNorma y fecha}
 }
+
+@legislation{ley-20027,
+  title        = {Ley N.\textsuperscript{o} 20.027, establece normas para el
+                  financiamiento de estudios de educación superior},
+  shorttitle   = {Ley N.\textsuperscript{o} 20.027},
+  journaltitle = {Diario Oficial de la República de Chile},
+  date         = {2005},
+  note         = {Verificar fecha e idNorma}
+}
+
+@legislation{ley-19287,
+  title        = {Ley N.\textsuperscript{o} 19.287, modifica la Ley
+                  N.\textsuperscript{o} 18.591 y establece normas sobre fondos
+                  solidarios de crédito universitario},
+  shorttitle   = {Ley N.\textsuperscript{o} 19.287},
+  journaltitle = {Diario Oficial de la República de Chile},
+  date         = {1994},
+  note         = {Verificar fecha e idNorma}
+}
+
+@legislation{ley-21595,
+  title        = {Ley N.\textsuperscript{o} 21.595, de delitos económicos y atentados
+                  contra el medio ambiente},
+  shorttitle   = {Ley N.\textsuperscript{o} 21.595},
+  journaltitle = {Diario Oficial de la República de Chile},
+  date         = {2023},
+  note         = {Verificar fecha de publicación}
+}
+
+@legislation{ley-20393,
+  title        = {Ley N.\textsuperscript{o} 20.393, establece la responsabilidad penal
+                  de las personas jurídicas},
+  shorttitle   = {Ley N.\textsuperscript{o} 20.393},
+  journaltitle = {Diario Oficial de la República de Chile},
+  date         = {2009},
+  note         = {Verificar fecha e idNorma}
+}
+
+@legislation{ley-18175,
+  title        = {Ley N.\textsuperscript{o} 18.175, de quiebras},
+  shorttitle   = {Ley N.\textsuperscript{o} 18.175},
+  journaltitle = {Diario Oficial de la República de Chile},
+  date         = {1982-10-28},
+  note         = {Ley Orgánica de la Superintendencia de Quiebras. Derogada por la
+                  Ley N.º 20.720}
+}
+
+@legislation{ley-4558,
+  title        = {Ley N.\textsuperscript{o} 4.558, de quiebras},
+  shorttitle   = {Ley N.\textsuperscript{o} 4.558},
+  journaltitle = {Diario Oficial de la República de Chile},
+  date         = {1931},
+  note         = {Verificar fecha exacta de publicación}
+}
+
+@legislation{codigo-civil,
+  title        = {Código Civil de la República de Chile},
+  shorttitle   = {Código Civil},
+  journaltitle = {Diario Oficial de la República de Chile},
+  date         = {1855},
+  url          = {https://www.bcn.cl/leychile/navegar?idNorma=172986},
+  urldate      = {2026-07-22}
+}
+
+@legislation{codigo-comercio,
+  title        = {Código de Comercio de la República de Chile},
+  shorttitle   = {Código de Comercio},
+  journaltitle = {Diario Oficial de la República de Chile},
+  date         = {1865-11-23},
+  note         = {Su Libro IV, sobre las quiebras, fue derogado por la Ley N.º 20.720}
+}
+
+@legislation{codigo-trabajo,
+  title        = {Código del Trabajo},
+  shorttitle   = {Código del Trabajo},
+  journaltitle = {Diario Oficial de la República de Chile},
+  date         = {2003},
+  note         = {DFL N.º 1 de 2002, Ministerio del Trabajo. Verificar}
+}
+
+@legislation{codigo-penal,
+  title        = {Código Penal de la República de Chile},
+  shorttitle   = {Código Penal},
+  journaltitle = {Diario Oficial de la República de Chile},
+  date         = {1874}
+}
+
+@legislation{ley-modelo-uncitral,
+  title        = {Ley Modelo de la CNUDMI sobre la Insolvencia Transfronteriza},
+  shorttitle   = {Ley Modelo UNCITRAL},
+  institution  = {Comisión de las Naciones Unidas para el Derecho Mercantil
+                  Internacional},
+  date         = {1997},
+  url          = {https://uncitral.un.org/es/texts/insolvency/modellaw/cross-border_insolvency},
+  urldate      = {2026-07-22}
+}
+
+% =============================================================================
+%  II. NORMATIVA ADMINISTRATIVA (SUPERIR)
+% =============================================================================
+
+
+
+
+
 
 @online{superir-faq-liquidacion-simplificada,
   title        = {Preguntas frecuentes: liquidación simplificada},
-  organization = {Superintendencia de Insolvencia y Reemprendimiento},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2024},
   url          = {https://www.superir.gob.cl/preguntas-frecuentes/preguntas-frecuentes-liquidacion-simplificada/},
   urldate      = {2026-07-22}
 }
@@ -131,239 +172,386 @@
 @online{superir-balance-primer-ano,
   title        = {Nueva ley de insolvencia cumple un año de su implementación con un
                   impacto significativo en las renegociaciones de deudas},
-  organization = {Superintendencia de Insolvencia y Reemprendimiento},
-  year         = {2024},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2024},
   url          = {https://www.superir.gob.cl/nueva-ley-de-insolvencia-cumple-un-ano-de-su-implementacion-con-un-impacto-significativo-en-las-renegociaciones-de-deudas/},
   urldate      = {2026-07-22}
 }
 
-% -----------------------------------------------------------------------------
-%  DOCTRINA — PARTE GENERAL Y DISCHARGE
-% -----------------------------------------------------------------------------
-@online{estadodiario-discharge,
+% =============================================================================
+%  III. JURISPRUDENCIA
+% =============================================================================
+
+@jurisdiction{juris-cs-15988-2013,
+  title        = {Sentencia Rol N.\textsuperscript{o} 15.988-2013},
+  institution  = {Corte Suprema de Chile},
+  date         = {2013},
+  note         = {Verificar carátula, sala, fecha exacta y considerandos citados}
+}
+
+@jurisdiction{juris-jamarne-salazar,
+  title        = {Jamarne con Salazar, Rol N.\textsuperscript{o} 4656-2017},
+  institution  = {Corte Suprema de Chile, Sala Civil},
+  date         = {2017},
+  note         = {Verificar carátula, sala y fecha}
+}
+
+@jurisdiction{juris-mancilla-tgr,
+  title        = {Mancilla con Tesorería General de la República,
+                  Rol N.\textsuperscript{o} 59.567-2020},
+  institution  = {Corte Suprema de Chile, Tercera Sala},
+  date         = {2020},
+  note         = {Recurso de protección. Verificar carátula, sala y fecha}
+}
+
+@jurisdiction{juris-cs-3557-2025,
+  title        = {Sentencia Rol N.\textsuperscript{o} 3557-2025},
+  institution  = {Corte Suprema de Chile, Sala Civil},
+  date         = {2025},
+  note         = {Verificar carátula, fecha y voto disidente}
+}
+
+@jurisdiction{juris-cs-47641-2024,
+  title        = {Sentencia Rol N.\textsuperscript{o} 47.641-2024},
+  institution  = {Corte Suprema de Chile, Sala Civil},
+  date         = {2024},
+  note         = {Verificar carátula y fecha}
+}
+
+@jurisdiction{juris-cs-34713-2023,
+  title        = {Banco Santander con Asesorías Abarca, Verdugo y Compañía,
+                  Rol N.\textsuperscript{o} 34.713-2023},
+  institution  = {Corte Suprema de Chile},
+  date         = {2024-10-24},
+  note         = {Ficha disponible en \textcite{doc-ficha-34713}}
+}
+
+@jurisdiction{juris-tc-12539-2021,
+  title        = {Requerimiento de inaplicabilidad por inconstitucionalidad,
+                  Rol N.\textsuperscript{o} 12.539-2021-INA},
+  institution  = {Tribunal Constitucional de Chile},
+  date         = {2021},
+  note         = {Verificar fecha, resultado y ministros concurrentes}
+}
+
+@jurisdiction{juris-tc-12527-2021,
+  title        = {Requerimiento de inaplicabilidad por inconstitucionalidad,
+                  Rol N.\textsuperscript{o} 12.527-2021-INA},
+  institution  = {Tribunal Constitucional de Chile},
+  date         = {2021},
+  note         = {Verificar fecha y resultado}
+}
+
+@jurisdiction{juris-27jc-c3893-2022,
+  title        = {Causa Rol C-3893-2022},
+  institution  = {27.\textsuperscript{o} Juzgado Civil de Santiago},
+  date         = {2022},
+  url          = {https://www.pjud.cl/prensa-y-comunicaciones/getRulingNew/55899},
+  urldate      = {2026-07-22}
+}
+
+@jurisdiction{juris-15jc-incidente,
+  title        = {Fallo de incidente},
+  institution  = {15.\textsuperscript{o} Juzgado Civil de Santiago},
+  date         = {2023},
+  url          = {https://www.pjud.cl/prensa-y-comunicaciones/getRulingNew/76536},
+  urldate      = {2026-07-22},
+  note         = {Verificar rol, carátula y fecha}
+}
+
+% =============================================================================
+%  IV. DOCTRINA
+% =============================================================================
+
+% --- Parte general y reforma ------------------------------------------------
+@online{aj-ley21563,
+  title        = {Ley 21.563: moderniza procedimientos concursales de la Ley 20.720 y
+                  crea procedimientos para micro y pequeñas empresas},
+  author       = {{Academia Judicial de Chile}},
+  date         = {2023},
+  url          = {https://academiajudicial.cl/ley-21-563-moderniza-procedimientos-concursales-de-la-ley-20-720-y-crea-procedimientos-para-micro-y-pequenas-empresas/},
+  urldate      = {2026-07-22}
+}
+
+@report{aj-reporte-21563,
+  title        = {Reporte de actualización normativa: Ley N.\textsuperscript{o} 21.563},
+  author       = {{Academia Judicial de Chile}},
+  institution  = {Academia Judicial de Chile},
+  date         = {2023},
+  url          = {https://academiajudicial.cl/wp-content/uploads/2023/07/Reporte-Ley-21.563.pdf},
+  urldate      = {2026-07-22}
+}
+
+@book{aj-texto-refundido,
+  title        = {Procedimientos concursales de empresas y personas deudoras: texto
+                  refundido de la Ley N.\textsuperscript{o} 20.720 y la Ley
+                  N.\textsuperscript{o} 21.563},
+  author       = {{Academia Judicial de Chile}},
+  publisher    = {Academia Judicial de Chile},
+  date         = {2023},
+  url          = {https://academiajudicial.cl/wp-content/uploads/2022/03/DIS-MD-20-Procedimientos-concursales-Ley-20720_web.pdf},
+  urldate      = {2026-07-22}
+}
+
+@book{aj-ley20720-evolucion,
+  title        = {Ley N.\textsuperscript{o} 20.720: modificaciones fusionadas con su
+                  evolución},
+  author       = {{Academia Judicial de Chile}},
+  publisher    = {Academia Judicial de Chile},
+  date         = {2025},
+  url          = {https://academiajudicial.cl/wp-content/uploads/2025/06/Ley-20.720-modificaciones-fusionadas-Academia-Judicial-con-su-evolucion.pdf},
+  urldate      = {2026-07-22}
+}
+
+@report{aj-prado-modificaciones,
+  author       = {Prado Puga, Arturo},
+  title        = {Modificaciones a la Ley N.\textsuperscript{o} 20.720: Ley
+                  N.\textsuperscript{o} 21.563},
+  institution  = {Academia Judicial de Chile},
+  date         = {2025-03-26},
+  url          = {https://academiajudicial.cl/wp-content/uploads/2025/06/Prado_AJ_26.03.2025.pdf},
+  urldate      = {2026-07-22},
+  note         = {Verificar nombre completo del autor}
+}
+
+@online{doc-nuevos-aires,
+  title        = {Nuevos aires para el derecho concursal chileno},
+  author       = {{Dictum Abogados}},
+  date         = {2023},
+  url          = {https://dictumabogados.com/actualidad-profesional/nuevos-aires-para-el-derecho-concursal-chileno/30987/},
+  urldate      = {2026-07-22},
+  note         = {Verificar autoría y fecha}
+}
+
+@online{doc-discharge-modelo,
   title        = {Hacia un nuevo modelo de \emph{discharge} en la Ley de Insolvencia y
                   Reemprendimiento},
-  organization = {El Mercurio Legal / Estado Diario},
+  author       = {{Estado Diario}},
+  date         = {2023},
   url          = {https://estadodiario.com/columnas/hacia-un-nuevo-modelo-de-discharge-en-la-ley-de-insolvencia-y-reemprendimiento/},
   urldate      = {2026-07-22},
-  note         = {Completar autoría y fecha}
+  note         = {Verificar autoría individual y fecha de publicación}
 }
 
-@online{dictum-nuevosaires,
-  title        = {Nuevos aires para el derecho concursal chileno},
-  organization = {Dictum Abogados},
-  url          = {https://dictumabogados.com/actualidad-profesional/nuevos-aires-para-el-derecho-concursal-chileno/30987/},
-  urldate      = {2026-07-22}
-}
-
+% --- Sujetos del concurso ---------------------------------------------------
 @article{doc-empresa-persona-deudora,
-  title        = {Aproximación crítica a los conceptos de empresa y persona deudora de la
-                  Ley \Nro 20.720},
-  journal      = {Revista de Derecho y Ciencias Sociales},
+  title        = {Aproximación crítica a los conceptos de empresa y persona deudora de
+                  la Ley N.\textsuperscript{o} 20.720},
+  journaltitle = {Revista de Derecho y Ciencias Sociales},
+  date         = {2022},
   url          = {https://rduss.cl/index.php/ojs/article/download/32/31/35},
   urldate      = {2026-07-22},
-  note         = {Completar autoría, volumen y año}
+  note         = {Verificar autoría, volumen, número, páginas y año}
 }
 
+% --- Efectos sobre las obligaciones ----------------------------------------
 @article{doc-art1496,
-  title        = {Las modificaciones introducidas por la Ley \Nro 20.720 a la regla del
-                  artículo 1496 \Nro 1 del Código Civil y su operatoria en procedimientos
-                  concursales},
-  journal      = {Actualidad Jurídica (Universidad del Desarrollo)},
-  year         = {2024},
+  title        = {Las modificaciones introducidas por la Ley N.\textsuperscript{o} 20.720
+                  a la regla del artículo 1496 N.\textsuperscript{o} 1 del Código Civil y
+                  su operatoria en procedimientos concursales},
+  journaltitle = {Actualidad Jurídica},
+  date         = {2024},
   url          = {https://derecho.udd.cl/files/2024/01/las-modificaciones-introducidad-por-la-ley-20-720-a-la-regla-del-articulo-1496-n1-del-codigo-civil-y-su-operatoria-en-procedimientos-concursales-1.pdf},
-  urldate      = {2026-07-22}
-}
-
-% -----------------------------------------------------------------------------
-%  DOCTRINA — INCIDENTE DE MALA FE
-% -----------------------------------------------------------------------------
-@article{doc-mala-fe-uv,
-  title        = {El incidente de mala fe del deudor: ¿un cambio de tuerca en la
-                  legislación concursal chilena?},
-  journal      = {Revista de Ciencias Sociales (Universidad de Valparaíso)},
-  url          = {https://revistas.uv.cl/index.php/rcs/article/view/4820},
   urldate      = {2026-07-22},
-  note         = {Completar autoría, volumen y año}
-}
-
-@online{doc-limites-mala-fe,
-  title        = {Límites al incidente de mala fe del artículo 169 A de la Ley
-                  \Nro 20.720. Primera parte},
-  organization = {Estado Diario},
-  url          = {https://estadodiario.com/columnas/limites-al-incidente-de-mala-fe-del-articulo-169-a-de-la-ley-20-720-primera-parte/},
-  urldate      = {2026-07-22}
-}
-
-@online{doc-mala-fe-penal,
-  title        = {El incidente de mala fe del deudor concursal. Posibles efectos
-                  prácticos en el proceso penal del nuevo artículo 169 A de la Ley
-                  \Nro 20.720},
-  organization = {Diario Constitucional},
-  url          = {https://www.diarioconstitucional.cl/articulos/el-incidente-de-mala-fe-del-deudor-concursal-posibles-efectos-practicos-en-el-proceso-penal-del-nuevo-art-169-a-de-la-ley-20-720/},
-  urldate      = {2026-07-22}
-}
-
-% -----------------------------------------------------------------------------
-%  DOCTRINA — ACCIONES REVOCATORIAS
-% -----------------------------------------------------------------------------
-@article{doc-revocacion-objetiva,
-  author       = {Muñoz Mora, Martín Ignacio},
-  title        = {Revocación objetiva en el procedimiento concursal chileno: análisis
-                  crítico de sus límites normativos},
-  journal      = {Actualidad Jurídica (Universidad del Desarrollo)},
-  year         = {2025},
-  url          = {https://derecho.udd.cl/actualidad-juridica/files/2025/08/martin-ignacio-munoz-mora.pdf},
-  urldate      = {2026-07-22}
-}
-
-@online{doc-plazos-revocatorias,
-  title        = {Régimen de plazos para la interposición de las acciones de
-                  revocabilidad en la Ley \Nro 20.720},
-  organization = {Águila y Compañía Abogados},
-  url          = {https://www.aguilaycia.cl/post/r%C3%A9gimen-de-plazos-para-la-interposici%C3%B3n-de-las-acciones-de-revocabilidad-en-la-ley-n-20-720},
-  urldate      = {2026-07-22}
-}
-
-@book{libro-acciones-revocatorias,
-  title        = {Las acciones revocatorias concursales},
-  publisher    = {Editorial Libromar},
-  url          = {https://libromar.cl/derecho-concursal/5775-las-acciones-revocatorias-concursales.html},
-  urldate      = {2026-07-22},
-  note         = {Completar autoría y año de edición}
-}
-
-% -----------------------------------------------------------------------------
-%  DOCTRINA — CAE Y DISCHARGE
-% -----------------------------------------------------------------------------
-@online{doc-cae-jurisprudencia,
-  title        = {El Crédito con Aval del Estado (CAE) y su exclusión del procedimiento
-                  concursal de liquidación voluntaria. Jurisprudencia 2017--2025},
-  organization = {Águila y Compañía Abogados},
-  url          = {https://www.aguilaycia.cl/post/el-cr%C3%A9dito-con-aval-del-estado-cae-y-su-exclusi%C3%B3n-del-procedimiento-concursal-de-liquidaci%C3%B3n-volun},
-  urldate      = {2026-07-22}
-}
-
-@online{doc-cae-castro,
-  author       = {Castro A., Felipe J.},
-  title        = {El CAE en sede concursal: entre la ley y la jurisprudencia},
-  year         = {2026},
-  url          = {https://felipecastro.blog/2026/06/14/el-cae-en-sede-concursal-entre-la-ley-y-la-jurisprudencia/},
-  urldate      = {2026-07-22}
-}
-
-% -----------------------------------------------------------------------------
-%  DOCTRINA — LABORAL Y PENAL ECONÓMICO
-% -----------------------------------------------------------------------------
-@article{doc-proteccion-trabajadores,
-  title        = {Protección de los trabajadores frente a la insolvencia del empleador},
-  journal      = {Revista de Derecho (Universidad Católica de la Santísima Concepción)},
-  url          = {https://revistas.ucsc.cl/index.php/revistaderecho/article/download/3031/2022/8182},
-  urldate      = {2026-07-22},
-  note         = {Completar autoría, volumen y año}
-}
-
-@online{doc-delitos-economicos-garrigues,
-  title        = {Chile: nuevos delitos contenidos en la Ley de Delitos Económicos},
-  organization = {Garrigues},
-  url          = {https://www.garrigues.com/es_ES/noticia/chile-nuevos-delitos-contenidos-ley-delitos-economicos},
-  urldate      = {2026-07-22}
-}
-
-@report{doc-ley-delitos-economicos,
-  title        = {Ley de Delitos Económicos},
-  institution  = {Prieto Abogados},
-  year         = {2023},
-  url          = {https://www.prieto.cl/newsletter/2023/delitos-economicos/Ley%20de%20Delitos%20Economicos%202.pdf},
-  urldate      = {2026-07-22}
-}
-
-% -----------------------------------------------------------------------------
-%  DOCTRINA — INSOLVENCIA TRANSFRONTERIZA
-% -----------------------------------------------------------------------------
-@article{doc-reconocimiento-extranjero,
-  author       = {Barceló López, Gonzalo},
-  title        = {El reconocimiento del procedimiento concursal extranjero en la práctica
-                  chilena actual},
-  journal      = {Actualidad Jurídica (Universidad del Desarrollo)},
-  year         = {2025},
-  url          = {https://derecho.udd.cl/actualidad-juridica/files/2025/08/gonzalo-barcelo-lopez.pdf},
-  urldate      = {2026-07-22}
-}
-
-@article{doc-diez-anos-uncitral,
-  author       = {Morales Pimentel, Samuel},
-  title        = {Diez años de la Ley Modelo de Insolvencia Transfronteriza de UNCITRAL
-                  en Chile. ¿Hacia dónde vamos?},
-  journal      = {Actualidad Jurídica (Universidad del Desarrollo)},
-  year         = {2025},
-  url          = {https://derecho.udd.cl/actualidad-juridica/files/2025/08/samuel-morales-pimentel.pdf},
-  urldate      = {2026-07-22}
-}
-
-@online{doc-transfronteriza-guia,
-  title        = {Insolvencia transfronteriza en Chile: guía legal},
-  organization = {NCR Abogados},
-  url          = {https://ncrabogados.cl/blog/insolvencia-transfronteriza/},
-  urldate      = {2026-07-22}
-}
-
-% -----------------------------------------------------------------------------
-%  DOCTRINA — RÉGIMEN RECURSIVO E INSTITUCIONALIDAD
-% -----------------------------------------------------------------------------
-@online{doc-resoluciones-apelables,
-  title        = {Resoluciones apelables en la Ley \Nro 20.720 de Insolvencia y
-                  Reemprendimiento},
-  organization = {Águila y Compañía Abogados},
-  url          = {https://www.aguilaycia.cl/post/resoluciones-apelables-en-la-ley-n-20-720-de-insolvencia-y-reemprendimiento},
-  urldate      = {2026-07-22}
+  note         = {Verificar autoría, volumen y páginas}
 }
 
 @article{doc-hipoteca-deudas-ajenas,
   title        = {El concurso del constituyente de la hipoteca en garantía de deudas
                   ajenas en la ley concursal chilena},
-  journal      = {Revista Estudios Socio-Jurídicos},
-  year         = {2024},
+  journaltitle = {Estudios Socio-Jurídicos},
+  volume       = {26},
+  number       = {2},
+  pages        = {261},
+  date         = {2024},
   url          = {http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0123-43662024000200261},
   urldate      = {2026-07-22},
-  note         = {Completar autoría}
+  note         = {Verificar autoría y datos de publicación}
 }
 
-% -----------------------------------------------------------------------------
-%  FICHAS JURISPRUDENCIALES Y SENTENCIAS
-% -----------------------------------------------------------------------------
-@report{juris-ficha-34713-2023,
-  title        = {Ficha \emph{Banco Santander con Asesorías Abarca, Verdugo y Compañía},
-                  Corte Suprema, Rol \Nro 34.713-2023},
-  institution  = {Academia de Derecho Civil, Universidad Diego Portales},
-  year         = {2025},
+% --- Régimen recursivo e institucionalidad ---------------------------------
+@online{doc-resoluciones-apelables,
+  title        = {Resoluciones apelables en la Ley N.\textsuperscript{o} 20.720 de
+                  insolvencia y reemprendimiento},
+  author       = {{Águila y Compañía Abogados}},
+  date         = {2023},
+  url          = {https://www.aguilaycia.cl/post/resoluciones-apelables-en-la-ley-n-20-720-de-insolvencia-y-reemprendimiento},
+  urldate      = {2026-07-22},
+  note         = {Verificar autoría individual y fecha}
+}
+
+% --- Acciones revocatorias --------------------------------------------------
+@article{doc-revocacion-objetiva,
+  author       = {Muñoz Mora, Martín Ignacio},
+  title        = {Revocación objetiva en el procedimiento concursal chileno: análisis
+                  crítico de sus límites normativos y elusión mediante figuras afines},
+  journaltitle = {Actualidad Jurídica},
+  date         = {2025},
+  url          = {https://derecho.udd.cl/actualidad-juridica/files/2025/08/martin-ignacio-munoz-mora.pdf},
+  urldate      = {2026-07-22},
+  note         = {Verificar volumen y páginas}
+}
+
+@online{doc-plazos-revocatorias,
+  title        = {Régimen de plazos para la interposición de las acciones de
+                  revocabilidad en la Ley N.\textsuperscript{o} 20.720},
+  author       = {{Águila y Compañía Abogados}},
+  date         = {2023},
+  url          = {https://www.aguilaycia.cl/post/r%C3%A9gimen-de-plazos-para-la-interposici%C3%B3n-de-las-acciones-de-revocabilidad-en-la-ley-n-20-720},
+  urldate      = {2026-07-22},
+  note         = {Verificar autoría individual y fecha}
+}
+
+@book{doc-acciones-revocatorias,
+  title        = {Las acciones revocatorias concursales},
+  publisher    = {Libromar},
+  location     = {Santiago},
+  date         = {2023},
+  url          = {https://libromar.cl/derecho-concursal/5775-las-acciones-revocatorias-concursales.html},
+  urldate      = {2026-07-22},
+  note         = {Verificar autoría y año de edición}
+}
+
+% --- Discharge y Crédito con Aval del Estado --------------------------------
+@online{doc-cae-jurisprudencia,
+  title        = {El Crédito con Aval del Estado (CAE) y su exclusión del procedimiento
+                  concursal de liquidación voluntaria: jurisprudencia 2017--2025},
+  author       = {{Águila y Compañía Abogados}},
+  date         = {2025},
+  url          = {https://www.aguilaycia.cl/post/el-cr%C3%A9dito-con-aval-del-estado-cae-y-su-exclusi%C3%B3n-del-procedimiento-concursal-de-liquidaci%C3%B3n-volun},
+  urldate      = {2026-07-22},
+  note         = {Verificar autoría individual y fecha}
+}
+
+@online{doc-cae-castro,
+  author       = {Castro A., Felipe J.},
+  title        = {El CAE en sede concursal: entre la ley y la jurisprudencia},
+  date         = {2026-06-14},
+  url          = {https://felipecastro.blog/2026/06/14/el-cae-en-sede-concursal-entre-la-ley-y-la-jurisprudencia/},
+  urldate      = {2026-07-22}
+}
+
+% --- Incidente de mala fe ---------------------------------------------------
+@article{doc-mala-fe-uv,
+  title        = {El incidente de mala fe del deudor: ¿un cambio de tuerca en la
+                  legislación concursal chilena?},
+  journaltitle = {Revista de Ciencias Sociales},
+  date         = {2024},
+  url          = {https://revistas.uv.cl/index.php/rcs/article/view/4820},
+  urldate      = {2026-07-22},
+  note         = {Verificar autoría, volumen, número y páginas}
+}
+
+@online{doc-limites-mala-fe,
+  title        = {Límites al incidente de mala fe del artículo 169 A de la Ley
+                  N.\textsuperscript{o} 20.720. Primera parte},
+  author       = {{Estado Diario}},
+  date         = {2024},
+  url          = {https://estadodiario.com/columnas/limites-al-incidente-de-mala-fe-del-articulo-169-a-de-la-ley-20-720-primera-parte/},
+  urldate      = {2026-07-22},
+  note         = {Verificar autoría individual y fecha}
+}
+
+@online{doc-mala-fe-penal,
+  title        = {El incidente de mala fe del deudor concursal: posibles efectos
+                  prácticos en el proceso penal del nuevo artículo 169 A de la Ley
+                  N.\textsuperscript{o} 20.720},
+  author       = {{Diario Constitucional}},
+  date         = {2024},
+  url          = {https://www.diarioconstitucional.cl/articulos/el-incidente-de-mala-fe-del-deudor-concursal-posibles-efectos-practicos-en-el-proceso-penal-del-nuevo-art-169-a-de-la-ley-20-720/},
+  urldate      = {2026-07-22},
+  note         = {Verificar autoría individual y fecha}
+}
+
+% --- Derecho laboral y penal económico --------------------------------------
+@article{doc-proteccion-trabajadores,
+  title        = {Protección de los trabajadores frente a la insolvencia del empleador},
+  journaltitle = {Revista de Derecho (Universidad Católica de la Santísima Concepción)},
+  date         = {2022},
+  url          = {https://revistas.ucsc.cl/index.php/revistaderecho/article/download/3031/2022/8182},
+  urldate      = {2026-07-22},
+  note         = {Verificar autoría, volumen y páginas}
+}
+
+@report{aj-delitos-economicos,
+  title        = {Delitos económicos y su regulación en la Ley N.\textsuperscript{o}
+                  21.595},
+  author       = {{Academia Judicial de Chile}},
+  institution  = {Academia Judicial de Chile},
+  date         = {2025},
+  url          = {https://academiajudicial.cl/wp-content/uploads/2025/08/Delitos_economicos.pdf},
+  urldate      = {2026-07-22}
+}
+
+@online{doc-delitos-economicos-garrigues,
+  title        = {Chile: nuevos delitos contenidos en la Ley de Delitos Económicos},
+  author       = {{Garrigues}},
+  date         = {2023},
+  url          = {https://www.garrigues.com/es_ES/noticia/chile-nuevos-delitos-contenidos-ley-delitos-economicos},
+  urldate      = {2026-07-22}
+}
+
+@report{doc-delitos-economicos-prieto,
+  title        = {Ley de delitos económicos},
+  author       = {{Prieto Abogados}},
+  institution  = {Prieto Abogados},
+  date         = {2023},
+  url          = {https://www.prieto.cl/newsletter/2023/delitos-economicos/Ley%20de%20Delitos%20Economicos%202.pdf},
+  urldate      = {2026-07-22}
+}
+
+% --- Insolvencia transfronteriza --------------------------------------------
+@article{doc-reconocimiento-extranjero,
+  author       = {Barceló López, Gonzalo},
+  title        = {El reconocimiento del procedimiento concursal extranjero en la
+                  práctica chilena actual},
+  journaltitle = {Actualidad Jurídica},
+  date         = {2025},
+  url          = {https://derecho.udd.cl/actualidad-juridica/files/2025/08/gonzalo-barcelo-lopez.pdf},
+  urldate      = {2026-07-22},
+  note         = {Verificar volumen y páginas}
+}
+
+@article{doc-diez-anos-uncitral,
+  author       = {Morales Pimentel, Samuel},
+  title        = {Diez años de la Ley Modelo de Insolvencia Transfronteriza de UNCITRAL
+                  en Chile: ¿hacia dónde vamos?},
+  journaltitle = {Actualidad Jurídica},
+  date         = {2025},
+  url          = {https://derecho.udd.cl/actualidad-juridica/files/2025/08/samuel-morales-pimentel.pdf},
+  urldate      = {2026-07-22},
+  note         = {Verificar volumen y páginas}
+}
+
+@online{doc-transfronteriza-guia,
+  title        = {Insolvencia transfronteriza en Chile: guía legal},
+  author       = {{NCR Abogados}},
+  date         = {2024},
+  url          = {https://ncrabogados.cl/blog/insolvencia-transfronteriza/},
+  urldate      = {2026-07-22},
+  note         = {Verificar fecha}
+}
+
+% --- Fichas jurisprudenciales -----------------------------------------------
+@report{doc-ficha-34713,
+  title        = {Ficha de la sentencia Corte Suprema Rol N.\textsuperscript{o}
+                  34.713-2023: Banco Santander con Asesorías Abarca, Verdugo y Compañía},
+  author       = {{Academia de Derecho Civil, Universidad Diego Portales}},
+  institution  = {Universidad Diego Portales},
+  date         = {2025-04},
   url          = {https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2025/04/47.-Ficha-Rol-No-34713-2023.pdf},
   urldate      = {2026-07-22}
 }
 
-@online{juris-c3893-2022,
-  title        = {Sentencia del 27.\textsuperscript{o} Juzgado Civil de Santiago,
-                  causa Rol C-3893-2022},
-  organization = {Poder Judicial de Chile},
-  url          = {https://www.pjud.cl/prensa-y-comunicaciones/getRulingNew/55899},
-  urldate      = {2026-07-22}
-}
+% =============================================================================
+%  V. FUENTES DE COYUNTURA
+% =============================================================================
 
-@online{juris-15jc-incidente,
-  title        = {Fallo de incidente, 15.\textsuperscript{o} Juzgado Civil de Santiago},
-  organization = {Poder Judicial de Chile},
-  url          = {https://www.pjud.cl/prensa-y-comunicaciones/getRulingNew/76536},
-  urldate      = {2026-07-22}
-}
-
-% -----------------------------------------------------------------------------
-%  FUENTES DE COYUNTURA
-% -----------------------------------------------------------------------------
 @online{prensa-df-brechas-mypes,
-  title        = {Ley 21.563: las brechas que aún limitan su rol en la continuidad de las
-                  MYPES},
-  organization = {Diario Financiero},
-  year         = {2025},
+  title        = {Ley 21.563: las brechas que aún limitan su rol en la continuidad de
+                  las MYPES},
+  author       = {{Diario Financiero}},
+  date         = {2025-10-22},
   url          = {https://www.df.cl/noticias/site/docs/20251022/20251022210601/suplemento_202501023_b.pdf},
   urldate      = {2026-07-22}
 }
@@ -372,6 +560,653 @@
   author       = {Lavín González, Álvaro},
   title        = {Modificación a sistema concursal y pymes},
   organization = {Ex-Ante},
+  date         = {2023},
   url          = {https://www.ex-ante.cl/modificacion-a-sistema-concursal-y-pymes-por-alvaro-lavin-gonzalez/},
+  urldate      = {2026-07-22},
+  note         = {Verificar fecha de publicación}
+}
+
+% =============================================================================
+%  II bis. CATÁLOGO VERIFICADO DE NORMATIVA ADMINISTRATIVA DE LA SUPERIR
+%  Fuente: www.superir.gob.cl (secciones «Normas vigentes» y «Biblioteca
+%  digital»), consultadas el 22 de julio de 2026.
+% =============================================================================
+
+% --- Normas de Carácter General vigentes ------------------------------------
+@legadminmaterial{ncg-28,
+  title        = {Norma de Carácter General N.\textsuperscript{o} 28, sobre procedimiento concursal de renegociación de la persona deudora},
+  shorttitle   = {NCG N.\textsuperscript{o} 28},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2025-11-19},
+  url          = {https://www.superir.gob.cl/normas-vigentes/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{ncg-27,
+  title        = {Norma de Carácter General N.\textsuperscript{o} 27, sobre forma y contenidos de las cuentas provisorias de los liquidadores},
+  shorttitle   = {NCG N.\textsuperscript{o} 27},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2024-09-04},
+  url          = {https://www.superir.gob.cl/normas-vigentes/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{ncg-26,
+  title        = {Norma de Carácter General N.\textsuperscript{o} 26, sobre requisitos e indicadores para veedores y liquidadores concursales},
+  shorttitle   = {NCG N.\textsuperscript{o} 26},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2024-05-07},
+  url          = {https://www.superir.gob.cl/normas-vigentes/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{ncg-25,
+  title        = {Norma de Carácter General N.\textsuperscript{o} 25, sobre uso de plataformas electrónicas para la enajenación de bienes muebles},
+  shorttitle   = {NCG N.\textsuperscript{o} 25},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2023-10-13},
+  url          = {https://www.superir.gob.cl/normas-vigentes/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{ncg-24,
+  title        = {Norma de Carácter General N.\textsuperscript{o} 24, sobre modelo de propuesta de acuerdo en la reorganización simplificada},
+  shorttitle   = {NCG N.\textsuperscript{o} 24},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2023-08-11},
+  url          = {https://www.superir.gob.cl/normas-vigentes/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{ncg-23,
+  title        = {Norma de Carácter General N.\textsuperscript{o} 23, sobre declaración jurada para la reorganización simplificada de micro y pequeñas empresas},
+  shorttitle   = {NCG N.\textsuperscript{o} 23},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2023-08-11},
+  url          = {https://www.superir.gob.cl/normas-vigentes/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{ncg-22,
+  title        = {Norma de Carácter General N.\textsuperscript{o} 22, sobre declaración jurada para la liquidación voluntaria simplificada},
+  shorttitle   = {NCG N.\textsuperscript{o} 22},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2023-08-11},
+  url          = {https://www.superir.gob.cl/normas-vigentes/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{ncg-20,
+  title        = {Norma de Carácter General N.\textsuperscript{o} 20, sobre informe sobre cumplimiento del acuerdo de reorganización},
+  shorttitle   = {NCG N.\textsuperscript{o} 20},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2023-08-11},
+  url          = {https://www.superir.gob.cl/normas-vigentes/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{ncg-19,
+  title        = {Norma de Carácter General N.\textsuperscript{o} 19, sobre certificado de estado de deudas y declaración jurada en la reorganización},
+  shorttitle   = {NCG N.\textsuperscript{o} 19},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2023-08-11},
+  url          = {https://www.superir.gob.cl/normas-vigentes/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{ncg-18,
+  title        = {Norma de Carácter General N.\textsuperscript{o} 18, sobre objeción de la cuenta final de administración},
+  shorttitle   = {NCG N.\textsuperscript{o} 18},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2023-08-11},
+  url          = {https://www.superir.gob.cl/normas-vigentes/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{ncg-17,
+  title        = {Norma de Carácter General N.\textsuperscript{o} 17, sobre nominación mediante sorteo de veedores o liquidadores},
+  shorttitle   = {NCG N.\textsuperscript{o} 17},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2023-08-11},
+  url          = {https://www.superir.gob.cl/normas-vigentes/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{ncg-16,
+  title        = {Norma de Carácter General N.\textsuperscript{o} 16, sobre exámenes de conocimientos para veedores, liquidadores y martilleros},
+  shorttitle   = {NCG N.\textsuperscript{o} 16},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2023-08-11},
+  url          = {https://www.superir.gob.cl/normas-vigentes/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{ncg-15,
+  title        = {Norma de Carácter General N.\textsuperscript{o} 15, sobre realización telemática de las juntas de acreedores},
+  shorttitle   = {NCG N.\textsuperscript{o} 15},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2023-08-11},
+  url          = {https://www.superir.gob.cl/normas-vigentes/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{ncg-14,
+  title        = {Norma de Carácter General N.\textsuperscript{o} 14, sobre publicaciones en el Boletín Concursal y notificaciones por correo electrónico},
+  shorttitle   = {NCG N.\textsuperscript{o} 14},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2023-08-11},
+  url          = {https://www.superir.gob.cl/normas-vigentes/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{ncg-10,
+  title        = {Norma de Carácter General N.\textsuperscript{o} 10, sobre garantía de fiel desempeño},
+  shorttitle   = {NCG N.\textsuperscript{o} 10},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2019-12-31},
+  url          = {https://www.superir.gob.cl/normas-vigentes/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{ncg-7,
+  title        = {Norma de Carácter General N.\textsuperscript{o} 7, sobre forma y contenidos de las cuentas provisorias y de la cuenta final de administración},
+  shorttitle   = {NCG N.\textsuperscript{o} 7},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2014-10-08},
+  url          = {https://www.superir.gob.cl/normas-vigentes/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{ncg-6,
+  title        = {Norma de Carácter General N.\textsuperscript{o} 6, sobre forma de otorgar garantía a los acreedores de primera clase},
+  shorttitle   = {NCG N.\textsuperscript{o} 6},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2014-10-08},
+  url          = {https://www.superir.gob.cl/normas-vigentes/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{ncg-4,
+  title        = {Norma de Carácter General N.\textsuperscript{o} 4, sobre modelo de solicitud de reorganización},
+  shorttitle   = {NCG N.\textsuperscript{o} 4},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2014-09-05},
+  url          = {https://www.superir.gob.cl/normas-vigentes/},
+  urldate      = {2026-07-22}
+}
+
+% --- Instructivos de la Ley N.º 20.720 --------------------------------------
+@legadminmaterial{instructivo-i1-2026,
+  title        = {Instructivo SUPERIR N.\textsuperscript{o} 1, sobre instrucciones a síndicos que cesan anticipadamente y a síndicos suplentes},
+  shorttitle   = {Instructivo SUPERIR N.\textsuperscript{o} 1},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2026-01-21},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/instructivo-ley-20-720/},
+  urldate      = {2026-07-22},
+  note         = {Aprobado por Resolución Exenta N.º 999, de 16 de enero de 2026}
+}
+
+@legadminmaterial{instructivo-i1-sgr,
+  title        = {Instructivo SUPERIR N.\textsuperscript{o} 1, sobre fianzas, preferencias y contragarantías en procedimientos concursales de liquidación con sociedades anónimas de garantía recíproca},
+  shorttitle   = {Instructivo SUPERIR N.\textsuperscript{o} 1},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2025-08-19},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/instructivo-ley-20-720/},
+  urldate      = {2026-07-22},
+  note         = {Aprobado por Resolución Exenta N.º 15.573}
+}
+
+@legadminmaterial{instructivo-i6,
+  title        = {Instructivo SUPERIR N.\textsuperscript{o} 6, sobre emisión de finiquitos laborales electrónicos y suscripción mediante firma electrónica en la liquidación},
+  shorttitle   = {Instructivo SUPERIR N.\textsuperscript{o} 6},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2024-11-04},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/instructivo-ley-20-720/},
+  urldate      = {2026-07-22},
+  note         = {Aprobado por Resolución Exenta N.º 16.245}
+}
+
+@legadminmaterial{instructivo-i5,
+  title        = {Instructivo SUPERIR N.\textsuperscript{o} 5, sobre incautación, conservación y entrega de bienes en la liquidación ordinaria y simplificada},
+  shorttitle   = {Instructivo SUPERIR N.\textsuperscript{o} 5},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2024-10-03},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/instructivo-ley-20-720/},
+  urldate      = {2026-07-22},
+  note         = {Aprobado por Resolución Exenta N.º 14.477. El numeral 3 de su artículo 12 fue derogado por Resolución Exenta N.º 16.492, de 28 de agosto de 2025}
+}
+
+@legadminmaterial{instructivo-i4,
+  title        = {Instructivo SUPERIR N.\textsuperscript{o} 4, sobre hechos relevantes que deben informar los sujetos fiscalizados},
+  shorttitle   = {Instructivo SUPERIR N.\textsuperscript{o} 4},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2024-09-05},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/instructivo-ley-20-720/},
+  urldate      = {2026-07-22},
+  note         = {Aprobado por Resolución Exenta N.º 13.139}
+}
+
+@legadminmaterial{instructivo-i3,
+  title        = {Instructivo SUPERIR N.\textsuperscript{o} 3, sobre instrucciones a los veedores en los procedimientos de reorganización},
+  shorttitle   = {Instructivo SUPERIR N.\textsuperscript{o} 3},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2024-08-26},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/instructivo-ley-20-720/},
+  urldate      = {2026-07-22},
+  note         = {Aprobado por Resolución Exenta N.º 12.473}
+}
+
+@legadminmaterial{instructivo-i2,
+  title        = {Instructivo SUPERIR N.\textsuperscript{o} 2, sobre síndicos en el sobreseimiento definitivo y temporal del Libro IV del Código de Comercio},
+  shorttitle   = {Instructivo SUPERIR N.\textsuperscript{o} 2},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2024-08-13},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/instructivo-ley-20-720/},
+  urldate      = {2026-07-22},
+  note         = {Aprobado por Resolución Exenta N.º 11.679}
+}
+
+@legadminmaterial{instructivo-i1-art38,
+  title        = {Instructivo SUPERIR N.\textsuperscript{o} 1, sobre liquidadores que cesan anticipadamente, suplentes y titulares conforme al artículo 38},
+  shorttitle   = {Instructivo SUPERIR N.\textsuperscript{o} 1},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2024-04-04},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/instructivo-ley-20-720/},
+  urldate      = {2026-07-22},
+  note         = {Aprobado por Resolución Exenta N.º 4.389}
+}
+
+% --- Oficios de instrucción general -----------------------------------------
+@legadminmaterial{oficio-9378,
+  title        = {Oficio SUPERIR N.\textsuperscript{o} 9378, sobre reemplazo de bienes muebles en la liquidación simplificada},
+  shorttitle   = {Oficio SUPERIR N.\textsuperscript{o} 9378},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2026-06-12},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{oficio-5080,
+  title        = {Oficio SUPERIR N.\textsuperscript{o} 5080, sobre imputación del aporte al seguro de cesantía en las indemnizaciones por término de contrato},
+  shorttitle   = {Oficio SUPERIR N.\textsuperscript{o} 5080},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2026-04-02},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{oficio-5003,
+  title        = {Oficio SUPERIR N.\textsuperscript{o} 5003, sobre pagos pendientes de cobro y empozamientos en liquidaciones y quiebras},
+  shorttitle   = {Oficio SUPERIR N.\textsuperscript{o} 5003},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2026-04-01},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{oficio-334,
+  title        = {Oficio SUPERIR N.\textsuperscript{o} 334, sobre pagos y empozamientos ante AFP y AFC en procedimientos de liquidación},
+  shorttitle   = {Oficio SUPERIR N.\textsuperscript{o} 334},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2026-01-12},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{oficio-23665,
+  title        = {Oficio SUPERIR N.\textsuperscript{o} 23665, sobre modificaciones de las cajas de compensación y aplicación de la Ley N.º 20.720},
+  shorttitle   = {Oficio SUPERIR N.\textsuperscript{o} 23665},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2025-12-31},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{oficio-18068,
+  title        = {Oficio SUPERIR N.\textsuperscript{o} 18068, sobre cumplimiento del artículo 36 de la Ley N.º 20.720},
+  shorttitle   = {Oficio SUPERIR N.\textsuperscript{o} 18068},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2025-10-09},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{oficio-15795,
+  title        = {Oficio SUPERIR N.\textsuperscript{o} 15795, sobre entrada en vigencia de las modificaciones al DL N.º 3.500 y a la Ley N.º 19.728},
+  shorttitle   = {Oficio SUPERIR N.\textsuperscript{o} 15795},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2025-09-02},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{oficio-11628,
+  title        = {Oficio SUPERIR N.\textsuperscript{o} 11628, sobre apertura de cuentas corrientes e inversión de fondos},
+  shorttitle   = {Oficio SUPERIR N.\textsuperscript{o} 11628},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2025-06-24},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{oficio-6507,
+  title        = {Oficio SUPERIR N.\textsuperscript{o} 6507, sobre obligaciones tributarias de los deudores en liquidación},
+  shorttitle   = {Oficio SUPERIR N.\textsuperscript{o} 6507},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2025-04-23},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{oficio-1765,
+  title        = {Oficio SUPERIR N.\textsuperscript{o} 1765, sobre procedencia del pago o reserva de créditos laborales},
+  shorttitle   = {Oficio SUPERIR N.\textsuperscript{o} 1765},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2024-02-12},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{oficio-18305,
+  title        = {Oficio SUPERIR N.\textsuperscript{o} 18305, sobre boletas de honorarios cuando el deudor fallece durante el procedimiento},
+  shorttitle   = {Oficio SUPERIR N.\textsuperscript{o} 18305},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2023-11-27},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{oficio-16156,
+  title        = {Oficio SUPERIR N.\textsuperscript{o} 16156, sobre comunicación dirigida a los tribunales de justicia},
+  shorttitle   = {Oficio SUPERIR N.\textsuperscript{o} 16156},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2023-10-13},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{oficio-14006,
+  title        = {Oficio SUPERIR N.\textsuperscript{o} 14006, sobre certificado de posesión efectiva ante el Registro Civil},
+  shorttitle   = {Oficio SUPERIR N.\textsuperscript{o} 14006},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2023-10-06},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{oficio-14939,
+  title        = {Oficio SUPERIR N.\textsuperscript{o} 14939, sobre improcedencia de la solicitud sobre no presentación de objeciones},
+  shorttitle   = {Oficio SUPERIR N.\textsuperscript{o} 14939},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2023-09-14},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{oficio-10657,
+  title        = {Oficio SUPERIR N.\textsuperscript{o} 10657, sobre información para la incautación de acreencias bancarias del deudor},
+  shorttitle   = {Oficio SUPERIR N.\textsuperscript{o} 10657},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2023-07-05},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{oficio-6499,
+  title        = {Oficio SUPERIR N.\textsuperscript{o} 6499, sobre procedencia del pago o reserva de créditos laborales},
+  shorttitle   = {Oficio SUPERIR N.\textsuperscript{o} 6499},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2023-04-21},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{oficio-5215,
+  title        = {Oficio SUPERIR N.\textsuperscript{o} 5215, sobre abstención de solicitar oficio sobre participación en sociedades},
+  shorttitle   = {Oficio SUPERIR N.\textsuperscript{o} 5215},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2023-03-28},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{oficio-5209,
+  title        = {Oficio SUPERIR N.\textsuperscript{o} 5209, sobre cumplimiento de obligaciones tributarias},
+  shorttitle   = {Oficio SUPERIR N.\textsuperscript{o} 5209},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2023-03-28},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/},
+  urldate      = {2026-07-22}
+}
+
+% --- Resoluciones exentas ---------------------------------------------------
+@legadminmaterial{resex-16492,
+  title        = {Resolución Exenta N.\textsuperscript{o} 16492, que deroga el numeral 3 del artículo 12 del Instructivo SIR N.º 5, sobre incautación, conservación y entrega de bienes},
+  shorttitle   = {Res. Ex. N.\textsuperscript{o} 16492},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2025-08-28},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{resex-8209,
+  title        = {Resolución Exenta N.\textsuperscript{o} 8209, que modifica el Instructivo SIR N.º 3, de 6 de octubre de 2015},
+  shorttitle   = {Res. Ex. N.\textsuperscript{o} 8209},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2025-04-30},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{resex-18459,
+  title        = {Resolución Exenta N.\textsuperscript{o} 18459, que complementa el Instructivo SIR N.º 3, sobre prelación, actualización y pago de créditos y repartos de fondos},
+  shorttitle   = {Res. Ex. N.\textsuperscript{o} 18459},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2024-12-10},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{resex-11655,
+  title        = {Resolución Exenta N.\textsuperscript{o} 11655, que modifica la Resolución Exenta N.º 7.203, sobre obligaciones de los liquidadores conforme a la Ley N.º 21.389, de registro nacional de deudores de pensiones de alimentos},
+  shorttitle   = {Res. Ex. N.\textsuperscript{o} 11655},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2024-08-13},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{resex-1564,
+  title        = {Resolución Exenta N.\textsuperscript{o} 1564, que modifica la Norma de Carácter General N.º 25, sobre plataformas electrónicas de enajenación},
+  shorttitle   = {Res. Ex. N.\textsuperscript{o} 1564},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2024-02-05},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{resex-7338,
+  title        = {Resolución Exenta N.\textsuperscript{o} 7338, que citación a juntas de acreedores en la liquidación simplificada},
+  shorttitle   = {Res. Ex. N.\textsuperscript{o} 7338},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2023-09-07},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{resex-7101,
+  title        = {Resolución Exenta N.\textsuperscript{o} 7101, que aclara la vigencia de los oficios dictados con ocasión de la crisis sanitaria por COVID-19},
+  shorttitle   = {Res. Ex. N.\textsuperscript{o} 7101},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2023-08-31},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{resex-6644,
+  title        = {Resolución Exenta N.\textsuperscript{o} 6644, que regula el procedimiento para el cumplimiento del artículo tercero transitorio de la Ley N.º 21.563},
+  shorttitle   = {Res. Ex. N.\textsuperscript{o} 6644},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2023-08-11},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{resex-6643,
+  title        = {Resolución Exenta N.\textsuperscript{o} 6643, que regula el procedimiento para el cumplimiento del artículo segundo transitorio de la Ley N.º 21.563},
+  shorttitle   = {Res. Ex. N.\textsuperscript{o} 6643},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2023-08-11},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{resex-6640,
+  title        = {Resolución Exenta N.\textsuperscript{o} 6640, que actualiza la nómina de liquidadores conforme a la Ley N.º 21.563},
+  shorttitle   = {Res. Ex. N.\textsuperscript{o} 6640},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2023-08-11},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/},
+  urldate      = {2026-07-22}
+}
+
+@legadminmaterial{resex-6638,
+  title        = {Resolución Exenta N.\textsuperscript{o} 6638, que actualiza la nómina de veedores conforme a la Ley N.º 21.563},
+  shorttitle   = {Res. Ex. N.\textsuperscript{o} 6638},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2023-08-11},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/},
+  urldate      = {2026-07-22}
+}
+
+% --- Oficios circulares -----------------------------------------------------
+@legadminmaterial{oficio-circular-5,
+  title        = {Oficio Circular SIR N.\textsuperscript{o} 5, sobre pautas y
+                  recomendaciones para la correcta sustanciación de las audiencias del
+                  procedimiento concursal de renegociación},
+  shorttitle   = {Oficio Circular SIR N.\textsuperscript{o} 5},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2020-05-19},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/oficios-circulares/},
+  urldate      = {2026-07-22},
+  note         = {Refunde los Oficios Circulares SIR N.º 2 y N.º 4}
+}
+
+% --- Guías prácticas y estudios ---------------------------------------------
+@report{guia-quiebra-empresa,
+  title        = {Quiebra en la empresa},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2015-01-19},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/publicaciones/guias-practicas/},
+  urldate      = {2026-07-22}
+}
+
+@report{guia-empresa-crisis,
+  title        = {Empresa en crisis y emprendimiento},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2015-01-19},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/publicaciones/guias-practicas/},
+  urldate      = {2026-07-22}
+}
+
+@report{estudio-justicia-1,
+  title        = {Justicia concursal: primer informe},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/publicaciones/estudios/},
+  urldate      = {2026-07-22},
+  note         = {Verificar año de publicación y autoría}
+}
+
+@report{estudio-justicia-2,
+  title        = {Justicia concursal: segundo informe},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/publicaciones/estudios/},
+  urldate      = {2026-07-22},
+  note         = {Verificar año de publicación y autoría}
+}
+
+@report{estudio-justicia-3,
+  title        = {Justicia concursal: tercer informe},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/publicaciones/estudios/},
+  urldate      = {2026-07-22},
+  note         = {Verificar año de publicación y autoría}
+}
+
+@report{estudio-pyme,
+  title        = {Estudio sobre las PYME y el sistema concursal},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  institution  = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/publicaciones/estudios/},
+  urldate      = {2026-07-22},
+  note         = {Verificar año de publicación y autoría}
+}
+
+@online{superir-normativa-tramite,
+  title        = {Normativa en trámite},
+  author       = {{Superintendencia de Insolvencia y Reemprendimiento}},
+  date         = {2026},
+  url          = {https://www.superir.gob.cl/biblioteca-digital/normativa-en-tramite/},
   urldate      = {2026-07-22}
 }

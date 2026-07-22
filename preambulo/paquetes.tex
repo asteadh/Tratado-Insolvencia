@@ -8,6 +8,9 @@
 \usepackage[spanish,es-tabla,es-noquoting,es-lcroman]{babel}
 \usepackage{csquotes}
 
+% --- Símbolos matemáticos (casillas de verificación, etc.) ----------------
+\usepackage{amssymb}
+
 % --- Tipografía -----------------------------------------------------------
 \usepackage{lmodern}
 \usepackage[scaled=0.92]{helvet}   % sans para títulos y diagramas
@@ -58,19 +61,23 @@
 \usepackage{tikz}
 \usetikzlibrary{shapes.geometric,arrows.meta,positioning,calc,fit,backgrounds}
 
-% --- Bibliografía ---------------------------------------------------------
+% --- Bibliografía en formato APA (7.ª edición) -----------------------------
+% biblatex-apa implementa APA 7 e incluye los tipos de entrada propios de las
+% fuentes jurídicas: @legislation (leyes), @jurisdiction (sentencias) y
+% @legadminmaterial (normativa administrativa de la SUPERIR).
 \usepackage[
   backend=biber,
-  style=authoryear,
+  style=apa,
+  sortcites=true,
   sorting=nyt,
-  maxcitenames=2,
   maxbibnames=99,
-  giveninits=true,
-  url=true,
-  doi=false,
-  isbn=false,
-  language=spanish
+  language=spanish,
+  uniquename=full
 ]{biblatex}
+\DeclareLanguageMapping{spanish}{spanish-apa}
+
+% APA exige sangría francesa en la lista de referencias
+\setlength{\bibhang}{1.5em}
 
 % --- Índices múltiples ----------------------------------------------------
 \usepackage{imakeidx}

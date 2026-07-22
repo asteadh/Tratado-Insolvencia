@@ -1,0 +1,2887 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/apasortcite//global/global/global}
+    \entry{aj-ley21563}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c6e4d123f96823179b783b44d36d66cf}{%
+           family={{Academia Judicial de Chile}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{fullhash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{fullhashraw}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{bibnamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorbibnamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authornamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorfullhash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorfullhashraw}{c6e4d123f96823179b783b44d36d66cf}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ley 21.563: moderniza procedimientos concursales de la Ley 20.720 y crea procedimientos para micro y pequeñas empresas}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://academiajudicial.cl/ley-21-563-moderniza-procedimientos-concursales-de-la-ley-20-720-y-crea-procedimientos-para-micro-y-pequenas-empresas/
+      \endverb
+      \verb{url}
+      \verb https://academiajudicial.cl/ley-21-563-moderniza-procedimientos-concursales-de-la-ley-20-720-y-crea-procedimientos-para-micro-y-pequenas-empresas/
+      \endverb
+    \endentry
+    \entry{aj-texto-refundido}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c6e4d123f96823179b783b44d36d66cf}{%
+           family={{Academia Judicial de Chile}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{fullhash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{fullhashraw}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{bibnamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorbibnamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authornamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorfullhash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorfullhashraw}{c6e4d123f96823179b783b44d36d66cf}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Procedimientos concursales de empresas y personas deudoras: texto refundido de la Ley N.\textsuperscript{o} 20.720 y la Ley N.\textsuperscript{o} 21.563}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://academiajudicial.cl/wp-content/uploads/2022/03/DIS-MD-20-Procedimientos-concursales-Ley-20720_web.pdf
+      \endverb
+      \verb{url}
+      \verb https://academiajudicial.cl/wp-content/uploads/2022/03/DIS-MD-20-Procedimientos-concursales-Ley-20720_web.pdf
+      \endverb
+    \endentry
+    \entry{aj-reporte-21563}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c6e4d123f96823179b783b44d36d66cf}{%
+           family={{Academia Judicial de Chile}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Academia Judicial de Chile}%
+      }
+      \strng{namehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{fullhash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{fullhashraw}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{bibnamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorbibnamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authornamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorfullhash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorfullhashraw}{c6e4d123f96823179b783b44d36d66cf}
+      \field{extraname}{3}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Reporte de actualización normativa: Ley N.\textsuperscript{o} 21.563}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://academiajudicial.cl/wp-content/uploads/2023/07/Reporte-Ley-21.563.pdf
+      \endverb
+      \verb{url}
+      \verb https://academiajudicial.cl/wp-content/uploads/2023/07/Reporte-Ley-21.563.pdf
+      \endverb
+    \endentry
+    \entry{aj-delitos-economicos}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c6e4d123f96823179b783b44d36d66cf}{%
+           family={{Academia Judicial de Chile}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Academia Judicial de Chile}%
+      }
+      \strng{namehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{fullhash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{fullhashraw}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{bibnamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorbibnamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authornamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorfullhash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorfullhashraw}{c6e4d123f96823179b783b44d36d66cf}
+      \field{extraname}{4}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Delitos económicos y su regulación en la Ley N.\textsuperscript{o} 21.595}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://academiajudicial.cl/wp-content/uploads/2025/08/Delitos_economicos.pdf
+      \endverb
+      \verb{url}
+      \verb https://academiajudicial.cl/wp-content/uploads/2025/08/Delitos_economicos.pdf
+      \endverb
+    \endentry
+    \entry{aj-ley20720-evolucion}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c6e4d123f96823179b783b44d36d66cf}{%
+           family={{Academia Judicial de Chile}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{fullhash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{fullhashraw}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{bibnamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorbibnamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authornamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorfullhash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorfullhashraw}{c6e4d123f96823179b783b44d36d66cf}
+      \field{extraname}{5}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ley N.\textsuperscript{o} 20.720: modificaciones fusionadas con su evolución}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://academiajudicial.cl/wp-content/uploads/2025/06/Ley-20.720-modificaciones-fusionadas-Academia-Judicial-con-su-evolucion.pdf
+      \endverb
+      \verb{url}
+      \verb https://academiajudicial.cl/wp-content/uploads/2025/06/Ley-20.720-modificaciones-fusionadas-Academia-Judicial-con-su-evolucion.pdf
+      \endverb
+    \endentry
+    \entry{doc-plazos-revocatorias}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a1b902134f2b52ecb25570d6836d6a29}{%
+           family={{Águila y Compañía Abogados}},
+           familyi={Á\bibinitperiod}}}%
+      }
+      \strng{namehash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{fullhash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{fullhashraw}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{bibnamehash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{authorbibnamehash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{authornamehash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{authorfullhash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{authorfullhashraw}{a1b902134f2b52ecb25570d6836d6a29}
+      \field{extraname}{1}
+      \field{sortinit}{Á}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar autoría individual y fecha}
+      \field{title}{Régimen de plazos para la interposición de las acciones de revocabilidad en la Ley N.\textsuperscript{o} 20.720}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.aguilaycia.cl/post/r%C3%A9gimen-de-plazos-para-la-interposici%C3%B3n-de-las-acciones-de-revocabilidad-en-la-ley-n-20-720
+      \endverb
+      \verb{url}
+      \verb https://www.aguilaycia.cl/post/r%C3%A9gimen-de-plazos-para-la-interposici%C3%B3n-de-las-acciones-de-revocabilidad-en-la-ley-n-20-720
+      \endverb
+    \endentry
+    \entry{doc-resoluciones-apelables}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a1b902134f2b52ecb25570d6836d6a29}{%
+           family={{Águila y Compañía Abogados}},
+           familyi={Á\bibinitperiod}}}%
+      }
+      \strng{namehash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{fullhash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{fullhashraw}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{bibnamehash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{authorbibnamehash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{authornamehash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{authorfullhash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{authorfullhashraw}{a1b902134f2b52ecb25570d6836d6a29}
+      \field{extraname}{2}
+      \field{sortinit}{Á}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar autoría individual y fecha}
+      \field{title}{Resoluciones apelables en la Ley N.\textsuperscript{o} 20.720 de insolvencia y reemprendimiento}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.aguilaycia.cl/post/resoluciones-apelables-en-la-ley-n-20-720-de-insolvencia-y-reemprendimiento
+      \endverb
+      \verb{url}
+      \verb https://www.aguilaycia.cl/post/resoluciones-apelables-en-la-ley-n-20-720-de-insolvencia-y-reemprendimiento
+      \endverb
+    \endentry
+    \entry{doc-cae-jurisprudencia}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a1b902134f2b52ecb25570d6836d6a29}{%
+           family={{Águila y Compañía Abogados}},
+           familyi={Á\bibinitperiod}}}%
+      }
+      \strng{namehash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{fullhash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{fullhashraw}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{bibnamehash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{authorbibnamehash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{authornamehash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{authorfullhash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{authorfullhashraw}{a1b902134f2b52ecb25570d6836d6a29}
+      \field{extraname}{3}
+      \field{sortinit}{Á}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar autoría individual y fecha}
+      \field{title}{El Crédito con Aval del Estado (CAE) y su exclusión del procedimiento concursal de liquidación voluntaria: jurisprudencia 2017--2025}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.aguilaycia.cl/post/el-cr%C3%A9dito-con-aval-del-estado-cae-y-su-exclusi%C3%B3n-del-procedimiento-concursal-de-liquidaci%C3%B3n-volun
+      \endverb
+      \verb{url}
+      \verb https://www.aguilaycia.cl/post/el-cr%C3%A9dito-con-aval-del-estado-cae-y-su-exclusi%C3%B3n-del-procedimiento-concursal-de-liquidaci%C3%B3n-volun
+      \endverb
+    \endentry
+    \entry{doc-empresa-persona-deudora}{article}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista de Derecho y Ciencias Sociales}
+      \field{note}{Verificar autoría, volumen, número, páginas y año}
+      \field{title}{Aproximación crítica a los conceptos de empresa y persona deudora de la Ley N.\textsuperscript{o} 20.720}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://rduss.cl/index.php/ojs/article/download/32/31/35
+      \endverb
+      \verb{url}
+      \verb https://rduss.cl/index.php/ojs/article/download/32/31/35
+      \endverb
+    \endentry
+    \entry{doc-reconocimiento-extranjero}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=859ebdade1d1e3db8da47c136554b5b9}{%
+           family={Barceló\bibnamedelima López},
+           familyi={B\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Gonzalo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{859ebdade1d1e3db8da47c136554b5b9}
+      \strng{fullhash}{859ebdade1d1e3db8da47c136554b5b9}
+      \strng{fullhashraw}{859ebdade1d1e3db8da47c136554b5b9}
+      \strng{bibnamehash}{859ebdade1d1e3db8da47c136554b5b9}
+      \strng{authorbibnamehash}{859ebdade1d1e3db8da47c136554b5b9}
+      \strng{authornamehash}{859ebdade1d1e3db8da47c136554b5b9}
+      \strng{authorfullhash}{859ebdade1d1e3db8da47c136554b5b9}
+      \strng{authorfullhashraw}{859ebdade1d1e3db8da47c136554b5b9}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Actualidad Jurídica}
+      \field{note}{Verificar volumen y páginas}
+      \field{title}{El reconocimiento del procedimiento concursal extranjero en la práctica chilena actual}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://derecho.udd.cl/actualidad-juridica/files/2025/08/gonzalo-barcelo-lopez.pdf
+      \endverb
+      \verb{url}
+      \verb https://derecho.udd.cl/actualidad-juridica/files/2025/08/gonzalo-barcelo-lopez.pdf
+      \endverb
+    \endentry
+    \entry{doc-cae-castro}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=06644e38afc74f6cd39f8224bc6af0f4}{%
+           family={Castro\bibnamedelima A.},
+           familyi={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Felipe\bibnamedelima J.},
+           giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{06644e38afc74f6cd39f8224bc6af0f4}
+      \strng{fullhash}{06644e38afc74f6cd39f8224bc6af0f4}
+      \strng{fullhashraw}{06644e38afc74f6cd39f8224bc6af0f4}
+      \strng{bibnamehash}{06644e38afc74f6cd39f8224bc6af0f4}
+      \strng{authorbibnamehash}{06644e38afc74f6cd39f8224bc6af0f4}
+      \strng{authornamehash}{06644e38afc74f6cd39f8224bc6af0f4}
+      \strng{authorfullhash}{06644e38afc74f6cd39f8224bc6af0f4}
+      \strng{authorfullhashraw}{06644e38afc74f6cd39f8224bc6af0f4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{14}
+      \field{month}{6}
+      \field{title}{El CAE en sede concursal: entre la ley y la jurisprudencia}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://felipecastro.blog/2026/06/14/el-cae-en-sede-concursal-entre-la-ley-y-la-jurisprudencia/
+      \endverb
+      \verb{url}
+      \verb https://felipecastro.blog/2026/06/14/el-cae-en-sede-concursal-entre-la-ley-y-la-jurisprudencia/
+      \endverb
+    \endentry
+    \entry{codigo-civil}{legislation}{}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Diario Oficial de la República de Chile}
+      \field{shorttitle}{Código Civil}
+      \field{title}{Código Civil de la República de Chile}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{1855}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bcn.cl/leychile/navegar?idNorma=172986
+      \endverb
+      \verb{url}
+      \verb https://www.bcn.cl/leychile/navegar?idNorma=172986
+      \endverb
+    \endentry
+    \entry{codigo-comercio}{legislation}{}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Diario Oficial de la República de Chile}
+      \field{note}{Verificar fecha de promulgación y vigencia}
+      \field{shorttitle}{Código de Comercio}
+      \field{title}{Código de Comercio de la República de Chile}
+      \field{year}{1865}
+      \field{dateera}{ce}
+    \endentry
+    \entry{codigo-trabajo}{legislation}{}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Diario Oficial de la República de Chile}
+      \field{note}{DFL N.º 1 de 2002, Ministerio del Trabajo. Verificar}
+      \field{shorttitle}{Código del Trabajo}
+      \field{title}{Código del Trabajo}
+      \field{year}{2003}
+      \field{dateera}{ce}
+    \endentry
+    \entry{doc-mala-fe-penal}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62455fcec5b9d522a433a9596c90874e}{%
+           family={{Diario Constitucional}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{62455fcec5b9d522a433a9596c90874e}
+      \strng{fullhash}{62455fcec5b9d522a433a9596c90874e}
+      \strng{fullhashraw}{62455fcec5b9d522a433a9596c90874e}
+      \strng{bibnamehash}{62455fcec5b9d522a433a9596c90874e}
+      \strng{authorbibnamehash}{62455fcec5b9d522a433a9596c90874e}
+      \strng{authornamehash}{62455fcec5b9d522a433a9596c90874e}
+      \strng{authorfullhash}{62455fcec5b9d522a433a9596c90874e}
+      \strng{authorfullhashraw}{62455fcec5b9d522a433a9596c90874e}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar autoría individual y fecha}
+      \field{title}{El incidente de mala fe del deudor concursal: posibles efectos prácticos en el proceso penal del nuevo artículo 169 A de la Ley N.\textsuperscript{o} 20.720}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.diarioconstitucional.cl/articulos/el-incidente-de-mala-fe-del-deudor-concursal-posibles-efectos-practicos-en-el-proceso-penal-del-nuevo-art-169-a-de-la-ley-20-720/
+      \endverb
+      \verb{url}
+      \verb https://www.diarioconstitucional.cl/articulos/el-incidente-de-mala-fe-del-deudor-concursal-posibles-efectos-practicos-en-el-proceso-penal-del-nuevo-art-169-a-de-la-ley-20-720/
+      \endverb
+    \endentry
+    \entry{prensa-df-brechas-mypes}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7bd2489ba5e897698cdb325ab59bc4d9}{%
+           family={{Diario Financiero}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{7bd2489ba5e897698cdb325ab59bc4d9}
+      \strng{fullhash}{7bd2489ba5e897698cdb325ab59bc4d9}
+      \strng{fullhashraw}{7bd2489ba5e897698cdb325ab59bc4d9}
+      \strng{bibnamehash}{7bd2489ba5e897698cdb325ab59bc4d9}
+      \strng{authorbibnamehash}{7bd2489ba5e897698cdb325ab59bc4d9}
+      \strng{authornamehash}{7bd2489ba5e897698cdb325ab59bc4d9}
+      \strng{authorfullhash}{7bd2489ba5e897698cdb325ab59bc4d9}
+      \strng{authorfullhashraw}{7bd2489ba5e897698cdb325ab59bc4d9}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{22}
+      \field{month}{10}
+      \field{title}{Ley 21.563: las brechas que aún limitan su rol en la continuidad de las MYPES}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.df.cl/noticias/site/docs/20251022/20251022210601/suplemento_202501023_b.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.df.cl/noticias/site/docs/20251022/20251022210601/suplemento_202501023_b.pdf
+      \endverb
+    \endentry
+    \entry{doc-nuevos-aires}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b9b54c3fb62c04aea0585a2f18b647ff}{%
+           family={{Dictum Abogados}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{b9b54c3fb62c04aea0585a2f18b647ff}
+      \strng{fullhash}{b9b54c3fb62c04aea0585a2f18b647ff}
+      \strng{fullhashraw}{b9b54c3fb62c04aea0585a2f18b647ff}
+      \strng{bibnamehash}{b9b54c3fb62c04aea0585a2f18b647ff}
+      \strng{authorbibnamehash}{b9b54c3fb62c04aea0585a2f18b647ff}
+      \strng{authornamehash}{b9b54c3fb62c04aea0585a2f18b647ff}
+      \strng{authorfullhash}{b9b54c3fb62c04aea0585a2f18b647ff}
+      \strng{authorfullhashraw}{b9b54c3fb62c04aea0585a2f18b647ff}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar autoría y fecha}
+      \field{title}{Nuevos aires para el derecho concursal chileno}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dictumabogados.com/actualidad-profesional/nuevos-aires-para-el-derecho-concursal-chileno/30987/
+      \endverb
+      \verb{url}
+      \verb https://dictumabogados.com/actualidad-profesional/nuevos-aires-para-el-derecho-concursal-chileno/30987/
+      \endverb
+    \endentry
+    \entry{doc-mala-fe-uv}{article}{}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista de Ciencias Sociales}
+      \field{note}{Verificar autoría, volumen, número y páginas}
+      \field{title}{El incidente de mala fe del deudor: ¿un cambio de tuerca en la legislación concursal chilena?}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://revistas.uv.cl/index.php/rcs/article/view/4820
+      \endverb
+      \verb{url}
+      \verb https://revistas.uv.cl/index.php/rcs/article/view/4820
+      \endverb
+    \endentry
+    \entry{doc-discharge-modelo}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=810df3060d7a73a8798c8e8f9b90eaf0}{%
+           family={{Estado Diario}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{fullhash}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{fullhashraw}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{bibnamehash}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{authorbibnamehash}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{authornamehash}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{authorfullhash}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{authorfullhashraw}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \field{extraname}{1}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar autoría individual y fecha de publicación}
+      \field{title}{Hacia un nuevo modelo de \emph{discharge} en la Ley de Insolvencia y Reemprendimiento}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://estadodiario.com/columnas/hacia-un-nuevo-modelo-de-discharge-en-la-ley-de-insolvencia-y-reemprendimiento/
+      \endverb
+      \verb{url}
+      \verb https://estadodiario.com/columnas/hacia-un-nuevo-modelo-de-discharge-en-la-ley-de-insolvencia-y-reemprendimiento/
+      \endverb
+    \endentry
+    \entry{doc-limites-mala-fe}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=810df3060d7a73a8798c8e8f9b90eaf0}{%
+           family={{Estado Diario}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{fullhash}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{fullhashraw}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{bibnamehash}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{authorbibnamehash}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{authornamehash}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{authorfullhash}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{authorfullhashraw}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \field{extraname}{2}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar autoría individual y fecha}
+      \field{title}{Límites al incidente de mala fe del artículo 169 A de la Ley N.\textsuperscript{o} 20.720. Primera parte}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://estadodiario.com/columnas/limites-al-incidente-de-mala-fe-del-articulo-169-a-de-la-ley-20-720-primera-parte/
+      \endverb
+      \verb{url}
+      \verb https://estadodiario.com/columnas/limites-al-incidente-de-mala-fe-del-articulo-169-a-de-la-ley-20-720-primera-parte/
+      \endverb
+    \endentry
+    \entry{doc-delitos-economicos-garrigues}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d5487c6d2b11e972c43e59b6f98a6de0}{%
+           family={{Garrigues}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{d5487c6d2b11e972c43e59b6f98a6de0}
+      \strng{fullhash}{d5487c6d2b11e972c43e59b6f98a6de0}
+      \strng{fullhashraw}{d5487c6d2b11e972c43e59b6f98a6de0}
+      \strng{bibnamehash}{d5487c6d2b11e972c43e59b6f98a6de0}
+      \strng{authorbibnamehash}{d5487c6d2b11e972c43e59b6f98a6de0}
+      \strng{authornamehash}{d5487c6d2b11e972c43e59b6f98a6de0}
+      \strng{authorfullhash}{d5487c6d2b11e972c43e59b6f98a6de0}
+      \strng{authorfullhashraw}{d5487c6d2b11e972c43e59b6f98a6de0}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Chile: nuevos delitos contenidos en la Ley de Delitos Económicos}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.garrigues.com/es_ES/noticia/chile-nuevos-delitos-contenidos-ley-delitos-economicos
+      \endverb
+      \verb{url}
+      \verb https://www.garrigues.com/es_ES/noticia/chile-nuevos-delitos-contenidos-ley-delitos-economicos
+      \endverb
+    \endentry
+    \entry{superir-instructivo-finiquitos}{legadminmaterial}{}{}
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{note}{Verificar número de instructivo, resolución aprobatoria y fecha}
+      \field{title}{Instructivo sobre emisión de finiquitos laborales electrónicos en procedimientos concursales}
+      \field{year}{2024}
+      \field{dateera}{ce}
+    \endentry
+    \entry{juris-jamarne-salazar}{jurisdiction}{}{}
+      \list{institution}{1}{%
+        {Corte Suprema de Chile, Sala Civil}%
+      }
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar carátula, sala y fecha}
+      \field{title}{Jamarne con Salazar, Rol N.\textsuperscript{o} 4656-2017}
+      \field{year}{2017}
+      \field{dateera}{ce}
+    \endentry
+    \entry{doc-acciones-revocatorias}{book}{}{}
+      \list{location}{1}{%
+        {Santiago}%
+      }
+      \list{publisher}{1}{%
+        {Libromar}%
+      }
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar autoría y año de edición}
+      \field{title}{Las acciones revocatorias concursales}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://libromar.cl/derecho-concursal/5775-las-acciones-revocatorias-concursales.html
+      \endverb
+      \verb{url}
+      \verb https://libromar.cl/derecho-concursal/5775-las-acciones-revocatorias-concursales.html
+      \endverb
+    \endentry
+    \entry{prensa-exante-lavin}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=03b4a2c333c7f130a3ae9e54acadc5e2}{%
+           family={Lavín\bibnamedelima González},
+           familyi={L\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Álvaro},
+           giveni={Á\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Ex-Ante}%
+      }
+      \strng{namehash}{03b4a2c333c7f130a3ae9e54acadc5e2}
+      \strng{fullhash}{03b4a2c333c7f130a3ae9e54acadc5e2}
+      \strng{fullhashraw}{03b4a2c333c7f130a3ae9e54acadc5e2}
+      \strng{bibnamehash}{03b4a2c333c7f130a3ae9e54acadc5e2}
+      \strng{authorbibnamehash}{03b4a2c333c7f130a3ae9e54acadc5e2}
+      \strng{authornamehash}{03b4a2c333c7f130a3ae9e54acadc5e2}
+      \strng{authorfullhash}{03b4a2c333c7f130a3ae9e54acadc5e2}
+      \strng{authorfullhashraw}{03b4a2c333c7f130a3ae9e54acadc5e2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar fecha de publicación}
+      \field{title}{Modificación a sistema concursal y pymes}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ex-ante.cl/modificacion-a-sistema-concursal-y-pymes-por-alvaro-lavin-gonzalez/
+      \endverb
+      \verb{url}
+      \verb https://www.ex-ante.cl/modificacion-a-sistema-concursal-y-pymes-por-alvaro-lavin-gonzalez/
+      \endverb
+    \endentry
+    \entry{ley-modelo-uncitral}{legislation}{}{}
+      \list{institution}{1}{%
+        {Comisión de las Naciones Unidas para el Derecho Mercantil Internacional}%
+      }
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{Ley Modelo UNCITRAL}
+      \field{title}{Ley Modelo de la CNUDMI sobre la Insolvencia Transfronteriza}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{1997}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://uncitral.un.org/es/texts/insolvency/modellaw/cross-border_insolvency
+      \endverb
+      \verb{url}
+      \verb https://uncitral.un.org/es/texts/insolvency/modellaw/cross-border_insolvency
+      \endverb
+    \endentry
+    \entry{ley-18175}{legislation}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Diario Oficial de la República de Chile}
+      \field{note}{Derogada por la Ley N.º 20.720. Verificar fecha e historia normativa}
+      \field{shorttitle}{Ley N.\textsuperscript{o} 18.175}
+      \field{title}{Ley N.\textsuperscript{o} 18.175, de quiebras}
+      \field{year}{1982}
+      \field{dateera}{ce}
+    \endentry
+    \entry{ley-19287}{legislation}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Diario Oficial de la República de Chile}
+      \field{note}{Verificar fecha e idNorma}
+      \field{shorttitle}{Ley N.\textsuperscript{o} 19.287}
+      \field{title}{Ley N.\textsuperscript{o} 19.287, modifica la Ley N.\textsuperscript{o} 18.591 y establece normas sobre fondos solidarios de crédito universitario}
+      \field{year}{1994}
+      \field{dateera}{ce}
+    \endentry
+    \entry{ley-20027}{legislation}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Diario Oficial de la República de Chile}
+      \field{note}{Verificar fecha e idNorma}
+      \field{shorttitle}{Ley N.\textsuperscript{o} 20.027}
+      \field{title}{Ley N.\textsuperscript{o} 20.027, establece normas para el financiamiento de estudios de educación superior}
+      \field{year}{2005}
+      \field{dateera}{ce}
+    \endentry
+    \entry{ley-20393}{legislation}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Diario Oficial de la República de Chile}
+      \field{note}{Verificar fecha e idNorma}
+      \field{shorttitle}{Ley N.\textsuperscript{o} 20.393}
+      \field{title}{Ley N.\textsuperscript{o} 20.393, establece la responsabilidad penal de las personas jurídicas}
+      \field{year}{2009}
+      \field{dateera}{ce}
+    \endentry
+    \entry{ley-20416}{legislation}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Diario Oficial de la República de Chile}
+      \field{note}{Verificar idNorma y fecha}
+      \field{shorttitle}{Ley N.\textsuperscript{o} 20.416}
+      \field{title}{Ley N.\textsuperscript{o} 20.416, fija normas especiales para las empresas de menor tamaño}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bcn.cl/leychile/navegar?idNorma=1010668
+      \endverb
+      \verb{url}
+      \verb https://www.bcn.cl/leychile/navegar?idNorma=1010668
+      \endverb
+    \endentry
+    \entry{ley-20720}{legislation}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{9}
+      \field{journaltitle}{Diario Oficial de la República de Chile}
+      \field{month}{1}
+      \field{note}{Verificar fecha exacta de publicación en el Diario Oficial}
+      \field{shorttitle}{Ley N.\textsuperscript{o} 20.720}
+      \field{title}{Ley N.\textsuperscript{o} 20.720, sustituye el régimen concursal vigente por una ley de reorganización y liquidación de empresas y personas, y perfecciona el rol de la Superintendencia del ramo}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bcn.cl/leychile/navegar?idNorma=1058072
+      \endverb
+      \verb{url}
+      \verb https://www.bcn.cl/leychile/navegar?idNorma=1058072
+      \endverb
+    \endentry
+    \entry{ley-21563}{legislation}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Diario Oficial de la República de Chile}
+      \field{note}{Verificar fecha de publicación y de entrada en vigencia}
+      \field{shorttitle}{Ley N.\textsuperscript{o} 21.563}
+      \field{title}{Ley N.\textsuperscript{o} 21.563, moderniza los procedimientos concursales contemplados en la Ley N.\textsuperscript{o} 20.720 y crea nuevos procedimientos para micro y pequeñas empresas}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bcn.cl/leychile/navegar?idNorma=1191960
+      \endverb
+      \verb{url}
+      \verb https://www.bcn.cl/leychile/navegar?idNorma=1191960
+      \endverb
+    \endentry
+    \entry{ley-21595}{legislation}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Diario Oficial de la República de Chile}
+      \field{note}{Verificar fecha de publicación}
+      \field{shorttitle}{Ley N.\textsuperscript{o} 21.595}
+      \field{title}{Ley N.\textsuperscript{o} 21.595, de delitos económicos y atentados contra el medio ambiente}
+      \field{year}{2023}
+      \field{dateera}{ce}
+    \endentry
+    \entry{ley-4558}{legislation}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Diario Oficial de la República de Chile}
+      \field{note}{Verificar fecha exacta de publicación}
+      \field{shorttitle}{Ley N.\textsuperscript{o} 4.558}
+      \field{title}{Ley N.\textsuperscript{o} 4.558, de quiebras}
+      \field{year}{1931}
+      \field{dateera}{ce}
+    \endentry
+    \entry{juris-mancilla-tgr}{jurisdiction}{}{}
+      \list{institution}{1}{%
+        {Corte Suprema de Chile, Tercera Sala}%
+      }
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Recurso de protección. Verificar carátula, sala y fecha}
+      \field{title}{Mancilla con Tesorería General de la República, Rol N.\textsuperscript{o} 59.567-2020}
+      \field{year}{2020}
+      \field{dateera}{ce}
+    \endentry
+    \entry{doc-diez-anos-uncitral}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e90aea1bc2a484cc691a19037716141b}{%
+           family={Morales\bibnamedelima Pimentel},
+           familyi={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e90aea1bc2a484cc691a19037716141b}
+      \strng{fullhash}{e90aea1bc2a484cc691a19037716141b}
+      \strng{fullhashraw}{e90aea1bc2a484cc691a19037716141b}
+      \strng{bibnamehash}{e90aea1bc2a484cc691a19037716141b}
+      \strng{authorbibnamehash}{e90aea1bc2a484cc691a19037716141b}
+      \strng{authornamehash}{e90aea1bc2a484cc691a19037716141b}
+      \strng{authorfullhash}{e90aea1bc2a484cc691a19037716141b}
+      \strng{authorfullhashraw}{e90aea1bc2a484cc691a19037716141b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Actualidad Jurídica}
+      \field{note}{Verificar volumen y páginas}
+      \field{title}{Diez años de la Ley Modelo de Insolvencia Transfronteriza de UNCITRAL en Chile: ¿hacia dónde vamos?}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://derecho.udd.cl/actualidad-juridica/files/2025/08/samuel-morales-pimentel.pdf
+      \endverb
+      \verb{url}
+      \verb https://derecho.udd.cl/actualidad-juridica/files/2025/08/samuel-morales-pimentel.pdf
+      \endverb
+    \endentry
+    \entry{doc-revocacion-objetiva}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d582f36557e8219741a7a1c2952ffcb6}{%
+           family={Muñoz\bibnamedelima Mora},
+           familyi={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Martín\bibnamedelima Ignacio},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d582f36557e8219741a7a1c2952ffcb6}
+      \strng{fullhash}{d582f36557e8219741a7a1c2952ffcb6}
+      \strng{fullhashraw}{d582f36557e8219741a7a1c2952ffcb6}
+      \strng{bibnamehash}{d582f36557e8219741a7a1c2952ffcb6}
+      \strng{authorbibnamehash}{d582f36557e8219741a7a1c2952ffcb6}
+      \strng{authornamehash}{d582f36557e8219741a7a1c2952ffcb6}
+      \strng{authorfullhash}{d582f36557e8219741a7a1c2952ffcb6}
+      \strng{authorfullhashraw}{d582f36557e8219741a7a1c2952ffcb6}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Actualidad Jurídica}
+      \field{note}{Verificar volumen y páginas}
+      \field{title}{Revocación objetiva en el procedimiento concursal chileno: análisis crítico de sus límites normativos y elusión mediante figuras afines}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://derecho.udd.cl/actualidad-juridica/files/2025/08/martin-ignacio-munoz-mora.pdf
+      \endverb
+      \verb{url}
+      \verb https://derecho.udd.cl/actualidad-juridica/files/2025/08/martin-ignacio-munoz-mora.pdf
+      \endverb
+    \endentry
+    \entry{doc-transfronteriza-guia}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=82813d28cca860cd96880416d9dcc560}{%
+           family={{NCR Abogados}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{82813d28cca860cd96880416d9dcc560}
+      \strng{fullhash}{82813d28cca860cd96880416d9dcc560}
+      \strng{fullhashraw}{82813d28cca860cd96880416d9dcc560}
+      \strng{bibnamehash}{82813d28cca860cd96880416d9dcc560}
+      \strng{authorbibnamehash}{82813d28cca860cd96880416d9dcc560}
+      \strng{authornamehash}{82813d28cca860cd96880416d9dcc560}
+      \strng{authorfullhash}{82813d28cca860cd96880416d9dcc560}
+      \strng{authorfullhashraw}{82813d28cca860cd96880416d9dcc560}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar fecha}
+      \field{title}{Insolvencia transfronteriza en Chile: guía legal}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://ncrabogados.cl/blog/insolvencia-transfronteriza/
+      \endverb
+      \verb{url}
+      \verb https://ncrabogados.cl/blog/insolvencia-transfronteriza/
+      \endverb
+    \endentry
+    \entry{superir-ncg17}{legadminmaterial}{}{}
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar número de resolución exenta que la aprueba, fecha y vigencia}
+      \field{title}{Norma de Carácter General N.\textsuperscript{o} 17, sobre el procedimiento de nominación de veedores y liquidadores}
+      \field{year}{2023}
+      \field{dateera}{ce}
+    \endentry
+    \entry{superir-ncg21}{legadminmaterial}{}{}
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Aprobada por Resolución Exenta N.º 6.601 de 2023}
+      \field{title}{Norma de Carácter General N.\textsuperscript{o} 21, que establece pautas para el ingreso de la solicitud de renegociación}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6601_ANO_2023_NCG_21_RENEGOCIACION.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6601_ANO_2023_NCG_21_RENEGOCIACION.pdf
+      \endverb
+    \endentry
+    \entry{superir-ncg22}{legadminmaterial}{}{}
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Aprobada por Resolución Exenta N.º 6.619 de 2023}
+      \field{title}{Norma de Carácter General N.\textsuperscript{o} 22, sobre el nuevo procedimiento concursal de liquidación simplificada}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6619_ANO_2023.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6619_ANO_2023.pdf
+      \endverb
+    \endentry
+    \entry{aj-prado-modificaciones}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3b58010937a664d5fa3f7342684cd7fc}{%
+           family={Prado\bibnamedelima Puga},
+           familyi={P\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Arturo},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Academia Judicial de Chile}%
+      }
+      \strng{namehash}{3b58010937a664d5fa3f7342684cd7fc}
+      \strng{fullhash}{3b58010937a664d5fa3f7342684cd7fc}
+      \strng{fullhashraw}{3b58010937a664d5fa3f7342684cd7fc}
+      \strng{bibnamehash}{3b58010937a664d5fa3f7342684cd7fc}
+      \strng{authorbibnamehash}{3b58010937a664d5fa3f7342684cd7fc}
+      \strng{authornamehash}{3b58010937a664d5fa3f7342684cd7fc}
+      \strng{authorfullhash}{3b58010937a664d5fa3f7342684cd7fc}
+      \strng{authorfullhashraw}{3b58010937a664d5fa3f7342684cd7fc}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{26}
+      \field{month}{3}
+      \field{note}{Verificar nombre completo del autor}
+      \field{title}{Modificaciones a la Ley N.\textsuperscript{o} 20.720: Ley N.\textsuperscript{o} 21.563}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://academiajudicial.cl/wp-content/uploads/2025/06/Prado_AJ_26.03.2025.pdf
+      \endverb
+      \verb{url}
+      \verb https://academiajudicial.cl/wp-content/uploads/2025/06/Prado_AJ_26.03.2025.pdf
+      \endverb
+    \endentry
+    \entry{doc-delitos-economicos-prieto}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=91ccb4bdb884d5ad096d5fc186d25acc}{%
+           family={{Prieto Abogados}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Prieto Abogados}%
+      }
+      \strng{namehash}{91ccb4bdb884d5ad096d5fc186d25acc}
+      \strng{fullhash}{91ccb4bdb884d5ad096d5fc186d25acc}
+      \strng{fullhashraw}{91ccb4bdb884d5ad096d5fc186d25acc}
+      \strng{bibnamehash}{91ccb4bdb884d5ad096d5fc186d25acc}
+      \strng{authorbibnamehash}{91ccb4bdb884d5ad096d5fc186d25acc}
+      \strng{authornamehash}{91ccb4bdb884d5ad096d5fc186d25acc}
+      \strng{authorfullhash}{91ccb4bdb884d5ad096d5fc186d25acc}
+      \strng{authorfullhashraw}{91ccb4bdb884d5ad096d5fc186d25acc}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ley de delitos económicos}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.prieto.cl/newsletter/2023/delitos-economicos/Ley%20de%20Delitos%20Economicos%202.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.prieto.cl/newsletter/2023/delitos-economicos/Ley%20de%20Delitos%20Economicos%202.pdf
+      \endverb
+    \endentry
+    \entry{doc-proteccion-trabajadores}{article}{}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista de Derecho (Universidad Católica de la Santísima Concepción)}
+      \field{note}{Verificar autoría, volumen y páginas}
+      \field{title}{Protección de los trabajadores frente a la insolvencia del empleador}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://revistas.ucsc.cl/index.php/revistaderecho/article/download/3031/2022/8182
+      \endverb
+      \verb{url}
+      \verb https://revistas.ucsc.cl/index.php/revistaderecho/article/download/3031/2022/8182
+      \endverb
+    \endentry
+    \entry{juris-tc-12527-2021}{jurisdiction}{}{}
+      \list{institution}{1}{%
+        {Tribunal Constitucional de Chile}%
+      }
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar fecha y resultado}
+      \field{title}{Requerimiento de inaplicabilidad por inconstitucionalidad, Rol N.\textsuperscript{o} 12.527-2021-INA}
+      \field{year}{2021}
+      \field{dateera}{ce}
+    \endentry
+    \entry{juris-tc-12539-2021}{jurisdiction}{}{}
+      \list{institution}{1}{%
+        {Tribunal Constitucional de Chile}%
+      }
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar fecha, resultado y ministros concurrentes}
+      \field{title}{Requerimiento de inaplicabilidad por inconstitucionalidad, Rol N.\textsuperscript{o} 12.539-2021-INA}
+      \field{year}{2021}
+      \field{dateera}{ce}
+    \endentry
+    \entry{superir-instructivo-incautacion}{legadminmaterial}{}{}
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Verificar el número de instructivo que aprueba y su vigencia}
+      \field{title}{Resolución Exenta N.\textsuperscript{o} 14.477, que aprueba instructivo sobre incautación, conservación y entrega de bienes}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/wp-content/uploads/2024/10/RES_NUM_14477_A_O_2024.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/wp-content/uploads/2024/10/RES_NUM_14477_A_O_2024.pdf
+      \endverb
+    \endentry
+    \entry{juris-cs-15988-2013}{jurisdiction}{}{}
+      \list{institution}{1}{%
+        {Corte Suprema de Chile}%
+      }
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar carátula, sala, fecha exacta y considerandos citados}
+      \field{title}{Sentencia Rol N.\textsuperscript{o} 15.988-2013}
+      \field{year}{2013}
+      \field{dateera}{ce}
+    \endentry
+    \entry{juris-cs-3557-2025}{jurisdiction}{}{}
+      \list{institution}{1}{%
+        {Corte Suprema de Chile, Sala Civil}%
+      }
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar carátula, fecha y voto disidente}
+      \field{title}{Sentencia Rol N.\textsuperscript{o} 3557-2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+    \endentry
+    \entry{juris-cs-47641-2024}{jurisdiction}{}{}
+      \list{institution}{1}{%
+        {Corte Suprema de Chile, Sala Civil}%
+      }
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar carátula y fecha}
+      \field{title}{Sentencia Rol N.\textsuperscript{o} 47.641-2024}
+      \field{year}{2024}
+      \field{dateera}{ce}
+    \endentry
+    \entry{superir-balance-primer-ano}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Nueva ley de insolvencia cumple un año de su implementación con un impacto significativo en las renegociaciones de deudas}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/nueva-ley-de-insolvencia-cumple-un-ano-de-su-implementacion-con-un-impacto-significativo-en-las-renegociaciones-de-deudas/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/nueva-ley-de-insolvencia-cumple-un-ano-de-su-implementacion-con-un-impacto-significativo-en-las-renegociaciones-de-deudas/
+      \endverb
+    \endentry
+    \entry{superir-faq-liquidacion-simplificada}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Preguntas frecuentes: liquidación simplificada}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/preguntas-frecuentes/preguntas-frecuentes-liquidacion-simplificada/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/preguntas-frecuentes/preguntas-frecuentes-liquidacion-simplificada/
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{aj-ley21563}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c6e4d123f96823179b783b44d36d66cf}{%
+           family={{Academia Judicial de Chile}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{fullhash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{fullhashraw}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{bibnamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorbibnamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authornamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorfullhash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorfullhashraw}{c6e4d123f96823179b783b44d36d66cf}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ley 21.563: moderniza procedimientos concursales de la Ley 20.720 y crea procedimientos para micro y pequeñas empresas}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://academiajudicial.cl/ley-21-563-moderniza-procedimientos-concursales-de-la-ley-20-720-y-crea-procedimientos-para-micro-y-pequenas-empresas/
+      \endverb
+      \verb{url}
+      \verb https://academiajudicial.cl/ley-21-563-moderniza-procedimientos-concursales-de-la-ley-20-720-y-crea-procedimientos-para-micro-y-pequenas-empresas/
+      \endverb
+    \endentry
+    \entry{aj-texto-refundido}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c6e4d123f96823179b783b44d36d66cf}{%
+           family={{Academia Judicial de Chile}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{fullhash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{fullhashraw}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{bibnamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorbibnamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authornamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorfullhash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorfullhashraw}{c6e4d123f96823179b783b44d36d66cf}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Procedimientos concursales de empresas y personas deudoras: texto refundido de la Ley N.\textsuperscript{o} 20.720 y la Ley N.\textsuperscript{o} 21.563}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://academiajudicial.cl/wp-content/uploads/2022/03/DIS-MD-20-Procedimientos-concursales-Ley-20720_web.pdf
+      \endverb
+      \verb{url}
+      \verb https://academiajudicial.cl/wp-content/uploads/2022/03/DIS-MD-20-Procedimientos-concursales-Ley-20720_web.pdf
+      \endverb
+    \endentry
+    \entry{aj-reporte-21563}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c6e4d123f96823179b783b44d36d66cf}{%
+           family={{Academia Judicial de Chile}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Academia Judicial de Chile}%
+      }
+      \strng{namehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{fullhash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{fullhashraw}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{bibnamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorbibnamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authornamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorfullhash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorfullhashraw}{c6e4d123f96823179b783b44d36d66cf}
+      \field{extraname}{3}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Reporte de actualización normativa: Ley N.\textsuperscript{o} 21.563}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://academiajudicial.cl/wp-content/uploads/2023/07/Reporte-Ley-21.563.pdf
+      \endverb
+      \verb{url}
+      \verb https://academiajudicial.cl/wp-content/uploads/2023/07/Reporte-Ley-21.563.pdf
+      \endverb
+    \endentry
+    \entry{aj-delitos-economicos}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c6e4d123f96823179b783b44d36d66cf}{%
+           family={{Academia Judicial de Chile}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Academia Judicial de Chile}%
+      }
+      \strng{namehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{fullhash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{fullhashraw}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{bibnamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorbibnamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authornamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorfullhash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorfullhashraw}{c6e4d123f96823179b783b44d36d66cf}
+      \field{extraname}{4}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Delitos económicos y su regulación en la Ley N.\textsuperscript{o} 21.595}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://academiajudicial.cl/wp-content/uploads/2025/08/Delitos_economicos.pdf
+      \endverb
+      \verb{url}
+      \verb https://academiajudicial.cl/wp-content/uploads/2025/08/Delitos_economicos.pdf
+      \endverb
+    \endentry
+    \entry{aj-ley20720-evolucion}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c6e4d123f96823179b783b44d36d66cf}{%
+           family={{Academia Judicial de Chile}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{fullhash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{fullhashraw}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{bibnamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorbibnamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authornamehash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorfullhash}{c6e4d123f96823179b783b44d36d66cf}
+      \strng{authorfullhashraw}{c6e4d123f96823179b783b44d36d66cf}
+      \field{extraname}{5}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ley N.\textsuperscript{o} 20.720: modificaciones fusionadas con su evolución}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://academiajudicial.cl/wp-content/uploads/2025/06/Ley-20.720-modificaciones-fusionadas-Academia-Judicial-con-su-evolucion.pdf
+      \endverb
+      \verb{url}
+      \verb https://academiajudicial.cl/wp-content/uploads/2025/06/Ley-20.720-modificaciones-fusionadas-Academia-Judicial-con-su-evolucion.pdf
+      \endverb
+    \endentry
+    \entry{doc-plazos-revocatorias}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a1b902134f2b52ecb25570d6836d6a29}{%
+           family={{Águila y Compañía Abogados}},
+           familyi={Á\bibinitperiod}}}%
+      }
+      \strng{namehash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{fullhash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{fullhashraw}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{bibnamehash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{authorbibnamehash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{authornamehash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{authorfullhash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{authorfullhashraw}{a1b902134f2b52ecb25570d6836d6a29}
+      \field{extraname}{1}
+      \field{sortinit}{Á}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar autoría individual y fecha}
+      \field{title}{Régimen de plazos para la interposición de las acciones de revocabilidad en la Ley N.\textsuperscript{o} 20.720}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.aguilaycia.cl/post/r%C3%A9gimen-de-plazos-para-la-interposici%C3%B3n-de-las-acciones-de-revocabilidad-en-la-ley-n-20-720
+      \endverb
+      \verb{url}
+      \verb https://www.aguilaycia.cl/post/r%C3%A9gimen-de-plazos-para-la-interposici%C3%B3n-de-las-acciones-de-revocabilidad-en-la-ley-n-20-720
+      \endverb
+    \endentry
+    \entry{doc-resoluciones-apelables}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a1b902134f2b52ecb25570d6836d6a29}{%
+           family={{Águila y Compañía Abogados}},
+           familyi={Á\bibinitperiod}}}%
+      }
+      \strng{namehash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{fullhash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{fullhashraw}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{bibnamehash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{authorbibnamehash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{authornamehash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{authorfullhash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{authorfullhashraw}{a1b902134f2b52ecb25570d6836d6a29}
+      \field{extraname}{2}
+      \field{sortinit}{Á}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar autoría individual y fecha}
+      \field{title}{Resoluciones apelables en la Ley N.\textsuperscript{o} 20.720 de insolvencia y reemprendimiento}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.aguilaycia.cl/post/resoluciones-apelables-en-la-ley-n-20-720-de-insolvencia-y-reemprendimiento
+      \endverb
+      \verb{url}
+      \verb https://www.aguilaycia.cl/post/resoluciones-apelables-en-la-ley-n-20-720-de-insolvencia-y-reemprendimiento
+      \endverb
+    \endentry
+    \entry{doc-cae-jurisprudencia}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a1b902134f2b52ecb25570d6836d6a29}{%
+           family={{Águila y Compañía Abogados}},
+           familyi={Á\bibinitperiod}}}%
+      }
+      \strng{namehash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{fullhash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{fullhashraw}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{bibnamehash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{authorbibnamehash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{authornamehash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{authorfullhash}{a1b902134f2b52ecb25570d6836d6a29}
+      \strng{authorfullhashraw}{a1b902134f2b52ecb25570d6836d6a29}
+      \field{extraname}{3}
+      \field{sortinit}{Á}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar autoría individual y fecha}
+      \field{title}{El Crédito con Aval del Estado (CAE) y su exclusión del procedimiento concursal de liquidación voluntaria: jurisprudencia 2017--2025}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.aguilaycia.cl/post/el-cr%C3%A9dito-con-aval-del-estado-cae-y-su-exclusi%C3%B3n-del-procedimiento-concursal-de-liquidaci%C3%B3n-volun
+      \endverb
+      \verb{url}
+      \verb https://www.aguilaycia.cl/post/el-cr%C3%A9dito-con-aval-del-estado-cae-y-su-exclusi%C3%B3n-del-procedimiento-concursal-de-liquidaci%C3%B3n-volun
+      \endverb
+    \endentry
+    \entry{doc-empresa-persona-deudora}{article}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista de Derecho y Ciencias Sociales}
+      \field{note}{Verificar autoría, volumen, número, páginas y año}
+      \field{title}{Aproximación crítica a los conceptos de empresa y persona deudora de la Ley N.\textsuperscript{o} 20.720}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://rduss.cl/index.php/ojs/article/download/32/31/35
+      \endverb
+      \verb{url}
+      \verb https://rduss.cl/index.php/ojs/article/download/32/31/35
+      \endverb
+    \endentry
+    \entry{doc-reconocimiento-extranjero}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=859ebdade1d1e3db8da47c136554b5b9}{%
+           family={Barceló\bibnamedelima López},
+           familyi={B\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Gonzalo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{859ebdade1d1e3db8da47c136554b5b9}
+      \strng{fullhash}{859ebdade1d1e3db8da47c136554b5b9}
+      \strng{fullhashraw}{859ebdade1d1e3db8da47c136554b5b9}
+      \strng{bibnamehash}{859ebdade1d1e3db8da47c136554b5b9}
+      \strng{authorbibnamehash}{859ebdade1d1e3db8da47c136554b5b9}
+      \strng{authornamehash}{859ebdade1d1e3db8da47c136554b5b9}
+      \strng{authorfullhash}{859ebdade1d1e3db8da47c136554b5b9}
+      \strng{authorfullhashraw}{859ebdade1d1e3db8da47c136554b5b9}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Actualidad Jurídica}
+      \field{note}{Verificar volumen y páginas}
+      \field{title}{El reconocimiento del procedimiento concursal extranjero en la práctica chilena actual}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://derecho.udd.cl/actualidad-juridica/files/2025/08/gonzalo-barcelo-lopez.pdf
+      \endverb
+      \verb{url}
+      \verb https://derecho.udd.cl/actualidad-juridica/files/2025/08/gonzalo-barcelo-lopez.pdf
+      \endverb
+    \endentry
+    \entry{doc-cae-castro}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=06644e38afc74f6cd39f8224bc6af0f4}{%
+           family={Castro\bibnamedelima A.},
+           familyi={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Felipe\bibnamedelima J.},
+           giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{06644e38afc74f6cd39f8224bc6af0f4}
+      \strng{fullhash}{06644e38afc74f6cd39f8224bc6af0f4}
+      \strng{fullhashraw}{06644e38afc74f6cd39f8224bc6af0f4}
+      \strng{bibnamehash}{06644e38afc74f6cd39f8224bc6af0f4}
+      \strng{authorbibnamehash}{06644e38afc74f6cd39f8224bc6af0f4}
+      \strng{authornamehash}{06644e38afc74f6cd39f8224bc6af0f4}
+      \strng{authorfullhash}{06644e38afc74f6cd39f8224bc6af0f4}
+      \strng{authorfullhashraw}{06644e38afc74f6cd39f8224bc6af0f4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{14}
+      \field{month}{6}
+      \field{title}{El CAE en sede concursal: entre la ley y la jurisprudencia}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://felipecastro.blog/2026/06/14/el-cae-en-sede-concursal-entre-la-ley-y-la-jurisprudencia/
+      \endverb
+      \verb{url}
+      \verb https://felipecastro.blog/2026/06/14/el-cae-en-sede-concursal-entre-la-ley-y-la-jurisprudencia/
+      \endverb
+    \endentry
+    \entry{codigo-civil}{legislation}{}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Diario Oficial de la República de Chile}
+      \field{shorttitle}{Código Civil}
+      \field{title}{Código Civil de la República de Chile}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{1855}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bcn.cl/leychile/navegar?idNorma=172986
+      \endverb
+      \verb{url}
+      \verb https://www.bcn.cl/leychile/navegar?idNorma=172986
+      \endverb
+    \endentry
+    \entry{codigo-comercio}{legislation}{}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Diario Oficial de la República de Chile}
+      \field{note}{Verificar fecha de promulgación y vigencia}
+      \field{shorttitle}{Código de Comercio}
+      \field{title}{Código de Comercio de la República de Chile}
+      \field{year}{1865}
+      \field{dateera}{ce}
+    \endentry
+    \entry{codigo-trabajo}{legislation}{}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Diario Oficial de la República de Chile}
+      \field{note}{DFL N.º 1 de 2002, Ministerio del Trabajo. Verificar}
+      \field{shorttitle}{Código del Trabajo}
+      \field{title}{Código del Trabajo}
+      \field{year}{2003}
+      \field{dateera}{ce}
+    \endentry
+    \entry{doc-mala-fe-penal}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62455fcec5b9d522a433a9596c90874e}{%
+           family={{Diario Constitucional}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{62455fcec5b9d522a433a9596c90874e}
+      \strng{fullhash}{62455fcec5b9d522a433a9596c90874e}
+      \strng{fullhashraw}{62455fcec5b9d522a433a9596c90874e}
+      \strng{bibnamehash}{62455fcec5b9d522a433a9596c90874e}
+      \strng{authorbibnamehash}{62455fcec5b9d522a433a9596c90874e}
+      \strng{authornamehash}{62455fcec5b9d522a433a9596c90874e}
+      \strng{authorfullhash}{62455fcec5b9d522a433a9596c90874e}
+      \strng{authorfullhashraw}{62455fcec5b9d522a433a9596c90874e}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar autoría individual y fecha}
+      \field{title}{El incidente de mala fe del deudor concursal: posibles efectos prácticos en el proceso penal del nuevo artículo 169 A de la Ley N.\textsuperscript{o} 20.720}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.diarioconstitucional.cl/articulos/el-incidente-de-mala-fe-del-deudor-concursal-posibles-efectos-practicos-en-el-proceso-penal-del-nuevo-art-169-a-de-la-ley-20-720/
+      \endverb
+      \verb{url}
+      \verb https://www.diarioconstitucional.cl/articulos/el-incidente-de-mala-fe-del-deudor-concursal-posibles-efectos-practicos-en-el-proceso-penal-del-nuevo-art-169-a-de-la-ley-20-720/
+      \endverb
+    \endentry
+    \entry{prensa-df-brechas-mypes}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7bd2489ba5e897698cdb325ab59bc4d9}{%
+           family={{Diario Financiero}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{7bd2489ba5e897698cdb325ab59bc4d9}
+      \strng{fullhash}{7bd2489ba5e897698cdb325ab59bc4d9}
+      \strng{fullhashraw}{7bd2489ba5e897698cdb325ab59bc4d9}
+      \strng{bibnamehash}{7bd2489ba5e897698cdb325ab59bc4d9}
+      \strng{authorbibnamehash}{7bd2489ba5e897698cdb325ab59bc4d9}
+      \strng{authornamehash}{7bd2489ba5e897698cdb325ab59bc4d9}
+      \strng{authorfullhash}{7bd2489ba5e897698cdb325ab59bc4d9}
+      \strng{authorfullhashraw}{7bd2489ba5e897698cdb325ab59bc4d9}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{22}
+      \field{month}{10}
+      \field{title}{Ley 21.563: las brechas que aún limitan su rol en la continuidad de las MYPES}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.df.cl/noticias/site/docs/20251022/20251022210601/suplemento_202501023_b.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.df.cl/noticias/site/docs/20251022/20251022210601/suplemento_202501023_b.pdf
+      \endverb
+    \endentry
+    \entry{doc-nuevos-aires}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b9b54c3fb62c04aea0585a2f18b647ff}{%
+           family={{Dictum Abogados}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{b9b54c3fb62c04aea0585a2f18b647ff}
+      \strng{fullhash}{b9b54c3fb62c04aea0585a2f18b647ff}
+      \strng{fullhashraw}{b9b54c3fb62c04aea0585a2f18b647ff}
+      \strng{bibnamehash}{b9b54c3fb62c04aea0585a2f18b647ff}
+      \strng{authorbibnamehash}{b9b54c3fb62c04aea0585a2f18b647ff}
+      \strng{authornamehash}{b9b54c3fb62c04aea0585a2f18b647ff}
+      \strng{authorfullhash}{b9b54c3fb62c04aea0585a2f18b647ff}
+      \strng{authorfullhashraw}{b9b54c3fb62c04aea0585a2f18b647ff}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar autoría y fecha}
+      \field{title}{Nuevos aires para el derecho concursal chileno}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dictumabogados.com/actualidad-profesional/nuevos-aires-para-el-derecho-concursal-chileno/30987/
+      \endverb
+      \verb{url}
+      \verb https://dictumabogados.com/actualidad-profesional/nuevos-aires-para-el-derecho-concursal-chileno/30987/
+      \endverb
+    \endentry
+    \entry{doc-mala-fe-uv}{article}{}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista de Ciencias Sociales}
+      \field{note}{Verificar autoría, volumen, número y páginas}
+      \field{title}{El incidente de mala fe del deudor: ¿un cambio de tuerca en la legislación concursal chilena?}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://revistas.uv.cl/index.php/rcs/article/view/4820
+      \endverb
+      \verb{url}
+      \verb https://revistas.uv.cl/index.php/rcs/article/view/4820
+      \endverb
+    \endentry
+    \entry{doc-discharge-modelo}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=810df3060d7a73a8798c8e8f9b90eaf0}{%
+           family={{Estado Diario}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{fullhash}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{fullhashraw}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{bibnamehash}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{authorbibnamehash}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{authornamehash}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{authorfullhash}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{authorfullhashraw}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \field{extraname}{1}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar autoría individual y fecha de publicación}
+      \field{title}{Hacia un nuevo modelo de \emph{discharge} en la Ley de Insolvencia y Reemprendimiento}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://estadodiario.com/columnas/hacia-un-nuevo-modelo-de-discharge-en-la-ley-de-insolvencia-y-reemprendimiento/
+      \endverb
+      \verb{url}
+      \verb https://estadodiario.com/columnas/hacia-un-nuevo-modelo-de-discharge-en-la-ley-de-insolvencia-y-reemprendimiento/
+      \endverb
+    \endentry
+    \entry{doc-limites-mala-fe}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=810df3060d7a73a8798c8e8f9b90eaf0}{%
+           family={{Estado Diario}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{fullhash}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{fullhashraw}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{bibnamehash}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{authorbibnamehash}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{authornamehash}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{authorfullhash}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \strng{authorfullhashraw}{810df3060d7a73a8798c8e8f9b90eaf0}
+      \field{extraname}{2}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar autoría individual y fecha}
+      \field{title}{Límites al incidente de mala fe del artículo 169 A de la Ley N.\textsuperscript{o} 20.720. Primera parte}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://estadodiario.com/columnas/limites-al-incidente-de-mala-fe-del-articulo-169-a-de-la-ley-20-720-primera-parte/
+      \endverb
+      \verb{url}
+      \verb https://estadodiario.com/columnas/limites-al-incidente-de-mala-fe-del-articulo-169-a-de-la-ley-20-720-primera-parte/
+      \endverb
+    \endentry
+    \entry{doc-delitos-economicos-garrigues}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d5487c6d2b11e972c43e59b6f98a6de0}{%
+           family={{Garrigues}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{d5487c6d2b11e972c43e59b6f98a6de0}
+      \strng{fullhash}{d5487c6d2b11e972c43e59b6f98a6de0}
+      \strng{fullhashraw}{d5487c6d2b11e972c43e59b6f98a6de0}
+      \strng{bibnamehash}{d5487c6d2b11e972c43e59b6f98a6de0}
+      \strng{authorbibnamehash}{d5487c6d2b11e972c43e59b6f98a6de0}
+      \strng{authornamehash}{d5487c6d2b11e972c43e59b6f98a6de0}
+      \strng{authorfullhash}{d5487c6d2b11e972c43e59b6f98a6de0}
+      \strng{authorfullhashraw}{d5487c6d2b11e972c43e59b6f98a6de0}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Chile: nuevos delitos contenidos en la Ley de Delitos Económicos}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.garrigues.com/es_ES/noticia/chile-nuevos-delitos-contenidos-ley-delitos-economicos
+      \endverb
+      \verb{url}
+      \verb https://www.garrigues.com/es_ES/noticia/chile-nuevos-delitos-contenidos-ley-delitos-economicos
+      \endverb
+    \endentry
+    \entry{superir-instructivo-finiquitos}{legadminmaterial}{}{}
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{note}{Verificar número de instructivo, resolución aprobatoria y fecha}
+      \field{title}{Instructivo sobre emisión de finiquitos laborales electrónicos en procedimientos concursales}
+      \field{year}{2024}
+      \field{dateera}{ce}
+    \endentry
+    \entry{juris-jamarne-salazar}{jurisdiction}{}{}
+      \list{institution}{1}{%
+        {Corte Suprema de Chile, Sala Civil}%
+      }
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar carátula, sala y fecha}
+      \field{title}{Jamarne con Salazar, Rol N.\textsuperscript{o} 4656-2017}
+      \field{year}{2017}
+      \field{dateera}{ce}
+    \endentry
+    \entry{doc-acciones-revocatorias}{book}{}{}
+      \list{location}{1}{%
+        {Santiago}%
+      }
+      \list{publisher}{1}{%
+        {Libromar}%
+      }
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar autoría y año de edición}
+      \field{title}{Las acciones revocatorias concursales}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://libromar.cl/derecho-concursal/5775-las-acciones-revocatorias-concursales.html
+      \endverb
+      \verb{url}
+      \verb https://libromar.cl/derecho-concursal/5775-las-acciones-revocatorias-concursales.html
+      \endverb
+    \endentry
+    \entry{prensa-exante-lavin}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=03b4a2c333c7f130a3ae9e54acadc5e2}{%
+           family={Lavín\bibnamedelima González},
+           familyi={L\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Álvaro},
+           giveni={Á\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Ex-Ante}%
+      }
+      \strng{namehash}{03b4a2c333c7f130a3ae9e54acadc5e2}
+      \strng{fullhash}{03b4a2c333c7f130a3ae9e54acadc5e2}
+      \strng{fullhashraw}{03b4a2c333c7f130a3ae9e54acadc5e2}
+      \strng{bibnamehash}{03b4a2c333c7f130a3ae9e54acadc5e2}
+      \strng{authorbibnamehash}{03b4a2c333c7f130a3ae9e54acadc5e2}
+      \strng{authornamehash}{03b4a2c333c7f130a3ae9e54acadc5e2}
+      \strng{authorfullhash}{03b4a2c333c7f130a3ae9e54acadc5e2}
+      \strng{authorfullhashraw}{03b4a2c333c7f130a3ae9e54acadc5e2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar fecha de publicación}
+      \field{title}{Modificación a sistema concursal y pymes}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ex-ante.cl/modificacion-a-sistema-concursal-y-pymes-por-alvaro-lavin-gonzalez/
+      \endverb
+      \verb{url}
+      \verb https://www.ex-ante.cl/modificacion-a-sistema-concursal-y-pymes-por-alvaro-lavin-gonzalez/
+      \endverb
+    \endentry
+    \entry{ley-modelo-uncitral}{legislation}{}{}
+      \list{institution}{1}{%
+        {Comisión de las Naciones Unidas para el Derecho Mercantil Internacional}%
+      }
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{Ley Modelo UNCITRAL}
+      \field{title}{Ley Modelo de la CNUDMI sobre la Insolvencia Transfronteriza}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{1997}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://uncitral.un.org/es/texts/insolvency/modellaw/cross-border_insolvency
+      \endverb
+      \verb{url}
+      \verb https://uncitral.un.org/es/texts/insolvency/modellaw/cross-border_insolvency
+      \endverb
+    \endentry
+    \entry{ley-18175}{legislation}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Diario Oficial de la República de Chile}
+      \field{note}{Derogada por la Ley N.º 20.720. Verificar fecha e historia normativa}
+      \field{shorttitle}{Ley N.\textsuperscript{o} 18.175}
+      \field{title}{Ley N.\textsuperscript{o} 18.175, de quiebras}
+      \field{year}{1982}
+      \field{dateera}{ce}
+    \endentry
+    \entry{ley-19287}{legislation}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Diario Oficial de la República de Chile}
+      \field{note}{Verificar fecha e idNorma}
+      \field{shorttitle}{Ley N.\textsuperscript{o} 19.287}
+      \field{title}{Ley N.\textsuperscript{o} 19.287, modifica la Ley N.\textsuperscript{o} 18.591 y establece normas sobre fondos solidarios de crédito universitario}
+      \field{year}{1994}
+      \field{dateera}{ce}
+    \endentry
+    \entry{ley-20027}{legislation}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Diario Oficial de la República de Chile}
+      \field{note}{Verificar fecha e idNorma}
+      \field{shorttitle}{Ley N.\textsuperscript{o} 20.027}
+      \field{title}{Ley N.\textsuperscript{o} 20.027, establece normas para el financiamiento de estudios de educación superior}
+      \field{year}{2005}
+      \field{dateera}{ce}
+    \endentry
+    \entry{ley-20393}{legislation}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Diario Oficial de la República de Chile}
+      \field{note}{Verificar fecha e idNorma}
+      \field{shorttitle}{Ley N.\textsuperscript{o} 20.393}
+      \field{title}{Ley N.\textsuperscript{o} 20.393, establece la responsabilidad penal de las personas jurídicas}
+      \field{year}{2009}
+      \field{dateera}{ce}
+    \endentry
+    \entry{ley-20416}{legislation}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Diario Oficial de la República de Chile}
+      \field{note}{Verificar idNorma y fecha}
+      \field{shorttitle}{Ley N.\textsuperscript{o} 20.416}
+      \field{title}{Ley N.\textsuperscript{o} 20.416, fija normas especiales para las empresas de menor tamaño}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bcn.cl/leychile/navegar?idNorma=1010668
+      \endverb
+      \verb{url}
+      \verb https://www.bcn.cl/leychile/navegar?idNorma=1010668
+      \endverb
+    \endentry
+    \entry{ley-20720}{legislation}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{9}
+      \field{journaltitle}{Diario Oficial de la República de Chile}
+      \field{month}{1}
+      \field{note}{Verificar fecha exacta de publicación en el Diario Oficial}
+      \field{shorttitle}{Ley N.\textsuperscript{o} 20.720}
+      \field{title}{Ley N.\textsuperscript{o} 20.720, sustituye el régimen concursal vigente por una ley de reorganización y liquidación de empresas y personas, y perfecciona el rol de la Superintendencia del ramo}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bcn.cl/leychile/navegar?idNorma=1058072
+      \endverb
+      \verb{url}
+      \verb https://www.bcn.cl/leychile/navegar?idNorma=1058072
+      \endverb
+    \endentry
+    \entry{ley-21563}{legislation}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Diario Oficial de la República de Chile}
+      \field{note}{Verificar fecha de publicación y de entrada en vigencia}
+      \field{shorttitle}{Ley N.\textsuperscript{o} 21.563}
+      \field{title}{Ley N.\textsuperscript{o} 21.563, moderniza los procedimientos concursales contemplados en la Ley N.\textsuperscript{o} 20.720 y crea nuevos procedimientos para micro y pequeñas empresas}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bcn.cl/leychile/navegar?idNorma=1191960
+      \endverb
+      \verb{url}
+      \verb https://www.bcn.cl/leychile/navegar?idNorma=1191960
+      \endverb
+    \endentry
+    \entry{ley-21595}{legislation}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Diario Oficial de la República de Chile}
+      \field{note}{Verificar fecha de publicación}
+      \field{shorttitle}{Ley N.\textsuperscript{o} 21.595}
+      \field{title}{Ley N.\textsuperscript{o} 21.595, de delitos económicos y atentados contra el medio ambiente}
+      \field{year}{2023}
+      \field{dateera}{ce}
+    \endentry
+    \entry{ley-4558}{legislation}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Diario Oficial de la República de Chile}
+      \field{note}{Verificar fecha exacta de publicación}
+      \field{shorttitle}{Ley N.\textsuperscript{o} 4.558}
+      \field{title}{Ley N.\textsuperscript{o} 4.558, de quiebras}
+      \field{year}{1931}
+      \field{dateera}{ce}
+    \endentry
+    \entry{juris-mancilla-tgr}{jurisdiction}{}{}
+      \list{institution}{1}{%
+        {Corte Suprema de Chile, Tercera Sala}%
+      }
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Recurso de protección. Verificar carátula, sala y fecha}
+      \field{title}{Mancilla con Tesorería General de la República, Rol N.\textsuperscript{o} 59.567-2020}
+      \field{year}{2020}
+      \field{dateera}{ce}
+    \endentry
+    \entry{doc-diez-anos-uncitral}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e90aea1bc2a484cc691a19037716141b}{%
+           family={Morales\bibnamedelima Pimentel},
+           familyi={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e90aea1bc2a484cc691a19037716141b}
+      \strng{fullhash}{e90aea1bc2a484cc691a19037716141b}
+      \strng{fullhashraw}{e90aea1bc2a484cc691a19037716141b}
+      \strng{bibnamehash}{e90aea1bc2a484cc691a19037716141b}
+      \strng{authorbibnamehash}{e90aea1bc2a484cc691a19037716141b}
+      \strng{authornamehash}{e90aea1bc2a484cc691a19037716141b}
+      \strng{authorfullhash}{e90aea1bc2a484cc691a19037716141b}
+      \strng{authorfullhashraw}{e90aea1bc2a484cc691a19037716141b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Actualidad Jurídica}
+      \field{note}{Verificar volumen y páginas}
+      \field{title}{Diez años de la Ley Modelo de Insolvencia Transfronteriza de UNCITRAL en Chile: ¿hacia dónde vamos?}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://derecho.udd.cl/actualidad-juridica/files/2025/08/samuel-morales-pimentel.pdf
+      \endverb
+      \verb{url}
+      \verb https://derecho.udd.cl/actualidad-juridica/files/2025/08/samuel-morales-pimentel.pdf
+      \endverb
+    \endentry
+    \entry{doc-revocacion-objetiva}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d582f36557e8219741a7a1c2952ffcb6}{%
+           family={Muñoz\bibnamedelima Mora},
+           familyi={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Martín\bibnamedelima Ignacio},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d582f36557e8219741a7a1c2952ffcb6}
+      \strng{fullhash}{d582f36557e8219741a7a1c2952ffcb6}
+      \strng{fullhashraw}{d582f36557e8219741a7a1c2952ffcb6}
+      \strng{bibnamehash}{d582f36557e8219741a7a1c2952ffcb6}
+      \strng{authorbibnamehash}{d582f36557e8219741a7a1c2952ffcb6}
+      \strng{authornamehash}{d582f36557e8219741a7a1c2952ffcb6}
+      \strng{authorfullhash}{d582f36557e8219741a7a1c2952ffcb6}
+      \strng{authorfullhashraw}{d582f36557e8219741a7a1c2952ffcb6}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Actualidad Jurídica}
+      \field{note}{Verificar volumen y páginas}
+      \field{title}{Revocación objetiva en el procedimiento concursal chileno: análisis crítico de sus límites normativos y elusión mediante figuras afines}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://derecho.udd.cl/actualidad-juridica/files/2025/08/martin-ignacio-munoz-mora.pdf
+      \endverb
+      \verb{url}
+      \verb https://derecho.udd.cl/actualidad-juridica/files/2025/08/martin-ignacio-munoz-mora.pdf
+      \endverb
+    \endentry
+    \entry{doc-transfronteriza-guia}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=82813d28cca860cd96880416d9dcc560}{%
+           family={{NCR Abogados}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{82813d28cca860cd96880416d9dcc560}
+      \strng{fullhash}{82813d28cca860cd96880416d9dcc560}
+      \strng{fullhashraw}{82813d28cca860cd96880416d9dcc560}
+      \strng{bibnamehash}{82813d28cca860cd96880416d9dcc560}
+      \strng{authorbibnamehash}{82813d28cca860cd96880416d9dcc560}
+      \strng{authornamehash}{82813d28cca860cd96880416d9dcc560}
+      \strng{authorfullhash}{82813d28cca860cd96880416d9dcc560}
+      \strng{authorfullhashraw}{82813d28cca860cd96880416d9dcc560}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar fecha}
+      \field{title}{Insolvencia transfronteriza en Chile: guía legal}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://ncrabogados.cl/blog/insolvencia-transfronteriza/
+      \endverb
+      \verb{url}
+      \verb https://ncrabogados.cl/blog/insolvencia-transfronteriza/
+      \endverb
+    \endentry
+    \entry{superir-ncg17}{legadminmaterial}{}{}
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar número de resolución exenta que la aprueba, fecha y vigencia}
+      \field{title}{Norma de Carácter General N.\textsuperscript{o} 17, sobre el procedimiento de nominación de veedores y liquidadores}
+      \field{year}{2023}
+      \field{dateera}{ce}
+    \endentry
+    \entry{superir-ncg21}{legadminmaterial}{}{}
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Aprobada por Resolución Exenta N.º 6.601 de 2023}
+      \field{title}{Norma de Carácter General N.\textsuperscript{o} 21, que establece pautas para el ingreso de la solicitud de renegociación}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6601_ANO_2023_NCG_21_RENEGOCIACION.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6601_ANO_2023_NCG_21_RENEGOCIACION.pdf
+      \endverb
+    \endentry
+    \entry{superir-ncg22}{legadminmaterial}{}{}
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Aprobada por Resolución Exenta N.º 6.619 de 2023}
+      \field{title}{Norma de Carácter General N.\textsuperscript{o} 22, sobre el nuevo procedimiento concursal de liquidación simplificada}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6619_ANO_2023.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6619_ANO_2023.pdf
+      \endverb
+    \endentry
+    \entry{aj-prado-modificaciones}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3b58010937a664d5fa3f7342684cd7fc}{%
+           family={Prado\bibnamedelima Puga},
+           familyi={P\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Arturo},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Academia Judicial de Chile}%
+      }
+      \strng{namehash}{3b58010937a664d5fa3f7342684cd7fc}
+      \strng{fullhash}{3b58010937a664d5fa3f7342684cd7fc}
+      \strng{fullhashraw}{3b58010937a664d5fa3f7342684cd7fc}
+      \strng{bibnamehash}{3b58010937a664d5fa3f7342684cd7fc}
+      \strng{authorbibnamehash}{3b58010937a664d5fa3f7342684cd7fc}
+      \strng{authornamehash}{3b58010937a664d5fa3f7342684cd7fc}
+      \strng{authorfullhash}{3b58010937a664d5fa3f7342684cd7fc}
+      \strng{authorfullhashraw}{3b58010937a664d5fa3f7342684cd7fc}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{26}
+      \field{month}{3}
+      \field{note}{Verificar nombre completo del autor}
+      \field{title}{Modificaciones a la Ley N.\textsuperscript{o} 20.720: Ley N.\textsuperscript{o} 21.563}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://academiajudicial.cl/wp-content/uploads/2025/06/Prado_AJ_26.03.2025.pdf
+      \endverb
+      \verb{url}
+      \verb https://academiajudicial.cl/wp-content/uploads/2025/06/Prado_AJ_26.03.2025.pdf
+      \endverb
+    \endentry
+    \entry{doc-delitos-economicos-prieto}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=91ccb4bdb884d5ad096d5fc186d25acc}{%
+           family={{Prieto Abogados}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Prieto Abogados}%
+      }
+      \strng{namehash}{91ccb4bdb884d5ad096d5fc186d25acc}
+      \strng{fullhash}{91ccb4bdb884d5ad096d5fc186d25acc}
+      \strng{fullhashraw}{91ccb4bdb884d5ad096d5fc186d25acc}
+      \strng{bibnamehash}{91ccb4bdb884d5ad096d5fc186d25acc}
+      \strng{authorbibnamehash}{91ccb4bdb884d5ad096d5fc186d25acc}
+      \strng{authornamehash}{91ccb4bdb884d5ad096d5fc186d25acc}
+      \strng{authorfullhash}{91ccb4bdb884d5ad096d5fc186d25acc}
+      \strng{authorfullhashraw}{91ccb4bdb884d5ad096d5fc186d25acc}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ley de delitos económicos}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.prieto.cl/newsletter/2023/delitos-economicos/Ley%20de%20Delitos%20Economicos%202.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.prieto.cl/newsletter/2023/delitos-economicos/Ley%20de%20Delitos%20Economicos%202.pdf
+      \endverb
+    \endentry
+    \entry{doc-proteccion-trabajadores}{article}{}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista de Derecho (Universidad Católica de la Santísima Concepción)}
+      \field{note}{Verificar autoría, volumen y páginas}
+      \field{title}{Protección de los trabajadores frente a la insolvencia del empleador}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://revistas.ucsc.cl/index.php/revistaderecho/article/download/3031/2022/8182
+      \endverb
+      \verb{url}
+      \verb https://revistas.ucsc.cl/index.php/revistaderecho/article/download/3031/2022/8182
+      \endverb
+    \endentry
+    \entry{juris-tc-12527-2021}{jurisdiction}{}{}
+      \list{institution}{1}{%
+        {Tribunal Constitucional de Chile}%
+      }
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar fecha y resultado}
+      \field{title}{Requerimiento de inaplicabilidad por inconstitucionalidad, Rol N.\textsuperscript{o} 12.527-2021-INA}
+      \field{year}{2021}
+      \field{dateera}{ce}
+    \endentry
+    \entry{juris-tc-12539-2021}{jurisdiction}{}{}
+      \list{institution}{1}{%
+        {Tribunal Constitucional de Chile}%
+      }
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar fecha, resultado y ministros concurrentes}
+      \field{title}{Requerimiento de inaplicabilidad por inconstitucionalidad, Rol N.\textsuperscript{o} 12.539-2021-INA}
+      \field{year}{2021}
+      \field{dateera}{ce}
+    \endentry
+    \entry{superir-instructivo-incautacion}{legadminmaterial}{}{}
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Verificar el número de instructivo que aprueba y su vigencia}
+      \field{title}{Resolución Exenta N.\textsuperscript{o} 14.477, que aprueba instructivo sobre incautación, conservación y entrega de bienes}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/wp-content/uploads/2024/10/RES_NUM_14477_A_O_2024.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/wp-content/uploads/2024/10/RES_NUM_14477_A_O_2024.pdf
+      \endverb
+    \endentry
+    \entry{juris-cs-15988-2013}{jurisdiction}{}{}
+      \list{institution}{1}{%
+        {Corte Suprema de Chile}%
+      }
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar carátula, sala, fecha exacta y considerandos citados}
+      \field{title}{Sentencia Rol N.\textsuperscript{o} 15.988-2013}
+      \field{year}{2013}
+      \field{dateera}{ce}
+    \endentry
+    \entry{juris-cs-3557-2025}{jurisdiction}{}{}
+      \list{institution}{1}{%
+        {Corte Suprema de Chile, Sala Civil}%
+      }
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar carátula, fecha y voto disidente}
+      \field{title}{Sentencia Rol N.\textsuperscript{o} 3557-2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+    \endentry
+    \entry{juris-cs-47641-2024}{jurisdiction}{}{}
+      \list{institution}{1}{%
+        {Corte Suprema de Chile, Sala Civil}%
+      }
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Verificar carátula y fecha}
+      \field{title}{Sentencia Rol N.\textsuperscript{o} 47.641-2024}
+      \field{year}{2024}
+      \field{dateera}{ce}
+    \endentry
+    \entry{superir-balance-primer-ano}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Nueva ley de insolvencia cumple un año de su implementación con un impacto significativo en las renegociaciones de deudas}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/nueva-ley-de-insolvencia-cumple-un-ano-de-su-implementacion-con-un-impacto-significativo-en-las-renegociaciones-de-deudas/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/nueva-ley-de-insolvencia-cumple-un-ano-de-su-implementacion-con-un-impacto-significativo-en-las-renegociaciones-de-deudas/
+      \endverb
+    \endentry
+    \entry{superir-faq-liquidacion-simplificada}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Preguntas frecuentes: liquidación simplificada}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/preguntas-frecuentes/preguntas-frecuentes-liquidacion-simplificada/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/preguntas-frecuentes/preguntas-frecuentes-liquidacion-simplificada/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
