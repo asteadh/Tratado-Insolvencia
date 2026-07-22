@@ -23,16 +23,16 @@ palabras:
 	@if command -v texcount >/dev/null 2>&1; then \
 		texcount -inc -total -sum $(MAIN).tex; \
 	else \
-		echo "texcount no está instalado: sudo tlmgr install texcount"; \
+		echo "texcount no está instalado: viene con TeX Live"; \
 	fi
 
 ## verificaciones — lista las marcas editoriales pendientes
 verificaciones:
-	@echo "=== \\verificar (dato jurídico por confirmar) ==="
-	@grep -rn '\\verificar' capitulos apendices preliminares 2>/dev/null || echo "  ninguna"
+	@printf '=== %s (dato jurídico por confirmar) ===\n' '\verificar'
+	@grep -rn '\verificar' capitulos apendices preliminares 2>/dev/null || echo "  ninguna"
 	@echo ""
-	@echo "=== \\pendiente (texto por redactar) ==="
-	@grep -rn '\\pendiente' capitulos apendices preliminares 2>/dev/null || echo "  ninguna"
+	@printf '=== %s (texto por redactar) ===\n' '\pendiente'
+	@grep -rn '\pendiente' capitulos apendices preliminares 2>/dev/null || echo "  ninguna"
 
 ## limpiar — borra archivos auxiliares, conserva el PDF
 limpiar:

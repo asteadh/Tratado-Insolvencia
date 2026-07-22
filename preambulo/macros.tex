@@ -58,7 +58,7 @@
 %------------------------------------------------------------------------------
 \newcommand{\superir}{SUPERIR\index[analitico]{Superintendencia de Insolvencia y Reemprendimiento}}
 \newcommand{\Superir}{Superintendencia de Insolvencia y Reemprendimiento\index[analitico]{Superintendencia de Insolvencia y Reemprendimiento}}
-\newcommand{\cs}{Corte Suprema}
+\newcommand{\csup}{Corte Suprema}
 \newcommand{\ca}[1]{Corte de Apelaciones de #1}
 \newcommand{\tconst}{Tribunal Constitucional}
 \newcommand{\tgr}{Tesorería General de la República}
@@ -122,9 +122,78 @@
 \newcommand{\VerificacionesOff}{\MostrarVerificacionesfalse}
 \newcommand{\verificar}[1]{%
   \ifMostrarVerificaciones
-    \marginpar{\raggedright\footnotesize\sffamily\color{ColorAcento}\textbf{Verificar:} #1}%
+    \marginnote{\raggedright\footnotesize\sffamily\color{ColorAcento}\textbf{Verificar:} #1}%
   \fi}
 \newcommand{\pendiente}[1]{%
   \ifMostrarVerificaciones
-    \marginpar{\raggedright\footnotesize\sffamily\color{ColorGris}\textbf{Pendiente:} #1}%
+    \marginnote{\raggedright\footnotesize\sffamily\color{ColorGris}\textbf{Pendiente:} #1}%
   \fi}
+
+%==============================================================================
+%  APARATO DE LA PARTE QUINTA — MANUAL DE TRAMITACIÓN FORENSE
+%==============================================================================
+
+% --- Bloques uniformes de los capítulos de tramitación --------------------
+\newcommand{\bloqueEntrevista}{\section{La entrevista inicial: qué preguntar}}
+\newcommand{\bloqueDocumental}{\section{Verificación documental: qué exigir}}
+\newcommand{\bloqueFocos}{\section{Dónde poner el foco}}
+\newcommand{\bloqueCronograma}{\section{Cronograma y plazos fatales}}
+\newcommand{\bloqueErrores}{\section{Errores frecuentes y cómo evitarlos}}
+\newcommand{\bloqueEncargo}{\section{Alcance del encargo y expectativas del cliente}}
+
+% --- Pregunta al cliente ---------------------------------------------------
+% \pregunta{Texto de la pregunta}{Por qué importa / qué hacer con la respuesta}
+\newcommand{\pregunta}[2]{%
+  \item \textbf{#1}\par\vspace{1pt}
+  {\small\color{ColorGris}\textsf{Por qué importa:} #2}}
+
+\newenvironment{cuestionario}[1][]{%
+  \ifthenelse{\equal{#1}{}}{}{\vspace{4pt}\noindent\textbf{\sffamily #1}\par}%
+  \begin{enumerate}[leftmargin=1.8em,itemsep=5pt,label=\arabic*.]%
+}{\end{enumerate}}
+
+% --- Checklist documental --------------------------------------------------
+\newcommand{\casilla}{$\square$}
+\newenvironment{checklist}[1][]{%
+  \ifthenelse{\equal{#1}{}}{}{\vspace{4pt}\noindent\textbf{\sffamily #1}\par}%
+  \begin{list}{\casilla}{%
+    \setlength{\leftmargin}{1.8em}\setlength{\itemsep}{3pt}%
+    \setlength{\parsep}{1pt}\setlength{\topsep}{4pt}}%
+}{\end{list}}
+
+% --- Foco crítico: dónde se ganan y se pierden los casos --------------------
+\newtcolorbox{foco}[1][Foco crítico]{%
+  breakable, enhanced,
+  colback=ColorTinta!7, colframe=ColorTinta,
+  boxrule=0pt, leftrule=2.2pt,
+  arc=0pt, outer arc=0pt,
+  left=10pt,right=8pt,top=7pt,bottom=7pt,
+  fontupper=\small,
+  title={\sffamily\small\bfseries\color{ColorTinta}#1},
+  colbacktitle=ColorTinta!7, coltitle=ColorTinta,
+  before skip=10pt, after skip=10pt}
+
+% --- Error frecuente -------------------------------------------------------
+% \errorfrecuente{Qué hace mal el abogado}{Consecuencia}{Qué hacer en su lugar}
+\newcommand{\errorfrecuente}[3]{%
+  \begin{description}[leftmargin=0pt,style=nextline,itemsep=1pt,topsep=5pt]
+    \item[\color{ColorAcento}\sffamily #1]
+    \emph{Consecuencia:} #2\par
+    \emph{En su lugar:} #3
+  \end{description}}
+
+% --- Ficha de identidad del procedimiento ----------------------------------
+% \fichaProcedimiento{sujeto}{tribunal/órgano}{duración típica}{costo}{resultado}
+\newcommand{\fichaProcedimiento}[5]{%
+  \begin{tcolorbox}[enhanced,breakable,colback=ColorFondo,colframe=ColorBorde,
+    boxrule=0.5pt,arc=1pt,left=10pt,right=10pt,top=8pt,bottom=8pt,
+    fontupper=\small,before skip=6pt,after skip=14pt]
+  \begin{description}[leftmargin=0pt,style=sameline,font=\sffamily\bfseries,
+                      itemsep=2pt,topsep=0pt,labelwidth=0pt]
+    \item[Sujeto:] #1
+    \item[Sede:] #2
+    \item[Duración típica:] #3
+    \item[Costo para el cliente:] #4
+    \item[Resultado esperable:] #5
+  \end{description}
+  \end{tcolorbox}}
