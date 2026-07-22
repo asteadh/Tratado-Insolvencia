@@ -1,12 +1,18 @@
 # Tratado de Derecho Concursal Chileno
 
 Manual sistemático de la Ley N.º 20.720 y su reforma por la Ley N.º 21.563.
-Obra en LaTeX de **Alberto Tomás Stead Hogg**: veinte capítulos en cinco partes, con
-índices de disposiciones legales, de jurisprudencia y analítico.
+Obra en LaTeX de **Alberto Tomás Stead Hogg**: veinticuatro capítulos en siete partes,
+con índices de disposiciones legales, de jurisprudencia y analítico.
 
-Las Partes I a IV desarrollan la dogmática y los procedimientos. La **Parte V** es un
-manual de tramitación forense: qué preguntar al cliente, qué documentos exigir, dónde
-poner el foco y qué errores evitan que el caso se pierda.
+| Parte | Contenido |
+|---|---|
+| I | Fundamentos: evolución, sujetos, institucionalidad y arquitectura de la ley |
+| II | Los seis procedimientos concursales, más el arbitraje |
+| III | Tutela de la masa: revocatorias, discharge, incidente de mala fe |
+| IV | Fronteras: penal económico e insolvencia transfronteriza |
+| V | El concurso y el derecho del trabajo |
+| VI | Las fuentes administrativas de la SUPERIR, incluida la normativa en trámite |
+| VII | Manual de tramitación forense |
 
 ---
 
@@ -65,8 +71,10 @@ preliminares/
   plan-de-obra.tex           Tabla de los trece capítulos
   abreviaturas.tex           Siglas y advertencia sobre citas normativas
 capitulos/
-  cap01-… a cap13-…          Partes I-IV: dogmática y procedimientos
-  cap14-… a cap20-…          Parte V: manual de tramitación forense
+  cap01-… a cap13b-…         Partes I-IV: dogmática y procedimientos
+  cap21-…, cap22-…           Parte V: derecho del trabajo
+  cap23-…, cap24-…           Parte VI: fuentes administrativas
+  cap14-… a cap20-…          Parte VII: manual de tramitación forense
 apendices/
   apa-formularios.tex        Modelos de escritos
   apb-plazos.tex             Tabla consolidada de plazos
@@ -180,8 +188,9 @@ existentes.
 
 ## Estado de la obra
 
-Compila limpio: **161 páginas, 0 errores**, con bibliografía en APA 7, referencias
-cruzadas y los tres índices resueltos. ~17.000 palabras redactadas.
+Compila limpio: **211 páginas, 0 errores**, con bibliografía en APA 7, referencias
+cruzadas y los tres índices resueltos. ~23.000 palabras redactadas y 118 entradas
+bibliográficas.
 
 | Capítulo | Estado |
 |---|---|
