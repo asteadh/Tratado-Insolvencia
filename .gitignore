@@ -31,3 +31,6 @@ build/
 
 # --- Sistema ---------------------------------------------------------------
 .DS_Store
+
+# Auxiliares en subcarpetas de capítulos
+capitulos/**/*.aux

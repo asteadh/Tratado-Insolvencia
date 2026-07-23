@@ -15,7 +15,7 @@ PDFLATEX := pdflatex -shell-escape -interaction=nonstopmode
 ## imakeidx); por eso su código se ignora: sólo siembra el estado. Las pasadas
 ## siguientes ---ya con archivos auxiliares--- son las que deben completar el PDF.
 pdf:
-	@rm -f $(MAIN).aux capitulos/*.aux preliminares/*.aux apendices/*.aux \
+	@rm -f $(MAIN).aux capitulos/*.aux capitulos/**/*.aux preliminares/*.aux apendices/*.aux \
 	       $(MAIN).out $(MAIN).bcf $(MAIN).toc \
 	       leyes.idx juris.idx analitico.idx
 	-@$(PDFLATEX) $(MAIN).tex >/dev/null 2>&1
