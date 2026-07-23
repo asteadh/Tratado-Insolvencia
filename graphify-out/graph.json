@@ -1,0 +1,52 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "instalar-paquetes-tex.sh",
+      "file_type": "code",
+      "source_file": "scripts/instalar-paquetes-tex.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "instalar-paquetes-tex.sh",
+      "id": "scripts_instalar_paquetes_tex",
+      "community_name": "instalar-paquetes-tex.sh"
+    },
+    {
+      "label": "instalar-paquetes-tex.sh script",
+      "file_type": "code",
+      "source_file": "scripts/instalar-paquetes-tex.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "instalar-paquetes-tex.sh script",
+      "id": "scripts_instalar_paquetes_tex_sh__entry",
+      "community_name": "instalar-paquetes-tex.sh"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/instalar-paquetes-tex.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "scripts_instalar_paquetes_tex",
+      "target": "scripts_instalar_paquetes_tex_sh__entry"
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "5c5851543fdf6afb572c24350e27ecb36f2431bb"
+}

@@ -1,0 +1,26 @@
+{
+  "communities": {
+    "0": [
+      "scripts_instalar_paquetes_tex",
+      "scripts_instalar_paquetes_tex_sh__entry"
+    ]
+  },
+  "cohesion": {
+    "0": 1.0
+  },
+  "gods": [
+    {
+      "id": "scripts_instalar_paquetes_tex_sh__entry",
+      "label": "instalar-paquetes-tex.sh script",
+      "degree": 1
+    }
+  ],
+  "surprises": [],
+  "questions": [
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `instalar-paquetes-tex.sh script` to the rest of the system?",
+      "why": "1 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}

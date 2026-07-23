@@ -1,0 +1,22 @@
+{
+  ".claude/settings.local.json": {
+    "mtime": 1784829788.7325966,
+    "ast_hash": "e0ecced7f17428ae4f6d227118529ba6",
+    "semantic_hash": "e0ecced7f17428ae4f6d227118529ba6"
+  },
+  ".vscode/extensions.json": {
+    "mtime": 1784738433.9130158,
+    "ast_hash": "34cd0b9fb268e96b7079c7100c339450",
+    "semantic_hash": "34cd0b9fb268e96b7079c7100c339450"
+  },
+  ".vscode/settings.json": {
+    "mtime": 1784738848.033157,
+    "ast_hash": "4bea7aca30c8295da30377cd2fcbe5d6",
+    "semantic_hash": "4bea7aca30c8295da30377cd2fcbe5d6"
+  },
+  "scripts/instalar-paquetes-tex.sh": {
+    "mtime": 1784738449.8437712,
+    "ast_hash": "394d4b45dfe0300036c0d69c7a92e679",
+    "semantic_hash": "394d4b45dfe0300036c0d69c7a92e679"
+  }
+}
