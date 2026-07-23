@@ -47,7 +47,7 @@ Al abrir la carpeta, VS Code ofrecerá el resto de extensiones recomendadas
 
 | Comando | Qué hace |
 |---|---|
-| `make` | Compilación completa: LaTeX + Biber + los tres índices, hasta estabilizar |
+| `make` | Compilación completa: pdfLaTeX + Biber + los tres índices (secuencia explícita) |
 | `make rapido` | Una pasada, sin bibliografía ni índices — para el ciclo de escritura |
 | `make ver` | Compila y abre el PDF |
 | `make verificaciones` | Lista todas las marcas `\verificar` y `\pendiente` |
@@ -188,19 +188,34 @@ existentes.
 
 ## Estado de la obra
 
-Compila limpio: **211 páginas, 0 errores**, con bibliografía en APA 7, referencias
-cruzadas y los tres índices resueltos. ~23.000 palabras redactadas y 118 entradas
+Compila limpio: **259 páginas, 0 errores**, con bibliografía en APA 7, referencias
+cruzadas y los tres índices resueltos. ~35.800 palabras redactadas y 118 entradas
 bibliográficas.
 
 | Capítulo | Estado |
 |---|---|
-| I. Evolución histórica y dogmática | Redactado |
-| II a XIII | Estructura, tablas, flujogramas y modelos listos; prosa pendiente |
-| XIV a XX (Parte V) | Redactados |
-| Apéndice A. Formularios | Tres modelos; el resto pendiente |
-| Apéndice B. Plazos | Tabla preliminar, requiere verificación íntegra |
+| I. Evolución histórica | Redactado y con citas APA |
+| IV. Reorganización ordinaria | Redactado contra el articulado (arts. 54-89) |
+| V. Reorganización simplificada | Redactado contra el articulado (arts. 286 A-S) |
+| VI. Renegociación administrativa | Redactado contra el articulado (arts. 260-268) |
+| VIII. Liquidación simplificada | Redactado contra el articulado (arts. 203-209, 273 A-B, 282) |
+| VII. Liquidación ordinaria | Redactado contra el articulado (arts. 115-170, 255-256) |
+| III. Institucionalidad | Redactado contra el articulado (arts. 17-40, 331-338) |
+| III bis. Arquitectura de la ley | Redactado |
+| XIII bis. Arbitraje concursal | Redactado |
+| XXI-XXII. Derecho del trabajo | Redactados |
+| XXIII-XXIV. Fuentes administrativas | Redactados con catálogo verificado |
+| XIV-XX (Parte VII, forense) | Redactados |
+| II. Estatuto de los deudores | Redactado contra el articulado (art. 2) |
+| IX. Acciones revocatorias | Redactado contra el articulado (arts. 287-293) |
+| X. Discharge y CAE | Redactado contra el articulado (arts. 254-255) |
+| XI. Incidente de mala fe | Redactado contra el articulado (art. 169 A) |
+| XIII bis. Arbitraje concursal | Redactado contra el articulado (arts. 295-297) |
+| XIII. Insolvencia transfronteriza | Redactado contra el articulado (arts. 300-319) |
+| XII. Laboral y penal económico | Redactado (arts. 463 ss. CP, Ley 21.595) |
+| Resto | Prosa jurisprudencial pendiente (requiere fallos de pjud.cl) |
 
-Las marcas `\verificar` y `\pendiente` se listan con `make verificaciones`.
+Las marcas de trabajo se listan con `make verificaciones`.
 
 ---
 

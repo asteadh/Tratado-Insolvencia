@@ -18,6 +18,7 @@
 *.ilg
 *.xdy
 *-blx.bib
+*.bcf-SAVE-ERROR
 
 # Índices nombrados de imakeidx
 leyes.*

@@ -227,7 +227,6 @@
       \field{extraname}{1}
       \field{sortinit}{Á}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -248,44 +247,6 @@
       \verb https://www.aguilaycia.cl/post/r%C3%A9gimen-de-plazos-para-la-interposici%C3%B3n-de-las-acciones-de-revocabilidad-en-la-ley-n-20-720
       \endverb
     \endentry
-    \entry{doc-resoluciones-apelables}{online}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=a1b902134f2b52ecb25570d6836d6a29}{%
-           family={{Águila y Compañía Abogados}},
-           familyi={Á\bibinitperiod}}}%
-      }
-      \strng{namehash}{a1b902134f2b52ecb25570d6836d6a29}
-      \strng{fullhash}{a1b902134f2b52ecb25570d6836d6a29}
-      \strng{fullhashraw}{a1b902134f2b52ecb25570d6836d6a29}
-      \strng{bibnamehash}{a1b902134f2b52ecb25570d6836d6a29}
-      \strng{authorbibnamehash}{a1b902134f2b52ecb25570d6836d6a29}
-      \strng{authornamehash}{a1b902134f2b52ecb25570d6836d6a29}
-      \strng{authorfullhash}{a1b902134f2b52ecb25570d6836d6a29}
-      \strng{authorfullhashraw}{a1b902134f2b52ecb25570d6836d6a29}
-      \field{extraname}{2}
-      \field{sortinit}{Á}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Verificar autoría individual y fecha}
-      \field{title}{Resoluciones apelables en la Ley N.\textsuperscript{o} 20.720 de insolvencia y reemprendimiento}
-      \field{urlday}{22}
-      \field{urlmonth}{7}
-      \field{urlyear}{2026}
-      \field{year}{2023}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.aguilaycia.cl/post/resoluciones-apelables-en-la-ley-n-20-720-de-insolvencia-y-reemprendimiento
-      \endverb
-      \verb{url}
-      \verb https://www.aguilaycia.cl/post/resoluciones-apelables-en-la-ley-n-20-720-de-insolvencia-y-reemprendimiento
-      \endverb
-    \endentry
     \entry{doc-cae-jurisprudencia}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a1b902134f2b52ecb25570d6836d6a29}{%
@@ -300,7 +261,7 @@
       \strng{authornamehash}{a1b902134f2b52ecb25570d6836d6a29}
       \strng{authorfullhash}{a1b902134f2b52ecb25570d6836d6a29}
       \strng{authorfullhashraw}{a1b902134f2b52ecb25570d6836d6a29}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{Á}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -453,12 +414,15 @@
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labeltitlesource}{shorttitle}
+      \field{day}{23}
       \field{journaltitle}{Diario Oficial de la República de Chile}
-      \field{note}{Verificar fecha de promulgación y vigencia}
+      \field{month}{11}
+      \field{note}{Su Libro IV, sobre las quiebras, fue derogado por la Ley N.º 20.720}
       \field{shorttitle}{Código de Comercio}
       \field{title}{Código de Comercio de la República de Chile}
       \field{year}{1865}
       \field{dateera}{ce}
+      \true{nocite}
     \endentry
     \entry{codigo-trabajo}{legislation}{}{}
       \field{sortinit}{C}
@@ -713,21 +677,6 @@
       \verb https://www.garrigues.com/es_ES/noticia/chile-nuevos-delitos-contenidos-ley-delitos-economicos
       \endverb
     \endentry
-    \entry{superir-instructivo-finiquitos}{legadminmaterial}{}{}
-      \list{institution}{1}{%
-        {Superintendencia de Insolvencia y Reemprendimiento}%
-      }
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{month}{11}
-      \field{note}{Verificar número de instructivo, resolución aprobatoria y fecha}
-      \field{title}{Instructivo sobre emisión de finiquitos laborales electrónicos en procedimientos concursales}
-      \field{year}{2024}
-      \field{dateera}{ce}
-    \endentry
     \entry{juris-jamarne-salazar}{jurisdiction}{}{}
       \list{institution}{1}{%
         {Corte Suprema de Chile, Sala Civil}%
@@ -841,8 +790,10 @@
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labeltitlesource}{shorttitle}
+      \field{day}{28}
       \field{journaltitle}{Diario Oficial de la República de Chile}
-      \field{note}{Derogada por la Ley N.º 20.720. Verificar fecha e historia normativa}
+      \field{month}{10}
+      \field{note}{Ley Orgánica de la Superintendencia de Quiebras. Derogada por la Ley N.º 20.720}
       \field{shorttitle}{Ley N.\textsuperscript{o} 18.175}
       \field{title}{Ley N.\textsuperscript{o} 18.175, de quiebras}
       \field{year}{1982}
@@ -919,7 +870,6 @@
       \field{day}{9}
       \field{journaltitle}{Diario Oficial de la República de Chile}
       \field{month}{1}
-      \field{note}{Verificar fecha exacta de publicación en el Diario Oficial}
       \field{shorttitle}{Ley N.\textsuperscript{o} 20.720}
       \field{title}{Ley N.\textsuperscript{o} 20.720, sustituye el régimen concursal vigente por una ley de reorganización y liquidación de empresas y personas, y perfecciona el rol de la Superintendencia del ramo}
       \field{urlday}{22}
@@ -941,8 +891,10 @@
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labeltitlesource}{shorttitle}
+      \field{day}{10}
       \field{journaltitle}{Diario Oficial de la República de Chile}
-      \field{note}{Verificar fecha de publicación y de entrada en vigencia}
+      \field{month}{5}
+      \field{note}{Entrada en vigencia: 11 de agosto de 2023, tres meses después de su publicación}
       \field{shorttitle}{Ley N.\textsuperscript{o} 21.563}
       \field{title}{Ley N.\textsuperscript{o} 21.563, moderniza los procedimientos concursales contemplados en la Ley N.\textsuperscript{o} 20.720 y crea nuevos procedimientos para micro y pequeñas empresas}
       \field{urlday}{22}
@@ -1114,68 +1066,6 @@
       \verb https://ncrabogados.cl/blog/insolvencia-transfronteriza/
       \endverb
     \endentry
-    \entry{superir-ncg17}{legadminmaterial}{}{}
-      \list{institution}{1}{%
-        {Superintendencia de Insolvencia y Reemprendimiento}%
-      }
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{note}{Verificar número de resolución exenta que la aprueba, fecha y vigencia}
-      \field{title}{Norma de Carácter General N.\textsuperscript{o} 17, sobre el procedimiento de nominación de veedores y liquidadores}
-      \field{year}{2023}
-      \field{dateera}{ce}
-    \endentry
-    \entry{superir-ncg21}{legadminmaterial}{}{}
-      \list{institution}{1}{%
-        {Superintendencia de Insolvencia y Reemprendimiento}%
-      }
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{note}{Aprobada por Resolución Exenta N.º 6.601 de 2023}
-      \field{title}{Norma de Carácter General N.\textsuperscript{o} 21, que establece pautas para el ingreso de la solicitud de renegociación}
-      \field{urlday}{22}
-      \field{urlmonth}{7}
-      \field{urlyear}{2026}
-      \field{year}{2023}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6601_ANO_2023_NCG_21_RENEGOCIACION.pdf
-      \endverb
-      \verb{url}
-      \verb https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6601_ANO_2023_NCG_21_RENEGOCIACION.pdf
-      \endverb
-    \endentry
-    \entry{superir-ncg22}{legadminmaterial}{}{}
-      \list{institution}{1}{%
-        {Superintendencia de Insolvencia y Reemprendimiento}%
-      }
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{note}{Aprobada por Resolución Exenta N.º 6.619 de 2023}
-      \field{title}{Norma de Carácter General N.\textsuperscript{o} 22, sobre el nuevo procedimiento concursal de liquidación simplificada}
-      \field{urlday}{22}
-      \field{urlmonth}{7}
-      \field{urlyear}{2026}
-      \field{year}{2023}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6619_ANO_2023.pdf
-      \endverb
-      \verb{url}
-      \verb https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6619_ANO_2023.pdf
-      \endverb
-    \endentry
     \entry{aj-prado-modificaciones}{report}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3b58010937a664d5fa3f7342684cd7fc}{%
@@ -1308,31 +1198,6 @@
       \field{year}{2021}
       \field{dateera}{ce}
     \endentry
-    \entry{superir-instructivo-incautacion}{legadminmaterial}{}{}
-      \list{institution}{1}{%
-        {Superintendencia de Insolvencia y Reemprendimiento}%
-      }
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Verificar el número de instructivo que aprueba y su vigencia}
-      \field{title}{Resolución Exenta N.\textsuperscript{o} 14.477, que aprueba instructivo sobre incautación, conservación y entrega de bienes}
-      \field{urlday}{22}
-      \field{urlmonth}{7}
-      \field{urlyear}{2026}
-      \field{year}{2024}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.superir.gob.cl/wp-content/uploads/2024/10/RES_NUM_14477_A_O_2024.pdf
-      \endverb
-      \verb{url}
-      \verb https://www.superir.gob.cl/wp-content/uploads/2024/10/RES_NUM_14477_A_O_2024.pdf
-      \endverb
-    \endentry
     \entry{juris-cs-15988-2013}{jurisdiction}{}{}
       \list{institution}{1}{%
         {Corte Suprema de Chile}%
@@ -1375,6 +1240,954 @@
       \field{year}{2024}
       \field{dateera}{ce}
     \endentry
+    \entry{ncg-4}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{5}
+      \field{month}{9}
+      \field{shorttitle}{NCG N.\textsuperscript{o} 4}
+      \field{title}{Norma de Carácter General N.\textsuperscript{o} 4, sobre modelo de solicitud de reorganización}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+    \endentry
+    \entry{oficio-circular-5}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{19}
+      \field{month}{5}
+      \field{note}{Refunde los Oficios Circulares SIR N.º 2 y N.º 4}
+      \field{shorttitle}{Oficio Circular SIR N.\textsuperscript{o} 5}
+      \field{title}{Oficio Circular SIR N.\textsuperscript{o} 5, sobre pautas y recomendaciones para la correcta sustanciación de las audiencias del procedimiento concursal de renegociación}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-circulares/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-circulares/
+      \endverb
+    \endentry
+    \entry{ncg-14}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{11}
+      \field{month}{8}
+      \field{shorttitle}{NCG N.\textsuperscript{o} 14}
+      \field{title}{Norma de Carácter General N.\textsuperscript{o} 14, sobre publicaciones en el Boletín Concursal y notificaciones por correo electrónico}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+    \endentry
+    \entry{ncg-17}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{11}
+      \field{month}{8}
+      \field{shorttitle}{NCG N.\textsuperscript{o} 17}
+      \field{title}{Norma de Carácter General N.\textsuperscript{o} 17, sobre nominación mediante sorteo de veedores o liquidadores}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+    \endentry
+    \entry{ncg-22}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{5}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{11}
+      \field{month}{8}
+      \field{shorttitle}{NCG N.\textsuperscript{o} 22}
+      \field{title}{Norma de Carácter General N.\textsuperscript{o} 22, sobre declaración jurada para la liquidación voluntaria simplificada}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+    \endentry
+    \entry{ncg-23}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{6}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{11}
+      \field{month}{8}
+      \field{shorttitle}{NCG N.\textsuperscript{o} 23}
+      \field{title}{Norma de Carácter General N.\textsuperscript{o} 23, sobre declaración jurada para la reorganización simplificada de micro y pequeñas empresas}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+    \endentry
+    \entry{ncg-24}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{7}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{11}
+      \field{month}{8}
+      \field{shorttitle}{NCG N.\textsuperscript{o} 24}
+      \field{title}{Norma de Carácter General N.\textsuperscript{o} 24, sobre modelo de propuesta de acuerdo en la reorganización simplificada}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+    \endentry
+    \entry{ncg-25}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{8}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{13}
+      \field{month}{10}
+      \field{shorttitle}{NCG N.\textsuperscript{o} 25}
+      \field{title}{Norma de Carácter General N.\textsuperscript{o} 25, sobre uso de plataformas electrónicas para la enajenación de bienes muebles}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+    \endentry
+    \entry{oficio-10657}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{9}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{5}
+      \field{month}{7}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 10657}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 10657, sobre información para la incautación de acreencias bancarias del deudor}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
+    \entry{oficio-14006}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{10}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{6}
+      \field{month}{10}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 14006}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 14006, sobre certificado de posesión efectiva ante el Registro Civil}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
+    \entry{oficio-16156}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{11}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{13}
+      \field{month}{10}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 16156}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 16156, sobre comunicación dirigida a los tribunales de justicia}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
+    \entry{oficio-18305}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{12}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{10}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{27}
+      \field{month}{11}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 18305}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 18305, sobre boletas de honorarios cuando el deudor fallece durante el procedimiento}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
+    \entry{oficio-5209}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{13}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{11}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{28}
+      \field{month}{3}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 5209}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 5209, sobre cumplimiento de obligaciones tributarias}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
+    \entry{oficio-6499}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{14}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{12}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{21}
+      \field{month}{4}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 6499}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 6499, sobre procedencia del pago o reserva de créditos laborales}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
+    \entry{resex-6638}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{15}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{13}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{11}
+      \field{month}{8}
+      \field{shorttitle}{Res. Ex. N.\textsuperscript{o} 6638}
+      \field{title}{Resolución Exenta N.\textsuperscript{o} 6638, que actualiza la nómina de veedores conforme a la Ley N.º 21.563}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/
+      \endverb
+    \endentry
+    \entry{resex-6640}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{16}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{14}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{11}
+      \field{month}{8}
+      \field{shorttitle}{Res. Ex. N.\textsuperscript{o} 6640}
+      \field{title}{Resolución Exenta N.\textsuperscript{o} 6640, que actualiza la nómina de liquidadores conforme a la Ley N.º 21.563}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/
+      \endverb
+    \endentry
+    \entry{resex-6643}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{17}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{11}
+      \field{month}{8}
+      \field{shorttitle}{Res. Ex. N.\textsuperscript{o} 6643}
+      \field{title}{Resolución Exenta N.\textsuperscript{o} 6643, que regula el procedimiento para el cumplimiento del artículo segundo transitorio de la Ley N.º 21.563}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/
+      \endverb
+    \endentry
+    \entry{resex-6644}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{18}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{16}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{11}
+      \field{month}{8}
+      \field{shorttitle}{Res. Ex. N.\textsuperscript{o} 6644}
+      \field{title}{Resolución Exenta N.\textsuperscript{o} 6644, que regula el procedimiento para el cumplimiento del artículo tercero transitorio de la Ley N.º 21.563}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/
+      \endverb
+    \endentry
+    \entry{resex-7101}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{19}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{17}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{31}
+      \field{month}{8}
+      \field{shorttitle}{Res. Ex. N.\textsuperscript{o} 7101}
+      \field{title}{Resolución Exenta N.\textsuperscript{o} 7101, que aclara la vigencia de los oficios dictados con ocasión de la crisis sanitaria por COVID-19}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/
+      \endverb
+    \endentry
+    \entry{instructivo-i3}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{20}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{26}
+      \field{month}{8}
+      \field{note}{Aprobado por Resolución Exenta N.º 12.473}
+      \field{shorttitle}{Instructivo SUPERIR N.\textsuperscript{o} 3}
+      \field{title}{Instructivo SUPERIR N.\textsuperscript{o} 3, sobre instrucciones a los veedores en los procedimientos de reorganización}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/instructivo-ley-20-720/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/instructivo-ley-20-720/
+      \endverb
+    \endentry
+    \entry{instructivo-i5}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{21}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{3}
+      \field{month}{10}
+      \field{note}{Aprobado por Resolución Exenta N.º 14.477. El numeral 3 de su artículo 12 fue derogado por Resolución Exenta N.º 16.492, de 28 de agosto de 2025}
+      \field{shorttitle}{Instructivo SUPERIR N.\textsuperscript{o} 5}
+      \field{title}{Instructivo SUPERIR N.\textsuperscript{o} 5, sobre incautación, conservación y entrega de bienes en la liquidación ordinaria y simplificada}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/instructivo-ley-20-720/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/instructivo-ley-20-720/
+      \endverb
+    \endentry
+    \entry{instructivo-i6}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{22}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{4}
+      \field{month}{11}
+      \field{note}{Aprobado por Resolución Exenta N.º 16.245}
+      \field{shorttitle}{Instructivo SUPERIR N.\textsuperscript{o} 6}
+      \field{title}{Instructivo SUPERIR N.\textsuperscript{o} 6, sobre emisión de finiquitos laborales electrónicos y suscripción mediante firma electrónica en la liquidación}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/instructivo-ley-20-720/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/instructivo-ley-20-720/
+      \endverb
+    \endentry
     \entry{superir-balance-primer-ano}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
@@ -1389,10 +2202,10 @@
       \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
       \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
       \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
-      \field{extraname}{1}
+      \field{extraname}{23}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradate}{1}
+      \field{extradate}{4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -1412,6 +2225,49 @@
       \verb https://www.superir.gob.cl/nueva-ley-de-insolvencia-cumple-un-ano-de-su-implementacion-con-un-impacto-significativo-en-las-renegociaciones-de-deudas/
       \endverb
     \endentry
+    \entry{oficio-1765}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{24}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{12}
+      \field{month}{2}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 1765}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 1765, sobre procedencia del pago o reserva de créditos laborales}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
     \entry{superir-faq-liquidacion-simplificada}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
@@ -1426,10 +2282,10 @@
       \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
       \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
       \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
-      \field{extraname}{2}
+      \field{extraname}{25}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradate}{2}
+      \field{extradate}{6}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -1447,6 +2303,473 @@
       \endverb
       \verb{url}
       \verb https://www.superir.gob.cl/preguntas-frecuentes/preguntas-frecuentes-liquidacion-simplificada/
+      \endverb
+    \endentry
+    \entry{ncg-28}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{26}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{19}
+      \field{month}{11}
+      \field{shorttitle}{NCG N.\textsuperscript{o} 28}
+      \field{title}{Norma de Carácter General N.\textsuperscript{o} 28, sobre procedimiento concursal de renegociación de la persona deudora}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+    \endentry
+    \entry{oficio-11628}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{27}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{24}
+      \field{month}{6}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 11628}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 11628, sobre apertura de cuentas corrientes e inversión de fondos}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
+    \entry{oficio-15795}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{28}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{2}
+      \field{month}{9}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 15795}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 15795, sobre entrada en vigencia de las modificaciones al DL N.º 3.500 y a la Ley N.º 19.728}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
+    \entry{oficio-23665}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{29}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{31}
+      \field{month}{12}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 23665}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 23665, sobre modificaciones de las cajas de compensación y aplicación de la Ley N.º 20.720}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
+    \entry{oficio-6507}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{30}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{23}
+      \field{month}{4}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 6507}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 6507, sobre obligaciones tributarias de los deudores en liquidación}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
+    \entry{resex-16492}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{31}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{28}
+      \field{month}{8}
+      \field{shorttitle}{Res. Ex. N.\textsuperscript{o} 16492}
+      \field{title}{Resolución Exenta N.\textsuperscript{o} 16492, que deroga el numeral 3 del artículo 12 del Instructivo SIR N.º 5, sobre incautación, conservación y entrega de bienes}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/
+      \endverb
+    \endentry
+    \entry{superir-normativa-tramite}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{32}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Normativa en trámite}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/normativa-en-tramite/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/normativa-en-tramite/
+      \endverb
+    \endentry
+    \entry{oficio-334}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{33}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{12}
+      \field{month}{1}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 334}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 334, sobre pagos y empozamientos ante AFP y AFC en procedimientos de liquidación}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
+    \entry{oficio-5003}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{34}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{1}
+      \field{month}{4}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 5003}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 5003, sobre pagos pendientes de cobro y empozamientos en liquidaciones y quiebras}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
+    \entry{oficio-5080}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{35}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{2}
+      \field{month}{4}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 5080}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 5080, sobre imputación del aporte al seguro de cesantía en las indemnizaciones por término de contrato}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
+    \entry{oficio-9378}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{36}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{12}
+      \field{month}{6}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 9378}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 9378, sobre reemplazo de bienes muebles en la liquidación simplificada}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
       \endverb
     \endentry
   \enddatalist
@@ -1659,7 +2982,6 @@
       \field{extraname}{1}
       \field{sortinit}{Á}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -1680,44 +3002,6 @@
       \verb https://www.aguilaycia.cl/post/r%C3%A9gimen-de-plazos-para-la-interposici%C3%B3n-de-las-acciones-de-revocabilidad-en-la-ley-n-20-720
       \endverb
     \endentry
-    \entry{doc-resoluciones-apelables}{online}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=a1b902134f2b52ecb25570d6836d6a29}{%
-           family={{Águila y Compañía Abogados}},
-           familyi={Á\bibinitperiod}}}%
-      }
-      \strng{namehash}{a1b902134f2b52ecb25570d6836d6a29}
-      \strng{fullhash}{a1b902134f2b52ecb25570d6836d6a29}
-      \strng{fullhashraw}{a1b902134f2b52ecb25570d6836d6a29}
-      \strng{bibnamehash}{a1b902134f2b52ecb25570d6836d6a29}
-      \strng{authorbibnamehash}{a1b902134f2b52ecb25570d6836d6a29}
-      \strng{authornamehash}{a1b902134f2b52ecb25570d6836d6a29}
-      \strng{authorfullhash}{a1b902134f2b52ecb25570d6836d6a29}
-      \strng{authorfullhashraw}{a1b902134f2b52ecb25570d6836d6a29}
-      \field{extraname}{2}
-      \field{sortinit}{Á}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Verificar autoría individual y fecha}
-      \field{title}{Resoluciones apelables en la Ley N.\textsuperscript{o} 20.720 de insolvencia y reemprendimiento}
-      \field{urlday}{22}
-      \field{urlmonth}{7}
-      \field{urlyear}{2026}
-      \field{year}{2023}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.aguilaycia.cl/post/resoluciones-apelables-en-la-ley-n-20-720-de-insolvencia-y-reemprendimiento
-      \endverb
-      \verb{url}
-      \verb https://www.aguilaycia.cl/post/resoluciones-apelables-en-la-ley-n-20-720-de-insolvencia-y-reemprendimiento
-      \endverb
-    \endentry
     \entry{doc-cae-jurisprudencia}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a1b902134f2b52ecb25570d6836d6a29}{%
@@ -1732,7 +3016,7 @@
       \strng{authornamehash}{a1b902134f2b52ecb25570d6836d6a29}
       \strng{authorfullhash}{a1b902134f2b52ecb25570d6836d6a29}
       \strng{authorfullhashraw}{a1b902134f2b52ecb25570d6836d6a29}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{Á}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -1885,12 +3169,15 @@
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labeltitlesource}{shorttitle}
+      \field{day}{23}
       \field{journaltitle}{Diario Oficial de la República de Chile}
-      \field{note}{Verificar fecha de promulgación y vigencia}
+      \field{month}{11}
+      \field{note}{Su Libro IV, sobre las quiebras, fue derogado por la Ley N.º 20.720}
       \field{shorttitle}{Código de Comercio}
       \field{title}{Código de Comercio de la República de Chile}
       \field{year}{1865}
       \field{dateera}{ce}
+      \true{nocite}
     \endentry
     \entry{codigo-trabajo}{legislation}{}{}
       \field{sortinit}{C}
@@ -2145,21 +3432,6 @@
       \verb https://www.garrigues.com/es_ES/noticia/chile-nuevos-delitos-contenidos-ley-delitos-economicos
       \endverb
     \endentry
-    \entry{superir-instructivo-finiquitos}{legadminmaterial}{}{}
-      \list{institution}{1}{%
-        {Superintendencia de Insolvencia y Reemprendimiento}%
-      }
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{month}{11}
-      \field{note}{Verificar número de instructivo, resolución aprobatoria y fecha}
-      \field{title}{Instructivo sobre emisión de finiquitos laborales electrónicos en procedimientos concursales}
-      \field{year}{2024}
-      \field{dateera}{ce}
-    \endentry
     \entry{juris-jamarne-salazar}{jurisdiction}{}{}
       \list{institution}{1}{%
         {Corte Suprema de Chile, Sala Civil}%
@@ -2273,8 +3545,10 @@
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labeltitlesource}{shorttitle}
+      \field{day}{28}
       \field{journaltitle}{Diario Oficial de la República de Chile}
-      \field{note}{Derogada por la Ley N.º 20.720. Verificar fecha e historia normativa}
+      \field{month}{10}
+      \field{note}{Ley Orgánica de la Superintendencia de Quiebras. Derogada por la Ley N.º 20.720}
       \field{shorttitle}{Ley N.\textsuperscript{o} 18.175}
       \field{title}{Ley N.\textsuperscript{o} 18.175, de quiebras}
       \field{year}{1982}
@@ -2351,7 +3625,6 @@
       \field{day}{9}
       \field{journaltitle}{Diario Oficial de la República de Chile}
       \field{month}{1}
-      \field{note}{Verificar fecha exacta de publicación en el Diario Oficial}
       \field{shorttitle}{Ley N.\textsuperscript{o} 20.720}
       \field{title}{Ley N.\textsuperscript{o} 20.720, sustituye el régimen concursal vigente por una ley de reorganización y liquidación de empresas y personas, y perfecciona el rol de la Superintendencia del ramo}
       \field{urlday}{22}
@@ -2373,8 +3646,10 @@
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labeltitlesource}{shorttitle}
+      \field{day}{10}
       \field{journaltitle}{Diario Oficial de la República de Chile}
-      \field{note}{Verificar fecha de publicación y de entrada en vigencia}
+      \field{month}{5}
+      \field{note}{Entrada en vigencia: 11 de agosto de 2023, tres meses después de su publicación}
       \field{shorttitle}{Ley N.\textsuperscript{o} 21.563}
       \field{title}{Ley N.\textsuperscript{o} 21.563, moderniza los procedimientos concursales contemplados en la Ley N.\textsuperscript{o} 20.720 y crea nuevos procedimientos para micro y pequeñas empresas}
       \field{urlday}{22}
@@ -2546,68 +3821,6 @@
       \verb https://ncrabogados.cl/blog/insolvencia-transfronteriza/
       \endverb
     \endentry
-    \entry{superir-ncg17}{legadminmaterial}{}{}
-      \list{institution}{1}{%
-        {Superintendencia de Insolvencia y Reemprendimiento}%
-      }
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{note}{Verificar número de resolución exenta que la aprueba, fecha y vigencia}
-      \field{title}{Norma de Carácter General N.\textsuperscript{o} 17, sobre el procedimiento de nominación de veedores y liquidadores}
-      \field{year}{2023}
-      \field{dateera}{ce}
-    \endentry
-    \entry{superir-ncg21}{legadminmaterial}{}{}
-      \list{institution}{1}{%
-        {Superintendencia de Insolvencia y Reemprendimiento}%
-      }
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{note}{Aprobada por Resolución Exenta N.º 6.601 de 2023}
-      \field{title}{Norma de Carácter General N.\textsuperscript{o} 21, que establece pautas para el ingreso de la solicitud de renegociación}
-      \field{urlday}{22}
-      \field{urlmonth}{7}
-      \field{urlyear}{2026}
-      \field{year}{2023}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6601_ANO_2023_NCG_21_RENEGOCIACION.pdf
-      \endverb
-      \verb{url}
-      \verb https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6601_ANO_2023_NCG_21_RENEGOCIACION.pdf
-      \endverb
-    \endentry
-    \entry{superir-ncg22}{legadminmaterial}{}{}
-      \list{institution}{1}{%
-        {Superintendencia de Insolvencia y Reemprendimiento}%
-      }
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{note}{Aprobada por Resolución Exenta N.º 6.619 de 2023}
-      \field{title}{Norma de Carácter General N.\textsuperscript{o} 22, sobre el nuevo procedimiento concursal de liquidación simplificada}
-      \field{urlday}{22}
-      \field{urlmonth}{7}
-      \field{urlyear}{2026}
-      \field{year}{2023}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6619_ANO_2023.pdf
-      \endverb
-      \verb{url}
-      \verb https://www.superir.gob.cl/wp-content/uploads/2023/08/RES_NUM_6619_ANO_2023.pdf
-      \endverb
-    \endentry
     \entry{aj-prado-modificaciones}{report}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3b58010937a664d5fa3f7342684cd7fc}{%
@@ -2740,31 +3953,6 @@
       \field{year}{2021}
       \field{dateera}{ce}
     \endentry
-    \entry{superir-instructivo-incautacion}{legadminmaterial}{}{}
-      \list{institution}{1}{%
-        {Superintendencia de Insolvencia y Reemprendimiento}%
-      }
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Verificar el número de instructivo que aprueba y su vigencia}
-      \field{title}{Resolución Exenta N.\textsuperscript{o} 14.477, que aprueba instructivo sobre incautación, conservación y entrega de bienes}
-      \field{urlday}{22}
-      \field{urlmonth}{7}
-      \field{urlyear}{2026}
-      \field{year}{2024}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.superir.gob.cl/wp-content/uploads/2024/10/RES_NUM_14477_A_O_2024.pdf
-      \endverb
-      \verb{url}
-      \verb https://www.superir.gob.cl/wp-content/uploads/2024/10/RES_NUM_14477_A_O_2024.pdf
-      \endverb
-    \endentry
     \entry{juris-cs-15988-2013}{jurisdiction}{}{}
       \list{institution}{1}{%
         {Corte Suprema de Chile}%
@@ -2807,6 +3995,954 @@
       \field{year}{2024}
       \field{dateera}{ce}
     \endentry
+    \entry{ncg-4}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{5}
+      \field{month}{9}
+      \field{shorttitle}{NCG N.\textsuperscript{o} 4}
+      \field{title}{Norma de Carácter General N.\textsuperscript{o} 4, sobre modelo de solicitud de reorganización}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+    \endentry
+    \entry{oficio-circular-5}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{19}
+      \field{month}{5}
+      \field{note}{Refunde los Oficios Circulares SIR N.º 2 y N.º 4}
+      \field{shorttitle}{Oficio Circular SIR N.\textsuperscript{o} 5}
+      \field{title}{Oficio Circular SIR N.\textsuperscript{o} 5, sobre pautas y recomendaciones para la correcta sustanciación de las audiencias del procedimiento concursal de renegociación}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-circulares/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-circulares/
+      \endverb
+    \endentry
+    \entry{ncg-14}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{11}
+      \field{month}{8}
+      \field{shorttitle}{NCG N.\textsuperscript{o} 14}
+      \field{title}{Norma de Carácter General N.\textsuperscript{o} 14, sobre publicaciones en el Boletín Concursal y notificaciones por correo electrónico}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+    \endentry
+    \entry{ncg-17}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{11}
+      \field{month}{8}
+      \field{shorttitle}{NCG N.\textsuperscript{o} 17}
+      \field{title}{Norma de Carácter General N.\textsuperscript{o} 17, sobre nominación mediante sorteo de veedores o liquidadores}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+    \endentry
+    \entry{ncg-22}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{5}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{11}
+      \field{month}{8}
+      \field{shorttitle}{NCG N.\textsuperscript{o} 22}
+      \field{title}{Norma de Carácter General N.\textsuperscript{o} 22, sobre declaración jurada para la liquidación voluntaria simplificada}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+    \endentry
+    \entry{ncg-23}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{6}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{11}
+      \field{month}{8}
+      \field{shorttitle}{NCG N.\textsuperscript{o} 23}
+      \field{title}{Norma de Carácter General N.\textsuperscript{o} 23, sobre declaración jurada para la reorganización simplificada de micro y pequeñas empresas}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+    \endentry
+    \entry{ncg-24}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{7}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{11}
+      \field{month}{8}
+      \field{shorttitle}{NCG N.\textsuperscript{o} 24}
+      \field{title}{Norma de Carácter General N.\textsuperscript{o} 24, sobre modelo de propuesta de acuerdo en la reorganización simplificada}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+    \endentry
+    \entry{ncg-25}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{8}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{13}
+      \field{month}{10}
+      \field{shorttitle}{NCG N.\textsuperscript{o} 25}
+      \field{title}{Norma de Carácter General N.\textsuperscript{o} 25, sobre uso de plataformas electrónicas para la enajenación de bienes muebles}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+    \endentry
+    \entry{oficio-10657}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{9}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{5}
+      \field{month}{7}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 10657}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 10657, sobre información para la incautación de acreencias bancarias del deudor}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
+    \entry{oficio-14006}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{10}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{6}
+      \field{month}{10}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 14006}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 14006, sobre certificado de posesión efectiva ante el Registro Civil}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
+    \entry{oficio-16156}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{11}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{13}
+      \field{month}{10}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 16156}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 16156, sobre comunicación dirigida a los tribunales de justicia}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
+    \entry{oficio-18305}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{12}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{10}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{27}
+      \field{month}{11}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 18305}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 18305, sobre boletas de honorarios cuando el deudor fallece durante el procedimiento}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
+    \entry{oficio-5209}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{13}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{11}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{28}
+      \field{month}{3}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 5209}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 5209, sobre cumplimiento de obligaciones tributarias}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
+    \entry{oficio-6499}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{14}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{12}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{21}
+      \field{month}{4}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 6499}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 6499, sobre procedencia del pago o reserva de créditos laborales}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
+    \entry{resex-6638}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{15}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{13}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{11}
+      \field{month}{8}
+      \field{shorttitle}{Res. Ex. N.\textsuperscript{o} 6638}
+      \field{title}{Resolución Exenta N.\textsuperscript{o} 6638, que actualiza la nómina de veedores conforme a la Ley N.º 21.563}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/
+      \endverb
+    \endentry
+    \entry{resex-6640}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{16}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{14}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{11}
+      \field{month}{8}
+      \field{shorttitle}{Res. Ex. N.\textsuperscript{o} 6640}
+      \field{title}{Resolución Exenta N.\textsuperscript{o} 6640, que actualiza la nómina de liquidadores conforme a la Ley N.º 21.563}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/
+      \endverb
+    \endentry
+    \entry{resex-6643}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{17}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{11}
+      \field{month}{8}
+      \field{shorttitle}{Res. Ex. N.\textsuperscript{o} 6643}
+      \field{title}{Resolución Exenta N.\textsuperscript{o} 6643, que regula el procedimiento para el cumplimiento del artículo segundo transitorio de la Ley N.º 21.563}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/
+      \endverb
+    \endentry
+    \entry{resex-6644}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{18}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{16}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{11}
+      \field{month}{8}
+      \field{shorttitle}{Res. Ex. N.\textsuperscript{o} 6644}
+      \field{title}{Resolución Exenta N.\textsuperscript{o} 6644, que regula el procedimiento para el cumplimiento del artículo tercero transitorio de la Ley N.º 21.563}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/
+      \endverb
+    \endentry
+    \entry{resex-7101}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{19}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{17}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{31}
+      \field{month}{8}
+      \field{shorttitle}{Res. Ex. N.\textsuperscript{o} 7101}
+      \field{title}{Resolución Exenta N.\textsuperscript{o} 7101, que aclara la vigencia de los oficios dictados con ocasión de la crisis sanitaria por COVID-19}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/
+      \endverb
+    \endentry
+    \entry{instructivo-i3}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{20}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{26}
+      \field{month}{8}
+      \field{note}{Aprobado por Resolución Exenta N.º 12.473}
+      \field{shorttitle}{Instructivo SUPERIR N.\textsuperscript{o} 3}
+      \field{title}{Instructivo SUPERIR N.\textsuperscript{o} 3, sobre instrucciones a los veedores en los procedimientos de reorganización}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/instructivo-ley-20-720/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/instructivo-ley-20-720/
+      \endverb
+    \endentry
+    \entry{instructivo-i5}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{21}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{3}
+      \field{month}{10}
+      \field{note}{Aprobado por Resolución Exenta N.º 14.477. El numeral 3 de su artículo 12 fue derogado por Resolución Exenta N.º 16.492, de 28 de agosto de 2025}
+      \field{shorttitle}{Instructivo SUPERIR N.\textsuperscript{o} 5}
+      \field{title}{Instructivo SUPERIR N.\textsuperscript{o} 5, sobre incautación, conservación y entrega de bienes en la liquidación ordinaria y simplificada}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/instructivo-ley-20-720/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/instructivo-ley-20-720/
+      \endverb
+    \endentry
+    \entry{instructivo-i6}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{22}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{4}
+      \field{month}{11}
+      \field{note}{Aprobado por Resolución Exenta N.º 16.245}
+      \field{shorttitle}{Instructivo SUPERIR N.\textsuperscript{o} 6}
+      \field{title}{Instructivo SUPERIR N.\textsuperscript{o} 6, sobre emisión de finiquitos laborales electrónicos y suscripción mediante firma electrónica en la liquidación}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/instructivo-ley-20-720/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/instructivo-ley-20-720/
+      \endverb
+    \endentry
     \entry{superir-balance-primer-ano}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
@@ -2821,10 +4957,10 @@
       \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
       \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
       \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
-      \field{extraname}{1}
+      \field{extraname}{23}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradate}{1}
+      \field{extradate}{4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -2844,6 +4980,49 @@
       \verb https://www.superir.gob.cl/nueva-ley-de-insolvencia-cumple-un-ano-de-su-implementacion-con-un-impacto-significativo-en-las-renegociaciones-de-deudas/
       \endverb
     \endentry
+    \entry{oficio-1765}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{24}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{12}
+      \field{month}{2}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 1765}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 1765, sobre procedencia del pago o reserva de créditos laborales}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
     \entry{superir-faq-liquidacion-simplificada}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
@@ -2858,10 +5037,10 @@
       \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
       \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
       \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
-      \field{extraname}{2}
+      \field{extraname}{25}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradate}{2}
+      \field{extradate}{6}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -2879,6 +5058,473 @@
       \endverb
       \verb{url}
       \verb https://www.superir.gob.cl/preguntas-frecuentes/preguntas-frecuentes-liquidacion-simplificada/
+      \endverb
+    \endentry
+    \entry{ncg-28}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{26}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{19}
+      \field{month}{11}
+      \field{shorttitle}{NCG N.\textsuperscript{o} 28}
+      \field{title}{Norma de Carácter General N.\textsuperscript{o} 28, sobre procedimiento concursal de renegociación de la persona deudora}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/normas-vigentes/
+      \endverb
+    \endentry
+    \entry{oficio-11628}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{27}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{24}
+      \field{month}{6}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 11628}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 11628, sobre apertura de cuentas corrientes e inversión de fondos}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
+    \entry{oficio-15795}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{28}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{2}
+      \field{month}{9}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 15795}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 15795, sobre entrada en vigencia de las modificaciones al DL N.º 3.500 y a la Ley N.º 19.728}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
+    \entry{oficio-23665}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{29}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{31}
+      \field{month}{12}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 23665}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 23665, sobre modificaciones de las cajas de compensación y aplicación de la Ley N.º 20.720}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
+    \entry{oficio-6507}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{30}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{23}
+      \field{month}{4}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 6507}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 6507, sobre obligaciones tributarias de los deudores en liquidación}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
+    \entry{resex-16492}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{31}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{28}
+      \field{month}{8}
+      \field{shorttitle}{Res. Ex. N.\textsuperscript{o} 16492}
+      \field{title}{Resolución Exenta N.\textsuperscript{o} 16492, que deroga el numeral 3 del artículo 12 del Instructivo SIR N.º 5, sobre incautación, conservación y entrega de bienes}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/resoluciones-exentas/
+      \endverb
+    \endentry
+    \entry{superir-normativa-tramite}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{32}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Normativa en trámite}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/normativa-en-tramite/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/normativa-en-tramite/
+      \endverb
+    \endentry
+    \entry{oficio-334}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{33}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{12}
+      \field{month}{1}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 334}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 334, sobre pagos y empozamientos ante AFP y AFC en procedimientos de liquidación}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
+    \entry{oficio-5003}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{34}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{1}
+      \field{month}{4}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 5003}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 5003, sobre pagos pendientes de cobro y empozamientos en liquidaciones y quiebras}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
+    \entry{oficio-5080}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{35}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{2}
+      \field{month}{4}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 5080}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 5080, sobre imputación del aporte al seguro de cesantía en las indemnizaciones por término de contrato}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+    \endentry
+    \entry{oficio-9378}{legadminmaterial}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f94b82b94614d53a7abae8ec5ecdde2}{%
+           family={{Superintendencia de Insolvencia y Reemprendimiento}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Superintendencia de Insolvencia y Reemprendimiento}%
+      }
+      \strng{namehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{fullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{bibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorbibnamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authornamehash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhash}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \strng{authorfullhashraw}{8f94b82b94614d53a7abae8ec5ecdde2}
+      \field{extraname}{36}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{12}
+      \field{month}{6}
+      \field{shorttitle}{Oficio SUPERIR N.\textsuperscript{o} 9378}
+      \field{title}{Oficio SUPERIR N.\textsuperscript{o} 9378, sobre reemplazo de bienes muebles en la liquidación simplificada}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
+      \endverb
+      \verb{url}
+      \verb https://www.superir.gob.cl/biblioteca-digital/oficios-de-instruccion-general/
       \endverb
     \endentry
   \enddatalist

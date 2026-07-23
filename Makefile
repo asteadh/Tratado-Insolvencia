@@ -6,9 +6,27 @@ LATEXMK := latexmk
 
 all: pdf
 
-## pdf — compilación completa (LaTeX + Biber + índices, hasta estabilizar)
+PDFLATEX := pdflatex -shell-escape -interaction=nonstopmode
+
+## pdf — compilación completa: LaTeX + Biber + los tres índices.
+## Secuencia explícita (sin latexmk) para máxima reproducibilidad. La primera
+## pasada sobre un árbol recién limpiado puede fallar por agotamiento de
+## registros de escritura (memoir + hyperref + biblatex + tres índices de
+## imakeidx); por eso su código se ignora: sólo siembra el estado. Las pasadas
+## siguientes ---ya con archivos auxiliares--- son las que deben completar el PDF.
 pdf:
-	$(LATEXMK) -pdf $(MAIN).tex
+	@rm -f $(MAIN).aux capitulos/*.aux preliminares/*.aux apendices/*.aux \
+	       $(MAIN).out $(MAIN).bcf $(MAIN).toc \
+	       leyes.idx juris.idx analitico.idx
+	-@$(PDFLATEX) $(MAIN).tex >/dev/null 2>&1
+	$(PDFLATEX) $(MAIN).tex
+	-biber $(MAIN)
+	-makeindex -q leyes.idx     -o leyes.ind
+	-makeindex -q juris.idx     -o juris.ind
+	-makeindex -q analitico.idx -o analitico.ind
+	$(PDFLATEX) $(MAIN).tex
+	$(PDFLATEX) $(MAIN).tex
+	@echo "== Compilación terminada =="
 
 ## rapido — una sola pasada, sin bibliografía ni índices (ciclo de escritura)
 rapido:
