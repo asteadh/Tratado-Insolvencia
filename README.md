@@ -188,8 +188,8 @@ existentes.
 
 ## Estado de la obra
 
-Compila limpio: **291 páginas, 0 errores**, con bibliografía en APA 7, referencias
-cruzadas y los tres índices resueltos. ~43.200 palabras redactadas y 146 entradas
+Compila limpio: **301 páginas, 0 errores**, con bibliografía en APA 7, referencias
+cruzadas y los tres índices resueltos. ~46.000 palabras redactadas y 151 entradas
 bibliográficas.
 
 | Capítulo | Estado |
