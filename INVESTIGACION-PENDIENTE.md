@@ -1,98 +1,83 @@
 # Pendientes de investigación — listado accionable
 
-Estado al 24-jul-2026 · **375 páginas** · 30 `\verificar` + 9 `\pendiente` (39 marcas, que se
-reducen a **28 tareas reales** una vez deduplicadas).
+Estado al 24-jul-2026 · **383 páginas** · **29 `\verificar` + 1 `\pendiente`**.
 
-Para ver las marcas en el PDF: `make verificaciones`.
+Tras integrar el Código del Trabajo, el Código de Procedimiento Civil y el 2.º informe de
+investigación, **casi todo el contenido está escrito**. Lo que resta es, en su gran mayoría,
+**cotejar considerandos contra los fallos oficiales** —el texto ya está redactado con la tesis
+correcta y el rol identificado—.
 
 ---
 
-## A. JURISPRUDENCIA — bases de pago (VLex · Microjuris · Westlaw · pjud.cl)
+## ✅ Cerrado como fuente primaria confirmada
 
-**Es el grueso: 15 tareas. Sin esto no se cierran.** De cada fallo necesito: **rol, tribunal,
-sala, fecha, carátula y el considerando pertinente** (idealmente el PDF).
+- **Código del Trabajo** (art. 163 bis, 172, 57): fecha de término, indemnizaciones y sus topes,
+  finiquito concursal, plazo de comunicación de 6 días **desde la notificación** (no el Boletín).
+- **Código de Procedimiento Civil** (art. 445): catálogo de bienes inembargables.
+- **Código Civil** (art. 2472) y **Código Penal** (arts. 463-465): integrados antes.
+- **Bloque C normativo**: Ley 20.080 (Libro IV CCom), auditoría del art. 56, plazos de la
+  reorganización simplificada, término probatorio de 8 días, costo de auditoría 35-45 UF.
 
-| # | Qué buscar | Dónde aterriza |
+## ✅ Corregido (errores de la 1.ª compilación)
+
+- **Crédito de $160M «Rol 44.461»**: NO EXISTÍA — era el número del Diario Oficial. Eliminado.
+- **CA Concepción (CAE)**: es la **Duodécima Sala**, no la Segunda.
+- **Heresmann**: rol real **CS 20.308-2025**.
+- **Nova Austral**: rol real **CS 43.419-2024** (26-09-2025, no 27-12-2025).
+
+---
+
+## 🟡 Lo único que queda: COTEJAR considerandos contra el fallo oficial
+
+Todo lo de abajo ya está **escrito con la tesis y el rol correctos**. Sólo hay que bajar el PDF del
+fallo y confirmar los considerandos citados. Es verificación, no investigación de fondo.
+
+| Fallo / tema | Rol | Dónde |
 |---|---|---|
-| A1 | **2.ª Sala CA Concepción** — fallos que rechazan extender protecciones al CAE | cap. 10 |
-| A2 | **Crédito laboral > $160.000.000** (presunto Rol 44.461, CA Stgo) — rol, carátula, monto | cap. 21 |
-| A3 | **Precedente Heresmann** — rol, sala y fecha (arresto del art. 169 sin incidente del 131) | cap. 7 |
-| A4 | **Nova Austral** — rol de la causa (*Nutreco con Nova Austral*, CS 27-12-2025) | cap. 4 |
-| A5 | **Incidente de mala fe (art. 169 A)** — primeras resoluciones de juzgados civiles post mayo-2023 | caps. 11 y 8 |
-| A6 | **Discharge parcial** — fallos que deniegan parcialmente la extinción y su fundamento | cap. 8 |
-| A7 | **Responsabilidad civil del liquidador** (arts. 35 y 49) — condenas por bienes no realizados o dañados | caps. 3 y 7 |
-| A8 | **Impugnación por personas relacionadas** en el quórum (arts. 63 y 79) | cap. 4 |
-| A9 | **Ineficacia de actos post-desasimiento** (art. 130) — naturaleza y efectos frente a terceros de buena fe | cap. 7 |
-| A10 | **Inembargabilidad de pensiones/jubilación** en el concurso | cap. 2 |
-| A11 | **Competencia y tipo de deudor** (empresa vs. persona deudora) | cap. 2 |
-| A12 | **Recursos de protección por DICOM** tras el discharge | cap. 6 |
-| A13 | **Reorganización simplificada** — primeros fallos y criterios de «unidad económica» | cap. 5 |
-| A14 | **Arbitraje concursal** — casos chilenos reales (arts. 295-297) | cap. 13 bis |
-| A15 | **Transfronterizos** — fechas y estado procesal en la OJV; en especial **Ónix/Chang C-22090-2016**; y **distracción de activos** en meses previos | caps. 13 y 12 |
+| CAE — exclusión y disidencia Silva Cancino | 47.641-2024 · 3557-2025 · 4656-2017 · 59.567-2020 | cap. 10 |
+| CAE — Duodécima Sala CA Concepción | *(falta el rol exacto)* | cap. 10 |
+| Ley Bustos — unificación | 40.689-2016 · 139.538-2022 · 66.235-2021 | caps. 12 y 21 |
+| Santander c/ Abarca | 34.713-2023 | cap. 9 |
+| Nova Austral | 43.419-2024 | cap. 4 |
+| Heresmann | 20.308-2025 | cap. 7 |
+| Revocatorias — plazo y abandono | CA Puerto Montt 16-2017 | cap. 9 |
+| TC — art. 4 y ne bis in idem | 11.421-2021 · 12.539/12.527-2021 · 10.957-2021 | caps. 7 y 11 |
+| Transfronterizos | Elimco, Astaldi, LATAM, Isolux, Assignia, Ónix/Chang | cap. 13 |
+| Mala fe 169 A — primeras resoluciones | *(juzgados Stgo/Concepción/Valparaíso)* | caps. 8 y 11 |
+| Discharge parcial imposible | *(línea civil)* | cap. 8 |
+| Responsabilidad del liquidador | *(condenas por realización negligente)* | cap. 7 |
+| Personas relacionadas en el quórum | *(causal 3.ª art. 85)* | cap. 4 |
+| Ineficacia post-desasimiento | *(art. 130)* | cap. 7 |
+| Inembargabilidad de pensiones | *(art. 445 CPC + 276)* | caps. 2 y 8 |
+| Competencia / tipo de deudor | *(incompetencia de oficio)* | cap. 2 |
+| DICOM tras el discharge | *(recursos de protección)* | cap. 6 |
+| Unidad económica MIPE | *(control de fragmentación)* | cap. 5 |
+| Arbitraje concursal | *(CAM Santiago)* | cap. 13 bis |
 
-> También: cotejar los **considerandos** ya integrados (CAE, Ley Bustos, CA Puerto Montt 16-2017,
-> Santander 34.713-2023) contra los fallos oficiales. Vienen de compilación secundaria.
-
----
-
-## B. CÓDIGO DEL TRABAJO — pásame el PDF y lo cierro yo
-
-Igual que hice con el Código Civil y el Código Penal. Cierra **3 marcas de una vez**:
-
-- **B1** — Redacción vigente del **art. 163 bis** en cuanto a la fecha de término (cap. 21).
-- **B2** — Tope en UF de la indemnización del art. 163 bis (cap. 21).
-- **B3** — Base de cálculo y tope de la **indemnización por fuero** (cap. 21).
-
-*(De paso confirmo el art. 57 sobre inembargabilidad de remuneraciones.)*
+**Los que aún necesitan que aparezca un rol** (bases de pago / OJV): la Duodécima Sala de
+Concepción (CAE), las primeras resoluciones del 169 A, las condenas al liquidador, la impugnación
+por personas relacionadas, y el estado del expediente Ónix/Chang C-22090-2016.
 
 ---
 
-## C. NORMATIVA CHILENA — cotejo rápido contra texto vigente
+## 🟡 Actualizar la semana de imprenta (no antes)
 
-Son consultas breves; varias las puedo hacer yo si me confirmas la fuente.
-
-- **C1** — Ley y año que incorporaron la **Ley 18.175 como Libro IV del Código de Comercio** (cap. 1).
-- **C2** — **Exigencia de auditoría** en la reorganización ordinaria, art. 56 (cap. 15).
-- **C3** — **Plazo base y prórroga** de la reorganización simplificada (cap. 16).
-- **C4** — **Plazos de cada audiencia y término probatorio** en la liquidación (cap. 18).
-- **C5** — Tabla de **acciones revocatorias**: cotejar cada celda y el reenvío de artículo (cap. 9).
-- **C6** — **Apéndice B de plazos**: contrastar cada fila con el articulado vigente.
-- **C7** — Plazo de pago del **finiquito** en sede concursal: si el instructivo mantiene la regla (cap. 12).
-- **C8** — **Costo de la auditoría externa** (~35 UF): confirmar el orden de magnitud (cap. 5).
+- Cifras de la SUPERIR al cierre de edición (cap. 6) — hay serie 2024-2026 en el informe.
+- Tabla de normativa en trámite (cap. 24): proyecto de condonación del CAE, reforma del fuero.
+- Cuadro comparativo latinoamericano (cap. 27) y umbrales españoles (cap. 26).
+- Informe de Deudas CMF: confirmado nombre y vía (cmfchile.cl con ClaveÚnica).
 
 ---
 
-## D. ACTUALIZAR JUSTO ANTES DE IMPRIMIR
+## 🔴 Redacción pendiente (la hago yo, no es investigación)
 
-Datos que caducan; no los cierres ahora, déjalos para el cierre de edición.
-
-- **D1** — **Cifras de la SUPERIR** al cierre de edición (cap. 6).
-- **D2** — Tabla de **normativa en trámite** (cap. 24) — es su contenido entero.
-- **D3** — **Cuadro comparativo latinoamericano** (cap. 27): la región legisla mucho desde 2020.
-- **D4** — **Umbrales del crédito público** exonerable en la Ley 16/2022 española (cap. 26).
-- **D5** — Denominación oficial del **informe de deuda de la CMF** y vía de obtención (caps. 1 y 14).
-
----
-
-## E. NO ES INVESTIGACIÓN — redacción pendiente (la hago yo)
-
-- **E1** — Apéndice A: incorporar más formularios (solicitud de renegociación ante la SUPERIR, etc.).
-
----
-
-## Cómo priorizar
-
-1. **Manda primero el Código del Trabajo (B).** Son 3 marcas cerradas sin que investigues nada.
-2. **Ataca el bloque A por lotes.** Empieza por A1-A4, que ya tienen rol o carátula identificados
-   y sólo requieren bajar el fallo. Los A5-A9 son los de mayor valor dogmático para la obra.
-3. **El bloque C** es de cotejo rápido: una sesión con el texto refundido lo despacha casi entero.
-4. **El bloque D** déjalo para el final, literalmente la semana de imprenta.
+- **E1** — Apéndice A: más formularios (solicitud de renegociación ante la SUPERIR, etc.).
 
 ---
 
 ## Nota de método
 
-Toda la jurisprudencia hoy integrada proviene de **compilación secundaria** (informe de deep
-research sobre blogs y repertorios). Cada ficha bibliográfica lleva la advertencia de cotejar
-considerandos contra el fallo oficial. Sólo el **Código Civil** y el **Código Penal** están
-integrados como fuente primaria confirmada.
+La jurisprudencia proviene de compilación secundaria (dos informes de deep research). El segundo
+informe corrigió varios errores del primero, lo que confirma la necesidad del cotejo final contra
+fuentes primarias antes de publicar. Los códigos (Civil, Penal, Trabajo, Procedimiento Civil) sí
+están integrados como fuente primaria.
